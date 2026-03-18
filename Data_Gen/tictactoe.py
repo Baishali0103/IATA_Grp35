@@ -43,21 +43,34 @@ from dataclasses import dataclass, field
 import numpy as np
 from PIL import Image, ImageDraw
 from pathlib import Path
+import csv
 
 
 # --- Paths ---
-BASE_DIR = Path(__file__).resolve().parent / "TicTacToe_Data"
-DIRS = {
-    "txt":  BASE_DIR / "text",
-    "meta": BASE_DIR / "meta",
-    "png":  BASE_DIR / "images",
-    "mat":  BASE_DIR / "matrices",
-}
+BASE_DIR      = Path(__file__).resolve().parent / "TicTacToe_Data"
+SPLITS        = ["train", "val", "test"]
+SUBDIRS       = ["text", "meta", "images", "matrices"]
+MANIFEST_PATH = BASE_DIR / "manifest.csv"
+MANIFEST_FIELDS = ["filename", "notation", "colour", "num_moves", "winner", "is_draw", "split"]
 
 def _ensure_dirs():
-    """Create output folders if they don't exist."""
-    for d in DIRS.values():
-        d.mkdir(parents=True, exist_ok=True)
+    for split in SPLITS:
+        for sub in SUBDIRS:
+            (BASE_DIR / split / sub).mkdir(parents=True, exist_ok=True)
+    MANIFEST_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+def _dir(split: str, kind: str) -> Path:
+    return BASE_DIR / split / kind
+
+def _init_manifest():
+    """Write header row if manifest does not exist yet."""
+    if not MANIFEST_PATH.exists():
+        with open(MANIFEST_PATH, "w", newline="", encoding="utf-8") as f:
+            csv.writer(f).writerow(MANIFEST_FIELDS)
+
+def _append_manifest(row: dict):
+    with open(MANIFEST_PATH, "a", newline="", encoding="utf-8") as f:
+        csv.writer(f).writerow([row[k] for k in MANIFEST_FIELDS])
 
 # --- Colour ----
 X_COLOR  = (200, 30,  30)   # red
@@ -271,6 +284,8 @@ POSITION_PHRASES = {
     "BR": ["bottom right corner", "down and right from center"],
 }
 
+CORNER_POS = {"TL", "TR", "BL", "BR"}
+EDGE_POS   = {"TM", "ML", "MR", "BM"}
 
 def _phrase(pos: str) -> str:
     """Pick a random English phrase for a position."""
@@ -284,6 +299,46 @@ def _join(phrases: list[str]) -> str:
     if len(phrases) == 1:
         return phrases[0]
     return ", ".join(phrases[:-1]) + " and " + phrases[-1]
+
+def _game_state_desc(board: Board, name_x: str, name_o: str,
+                     x_label: str, o_label: str, winner: str | None) -> str | None:
+    """Return a clause describing turn, move count, or empty board."""
+    total = len(board.x) + len(board.o)
+    if total == 0:
+        return random.choice(["the board is empty", "no moves have been made yet"])
+    if winner is not None or total == 9:
+        return None   # game over — no turn description needed
+    next_player = "X" if len(board.x) == len(board.o) else "O"
+    next_name   = name_x  if next_player == "X" else name_o
+    return random.choice([
+        f"it is {next_name}'s turn",
+        f"{total} move{'s have' if total > 1 else ' has'} been played",
+        f"{next_name} is next to move",
+    ])
+
+def _relative_desc(board: Board, name_x: str, name_o: str,
+                   x_label: str, o_label: str) -> str | None:
+    """Return a clause summarising positional advantage, or None."""
+    if not board.x and not board.o:
+        return None
+    x_set = {p.upper() for p in board.x}
+    o_set = {p.upper() for p in board.o}
+
+    x_corners = len(x_set & CORNER_POS)
+    o_corners = len(o_set & CORNER_POS)
+    x_center  = "C" in x_set
+    o_center  = "C" in o_set
+
+    facts = []
+    if x_center:
+        facts.append(f"{name_x} controls the center")
+    if o_center:
+        facts.append(f"{name_o} controls the center")
+    if x_corners >= 2:
+        facts.append(f"{name_x} has {x_corners} corners")
+    if o_corners >= 2:
+        facts.append(f"{name_o} has {o_corners} corners")
+    return random.choice(facts) if facts else None
 
 
 def describe(board: Board, x_name: str | None = None, o_name: str | None = None, colour: bool = False) -> str:
@@ -322,6 +377,17 @@ def describe(board: Board, x_name: str | None = None, o_name: str | None = None,
     else:
         parts.append(random.choice([f"{name_o} is O and has not moved yet",f"{name_o} is {o_label} and has not moved yet"]))
     
+    # --- Game state (turn / move count / empty board) ---
+    gs = _game_state_desc(board, name_x, name_o, x_label, o_label, winner)
+    if gs:
+        parts.append(gs)
+        
+    # --- Relative / positional description ---
+    rel = _relative_desc(board, name_x, name_o, x_label, o_label)
+    if rel:
+        parts.append(rel)
+    
+    # --- Outcome ---
     if not _is_reachable(board):
         parts.append(random.choice([
             "Though this position could not occur in a real game",
@@ -372,6 +438,31 @@ def _rotate_translate(img: Image.Image, angle_deg: float, dx: int, dy: int, fill
     )
     return img
 
+def _perspective_coeffs(src_quad, dst_quad):
+    """Compute 8 PIL PERSPECTIVE coefficients mapping dst_quad -> src_quad."""
+    matrix = []
+    for (xs, ys), (xd, yd) in zip(src_quad, dst_quad):
+        matrix.append([xd, yd, 1, 0, 0, 0, -xs * xd, -xs * yd])
+        matrix.append([0, 0, 0, xd, yd, 1, -ys * xd, -ys * yd])
+    A = np.array(matrix, dtype=float)
+    b = np.array([c for s in src_quad for c in s], dtype=float)
+    return np.linalg.lstsq(A, b, rcond=None)[0].tolist()
+
+def _add_perspective(img: Image.Image, magnitude: float = 0.04, fillcolor=255) -> Image.Image:
+    """Apply a small random perspective warp to simulate a non-flat photo angle."""
+    w, h = img.size
+    d = magnitude
+    src = [(0, 0), (w, 0), (w, h), (0, h)]
+    dst = [
+        (random.uniform(0, d * w),     random.uniform(0, d * h)),
+        (w - random.uniform(0, d * w), random.uniform(0, d * h)),
+        (w - random.uniform(0, d * w), h - random.uniform(0, d * h)),
+        (random.uniform(0, d * w),     h - random.uniform(0, d * h)),
+    ]
+    coeffs = _perspective_coeffs(src, dst)
+    return img.transform(img.size, Image.Transform.PERSPECTIVE, coeffs,
+                         Image.Resampling.BILINEAR, fillcolor=fillcolor)
+
 
 def _blur_edges(arr: np.ndarray) -> np.ndarray:
     """
@@ -399,6 +490,10 @@ def _blur_edges(arr: np.ndarray) -> np.ndarray:
     result[fg_adj] = np.random.uniform(0.5, 1.0, fg_adj.sum())
     return result
 
+def _add_background_noise(arr: np.ndarray, sigma: float = 0.02) -> np.ndarray:
+    """Add Gaussian noise to simulate paper texture."""
+    return np.clip(arr + np.random.normal(0, sigma, arr.shape), 0.0, 1.0)
+
 
 def render_board_image(board: Board, size: int = 500, colour: bool = False) -> np.ndarray:
     """
@@ -413,17 +508,24 @@ def render_board_image(board: Board, size: int = 500, colour: bool = False) -> n
     B&W:    returns (size, size)    float array, 0=white 1=black ink.
     Colour: returns (size, size, 3) float array, X=red, O=blue, grid=black.
     """
-    margin = size // 10
+    margin = random.randint(size // 12, size // 7)
     grid_size = size - 2 * margin
     cell = grid_size // 3
-    lw = max(3, size // 100)
-    pad = cell // 6
+    # variable line thickness
+    lw = random.randint(max(2, size // 150), max(5, size // 60))
+    # variable symbol size
+    pad = random.randint(cell // 8, cell // 4)
 
     fill = WHITE_RGB if colour else 255
-    mode = "RGB" if colour else "L"
-    grid_ink  = (0, 0, 0) if colour else 0
+    mode = "RGB"     if colour else "L"
+    grid_ink = (0, 0, 0) if colour else 0
 
-    canvas = np.full((size, size, 3) if colour else (size, size), 255.0)
+    # background noise baked into starting canvas
+    noise_sigma = 3.0
+    if colour:
+        canvas = np.clip(np.random.normal(255, noise_sigma, (size, size, 3)), 0, 255)
+    else:
+        canvas = np.clip(np.random.normal(255, noise_sigma, (size, size)),    0, 255)
 
     # --- Grid lines ---
     grid_img = Image.new(mode, (size, size), color=fill)
@@ -436,6 +538,7 @@ def render_board_image(board: Board, size: int = 500, colour: bool = False) -> n
     angle = random.uniform(-math.pi / 16, math.pi / 16) * 180 / math.pi
     dx, dy = random.randint(-3, 3), random.randint(-3, 3)
     grid_img = _rotate_translate(grid_img, angle, dx, dy, fillcolor=fill)
+    grid_img = _add_perspective(grid_img, magnitude=0.03, fillcolor=fill)   # adding perspective
     canvas = np.minimum(canvas, np.array(grid_img, dtype=float))
 
     # --- Symbols ---
@@ -456,21 +559,21 @@ def render_board_image(board: Board, size: int = 500, colour: bool = False) -> n
             angle = random.uniform(-math.pi / 16, math.pi / 16) * 180 / math.pi
             dx, dy = random.randint(-3, 3), random.randint(-3, 3)
             sym_img = _rotate_translate(sym_img, angle, dx, dy, fillcolor=fill)
+            sym_img = _add_perspective(sym_img, magnitude=0.03, fillcolor=fill)   # adding perspective
             stamp = np.full((size, size, 3) if colour else (size, size), 255.0)
             py, px = margin + r * cell, margin + c * cell
             stamp[py:py + cell, px:px + cell] = np.array(sym_img, dtype=float)
             canvas = np.minimum(canvas, stamp)
 
-    if colour:
-        arr = canvas / 255.0          # keep colours as-is
-    else:
-        arr = 1.0 - canvas / 255.0   # invert for B&W (0=white, 1=black)
+    arr = canvas / 255.0 if colour else 1.0 - canvas / 255.0
+    arr = _add_background_noise(arr, sigma=0.015)   # final texture pass
     return _blur_edges(arr)
 
 
 # --- Test file generator ---
 
-def save_test_files(n: int, board: Board, sentence: str, colour: bool, prefix: str = "test"):
+def save_test_files(n: int, board: Board, sentence: str, colour: bool,
+                    split: str = "train", prefix: str = "test"):
     """
     Save four files for test case n:
       Data/text/{prefix}_{n}.txt
@@ -480,37 +583,126 @@ def save_test_files(n: int, board: Board, sentence: str, colour: bool, prefix: s
     """
     
     _ensure_dirs()
-    arr = render_board_image(board, colour=colour)
+    _init_manifest()
 
-    (DIRS["txt"] / f"{prefix}_{n}.txt").write_text(sentence + "\n", encoding="utf-8")
-    
-    # with open(f"{prefix}_{n}.txt", "w") as f:
-    #     f.write(sentence + "\n")
+    arr      = render_board_image(board, colour=colour)
+    filename = f"{prefix}_{n}"
 
-    with open(DIRS["meta"] / f"{prefix}_{n}.meta", "w", encoding="utf-8") as f:
+    (_dir(split, "text") / f"{filename}.txt").write_text(sentence + "\n", encoding="utf-8")
+
+    with open(_dir(split, "meta") / f"{filename}.meta", "w", encoding="utf-8") as f:
         f.write(sentence + "\n")
         f.write(to_notation(board) + "\n")
         f.write(str(board) + "\n")
 
     img_mode = "RGB" if colour else "L"
     img = Image.fromarray((arr * 255).astype(np.uint8), mode=img_mode)
-    img.save(DIRS["png"] / f"{prefix}_{n}.png")
+    img.save(_dir(split, "images") / f"{filename}.png")
 
-    # colour arr is 3D (size, size, 3) — reshape to (3*size, size) for savetxt
     mat = arr.reshape(-1, arr.shape[1]) if colour else arr
-    np.savetxt(DIRS["mat"] / f"{prefix}_{n}.mat", mat, fmt="%.4f")
+    np.savetxt(_dir(split, "matrices") / f"{filename}.mat", mat, fmt="%.4f")
+
+    winner = board.winner()
+    total  = len(board.x) + len(board.o)
+    _append_manifest({
+        "filename":  f"{split}/images/{filename}.png",
+        "notation":  to_notation(board),
+        "colour":    colour,
+        "num_moves": total,
+        "winner":    winner if winner else "none",
+        "is_draw":   winner is None and total == 9,
+        "split":     split,
+    })
 
 
-# --- Quick demo ---
+def _generate_board(num_moves: int, outcome: str) -> Board:
+    """
+    Try to generate a board with both a specific num_moves and outcome.
+    Falls back to any valid board with num_moves if the combo is impossible.
+    """
+    x_count = (num_moves + 1) // 2
+    o_count = num_moves // 2
+    feasible = not (
+        (outcome == "x_win"       and x_count < 3) or
+        (outcome == "o_win"       and o_count < 3) or
+        (outcome == "draw"        and num_moves != 9) or
+        (outcome == "in_progress" and num_moves == 9)
+    )
+    if not feasible:
+        return random_board(num_moves=num_moves)
+    for _ in range(500):
+        board = random_board(num_moves=num_moves)
+        w     = board.winner()
+        total = len(board.x) + len(board.o)
+        if outcome == "x_win"       and w == "X":                 return board
+        if outcome == "o_win"       and w == "O":                 return board
+        if outcome == "draw"        and w is None and total == 9: return board
+        if outcome == "in_progress" and w is None and total < 9:  return board
+    return random_board(num_moves=num_moves)   # graceful fallback
+
+
+# ----------------------- OPTION A -------------------------------------------------
 
 if __name__ == "__main__":
-    print("=== Generating five test cases ===\n")
-    for n in range(1, 6):
-        board = random_board()
-        colour = random.choice([True, False])
-        sentence = describe(board, colour=colour)
-        save_test_files(n, board, sentence, colour=colour)
-        print(f"test_{n}:")
-        print(sentence)
-        print(board)
-        print()
+    TOTAL    = 1000                           # change to generate more/fewer samples
+    OUTCOMES = ["x_win", "o_win", "draw", "in_progress"]
+    per_moves = TOTAL // 10                   # equal samples per num_moves bucket
+
+    print(f"=== Generating {TOTAL} samples ===\n")
+    n = 0
+
+    for num_moves in range(10):
+        for i in range(per_moves):
+            outcome = OUTCOMES[i % len(OUTCOMES)]          # cycle through outcomes
+            colour  = (i % 2 == 0)                         # strict 50/50 colour
+
+            # deterministic split assignment within each bucket
+            r     = i / per_moves
+            split = "train" if r < 0.70 else "val" if r < 0.85 else "test"
+
+            board    = _generate_board(num_moves, outcome)
+            sentence = describe(board, colour=colour)
+            save_test_files(n, board, sentence, colour=colour, split=split)
+
+            if n % 100 == 0:
+                print(f"  [{n:>4}/{TOTAL}] split={split} | moves={num_moves} "
+                      f"| outcome={outcome:<12} | colour={colour}")
+            n += 1
+
+    print(f"\nDone. {n} samples saved to {BASE_DIR}")
+    
+    
+# ----------------------- OPTION B -------------------------------------------------
+
+# if __name__ == "__main__":
+#     TRAIN_TARGET = 1000                        # training samples you actually want
+#     SPLIT_RATIOS = {"train": 0.70, "val": 0.15, "test": 0.15}
+#     TOTAL        = round(TRAIN_TARGET / SPLIT_RATIOS["train"])  # ~1429 total
+#     OUTCOMES     = ["x_win", "o_win", "draw", "in_progress"]
+#     per_moves    = TOTAL // 10                 # samples per num_moves bucket (~142)
+
+#     print(f"=== Generating {TOTAL} samples (~{TRAIN_TARGET} training) ===\n")
+#     n = 0
+
+#     for num_moves in range(10):
+#         for i in range(per_moves):
+#             outcome = OUTCOMES[i % len(OUTCOMES)]
+#             colour  = (i % 2 == 0)
+
+#             r     = i / per_moves
+#             split = "train" if r < SPLIT_RATIOS["train"] else \
+#                     "val"   if r < SPLIT_RATIOS["train"] + SPLIT_RATIOS["val"] else \
+#                     "test"
+
+#             board    = _generate_board(num_moves, outcome)
+#             sentence = describe(board, colour=colour)
+#             save_test_files(n, board, sentence, colour=colour, split=split)
+
+#             if n % 100 == 0:
+#                 print(f"  [{n:>4}/{TOTAL}] split={split} | moves={num_moves} "
+#                       f"| outcome={outcome:<12} | colour={colour}")
+#             n += 1
+
+#     print(f"\nDone. {n} total samples (~{round(n * SPLIT_RATIOS['train'])} train, "
+#           f"~{round(n * SPLIT_RATIOS['val'])} val, "
+#           f"~{round(n * SPLIT_RATIOS['test'])} test) saved to {BASE_DIR}")
