@@ -145,10 +145,10 @@ Python's standard library. You do not need to install them.
 
 ### Step 3 — Run the generator
 
-Navigate to the folder where `tictactoe_generator.py` is saved, then run:
+Navigate to the folder where `tictactoe.py` is saved, then run:
 
 ```bash
-python tictactoe_generator.py
+python tictactoe.py
 ```
 
 The script will print progress to the terminal and save all files automatically.
@@ -340,7 +340,7 @@ Chinese, Irish, Arabic, etc. All text files in this project are saved in UTF-8.
 
 | File                      | Purpose                                      |
 |---------------------------|----------------------------------------------|
-| `tictactoe_generator.py`  | The main script — run this to generate data  |
+| `tictactoe.py`            | The main script — run this to generate data  |
 | `TicTacToe_Data/`         | All generated data — do not edit by hand     |
 | `manifest.csv`            | Index of all generated samples               |
 | `README.md`               | This file                                    |
