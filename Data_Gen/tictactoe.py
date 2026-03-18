@@ -42,6 +42,28 @@ import random
 from dataclasses import dataclass, field
 import numpy as np
 from PIL import Image, ImageDraw
+from pathlib import Path
+
+
+# --- Paths ---
+BASE_DIR = Path(__file__).resolve().parent / "TicTacToe_Data"
+DIRS = {
+    "txt":  BASE_DIR / "text",
+    "meta": BASE_DIR / "meta",
+    "png":  BASE_DIR / "images",
+    "mat":  BASE_DIR / "matrices",
+}
+
+def _ensure_dirs():
+    """Create output folders if they don't exist."""
+    for d in DIRS.values():
+        d.mkdir(parents=True, exist_ok=True)
+
+# --- Colour ----
+X_COLOR  = (200, 30,  30)   # red
+O_COLOR  = (30,  30,  200)  # blue
+WHITE_RGB = (255, 255, 255)
+
 
 # --- Position vocabulary ---
 
@@ -264,30 +286,63 @@ def _join(phrases: list[str]) -> str:
     return ", ".join(phrases[:-1]) + " and " + phrases[-1]
 
 
-def describe(board: Board, x_name: str | None = None, o_name: str | None = None) -> str:
+def describe(board: Board, x_name: str | None = None, o_name: str | None = None, colour: bool = False) -> str:
     """
     Return an English sentence describing the board position.
 
     Names are chosen randomly from NAMES if not provided.
     Each position is described using one of its two alternative phrasings.
     """
+    # --- Outcome Detection ---
+    winner = board.winner()
+    total_moves = len(board.x) + len(board.o)
+    is_draw = winner is None and total_moves == 9
+    # ----------------------
+    
     name_x, name_o = _pick_names(x_name, o_name)
+    
+    x_label = "red X"   if colour else "X"
+    o_label = "blue O"  if colour else "O"
+    # print("colour------>" + str(colour))
 
     parts = []
 
     if board.x:
         x_phrases = _join([_phrase(p) for p in board.x])
         verb = random.choice(["gone for", "taken"])
-        parts.append(f"{name_x} is X and has {verb} {x_phrases}")
+        parts.append(random.choice([f"{name_x} is X and has {verb} {x_phrases}",f"{name_x} is {x_label} and has {verb} {x_phrases}"]))
+        # parts.append(f"{name_x} is {x_label} and has {verb} {x_phrases}")
     else:
-        parts.append(f"{name_x} is X and has not moved yet")
+        parts.append(random.choice([f"{name_x} is X and has not moved yet",f"{name_x} is {x_label} and has not moved yet"]))
 
     if board.o:
         o_phrases = _join([_phrase(p) for p in board.o])
         verb = random.choice(["gone for", "taken"])
-        parts.append(f"{name_o} is O and has {verb} {o_phrases}")
+        parts.append(random.choice([f"{name_o} is O and has {verb} {o_phrases}",f"{name_o} is {o_label} and has {verb} {o_phrases}"]))
     else:
-        parts.append(f"{name_o} is O and has not moved yet")
+        parts.append(random.choice([f"{name_o} is O and has not moved yet",f"{name_o} is {o_label} and has not moved yet"]))
+    
+    if not _is_reachable(board):
+        parts.append(random.choice([
+            "Though this position could not occur in a real game",
+            "However this is not a reachable position in a real game",
+        ]))
+    
+    if winner == "X":
+        parts.append(random.choice([
+            f"{name_x} is X and has won",
+            f"{x_label} and wins",
+        ]))
+    elif winner == "O":
+        parts.append(random.choice([
+            f"{name_o} is O and has won",
+            f"{o_label} wins",
+        ]))
+    elif is_draw:
+        parts.append(random.choice([
+            "The game is a draw",
+            "It is a draw",
+        ]))
 
     return "; ".join(parts) + "."
 
@@ -307,13 +362,13 @@ def _pick_names(x_name: str | None, o_name: str | None) -> tuple[str, str]:
 
 # --- Image rendering ---
 
-def _rotate_translate(img: Image.Image, angle_deg: float, dx: int, dy: int) -> Image.Image:
+def _rotate_translate(img: Image.Image, angle_deg: float, dx: int, dy: int, fillcolor=255) -> Image.Image:
     """Rotate then translate a PIL image, filling gaps with white."""
-    img = img.rotate(angle_deg, fillcolor=255, resample=Image.Resampling.BILINEAR)
+    img = img.rotate(angle_deg, fillcolor=fillcolor, resample=Image.Resampling.BILINEAR)
     img = img.transform(
         img.size, Image.Transform.AFFINE,
         (1, 0, -dx, 0, 1, -dy),
-        fillcolor=255, resample=Image.Resampling.BILINEAR,
+        fillcolor=fillcolor, resample=Image.Resampling.BILINEAR,
     )
     return img
 
@@ -324,6 +379,10 @@ def _blur_edges(arr: np.ndarray) -> np.ndarray:
     - Background pixels (≈0) adjacent to foreground: random value in [0, 0.5]
     - Foreground pixels (≈1) adjacent to background: random value in [0.5, 1]
     """
+    
+    if arr.ndim == 3:
+        return np.stack([_blur_edges(arr[:, :, c]) for c in range(3)], axis=2)
+    
     result = arr.copy()
     fg = arr > 0.5
 
@@ -341,7 +400,7 @@ def _blur_edges(arr: np.ndarray) -> np.ndarray:
     return result
 
 
-def render_board_image(board: Board, size: int = 500) -> np.ndarray:
+def render_board_image(board: Board, size: int = 500, colour: bool = False) -> np.ndarray:
     """
     Render the board as a (size x size) numpy array with values in [0, 1].
     0 = background (white), 1 = foreground (black ink).
@@ -350,6 +409,9 @@ def render_board_image(board: Board, size: int = 500) -> np.ndarray:
     - Grid and each symbol independently rotated by a random angle in [-pi/16, pi/16]
       and translated by up to 3 pixels in each axis.
     - Edge pixels are randomly softened.
+    
+    B&W:    returns (size, size)    float array, 0=white 1=black ink.
+    Colour: returns (size, size, 3) float array, X=red, O=blue, grid=black.
     """
     margin = size // 10
     grid_size = size - 2 * margin
@@ -357,20 +419,23 @@ def render_board_image(board: Board, size: int = 500) -> np.ndarray:
     lw = max(3, size // 100)
     pad = cell // 6
 
-    canvas = np.full((size, size), 255.0)
+    fill = WHITE_RGB if colour else 255
+    mode = "RGB" if colour else "L"
+    grid_ink  = (0, 0, 0) if colour else 0
+
+    canvas = np.full((size, size, 3) if colour else (size, size), 255.0)
 
     # --- Grid lines ---
-    grid_img = Image.new("L", (size, size), color=255)
+    grid_img = Image.new(mode, (size, size), color=fill)
     gd = ImageDraw.Draw(grid_img)
     for i in (1, 2):
         x = margin + i * cell
-        gd.line([(x, margin), (x, margin + grid_size)], fill=0, width=lw)
+        gd.line([(x, margin), (x, margin + grid_size)], fill=grid_ink, width=lw)
         y = margin + i * cell
-        gd.line([(margin, y), (margin + grid_size, y)], fill=0, width=lw)
-
+        gd.line([(margin, y), (margin + grid_size, y)], fill=grid_ink, width=lw)
     angle = random.uniform(-math.pi / 16, math.pi / 16) * 180 / math.pi
     dx, dy = random.randint(-3, 3), random.randint(-3, 3)
-    grid_img = _rotate_translate(grid_img, angle, dx, dy)
+    grid_img = _rotate_translate(grid_img, angle, dx, dy, fillcolor=fill)
     canvas = np.minimum(canvas, np.array(grid_img, dtype=float))
 
     # --- Symbols ---
@@ -380,53 +445,60 @@ def render_board_image(board: Board, size: int = 500) -> np.ndarray:
             sym = board_grid[r][c]
             if sym == " ":
                 continue
-
-            sym_img = Image.new("L", (cell, cell), color=255)
+            sym_ink = X_COLOR if (colour and sym == "X") else O_COLOR if (colour and sym == "O") else 0
+            sym_img = Image.new(mode, (cell, cell), color=fill)
             sd = ImageDraw.Draw(sym_img)
-
             if sym == "X":
-                sd.line([(pad, pad), (cell - pad, cell - pad)], fill=0, width=lw * 2)
-                sd.line([(cell - pad, pad), (pad, cell - pad)], fill=0, width=lw * 2)
+                sd.line([(pad, pad), (cell - pad, cell - pad)], fill=sym_ink, width=lw * 2)
+                sd.line([(cell - pad, pad), (pad, cell - pad)], fill=sym_ink, width=lw * 2)
             elif sym == "O":
-                sd.ellipse([(pad, pad), (cell - pad, cell - pad)], outline=0, width=lw * 2)
-
+                sd.ellipse([(pad, pad), (cell - pad, cell - pad)], outline=sym_ink, width=lw * 2)
             angle = random.uniform(-math.pi / 16, math.pi / 16) * 180 / math.pi
             dx, dy = random.randint(-3, 3), random.randint(-3, 3)
-            sym_img = _rotate_translate(sym_img, angle, dx, dy)
-
-            stamp = np.full((size, size), 255.0)
+            sym_img = _rotate_translate(sym_img, angle, dx, dy, fillcolor=fill)
+            stamp = np.full((size, size, 3) if colour else (size, size), 255.0)
             py, px = margin + r * cell, margin + c * cell
             stamp[py:py + cell, px:px + cell] = np.array(sym_img, dtype=float)
             canvas = np.minimum(canvas, stamp)
 
-    arr = 1.0 - canvas / 255.0
+    if colour:
+        arr = canvas / 255.0          # keep colours as-is
+    else:
+        arr = 1.0 - canvas / 255.0   # invert for B&W (0=white, 1=black)
     return _blur_edges(arr)
 
 
 # --- Test file generator ---
 
-def save_test_files(n: int, board: Board, sentence: str, prefix: str = "test"):
+def save_test_files(n: int, board: Board, sentence: str, colour: bool, prefix: str = "test"):
     """
     Save four files for test case n:
-      {prefix}_{n}.txt   - the English sentence
-      {prefix}_{n}.meta  - sentence + notation + ASCII board
-      {prefix}_{n}.png   - rendered image
-      {prefix}_{n}.mat   - 500x500 matrix of floats in [0,1]
+      Data/text/{prefix}_{n}.txt
+      Data/meta/{prefix}_{n}.meta
+      Data/images/{prefix}_{n}.png
+      Data/matrices/{prefix}_{n}.mat
     """
-    arr = render_board_image(board)
+    
+    _ensure_dirs()
+    arr = render_board_image(board, colour=colour)
 
-    with open(f"{prefix}_{n}.txt", "w") as f:
-        f.write(sentence + "\n")
+    (DIRS["txt"] / f"{prefix}_{n}.txt").write_text(sentence + "\n", encoding="utf-8")
+    
+    # with open(f"{prefix}_{n}.txt", "w") as f:
+    #     f.write(sentence + "\n")
 
-    with open(f"{prefix}_{n}.meta", "w") as f:
+    with open(DIRS["meta"] / f"{prefix}_{n}.meta", "w", encoding="utf-8") as f:
         f.write(sentence + "\n")
         f.write(to_notation(board) + "\n")
         f.write(str(board) + "\n")
 
-    img = Image.fromarray((arr * 255).astype(np.uint8), mode="L")
-    img.save(f"{prefix}_{n}.png")
+    img_mode = "RGB" if colour else "L"
+    img = Image.fromarray((arr * 255).astype(np.uint8), mode=img_mode)
+    img.save(DIRS["png"] / f"{prefix}_{n}.png")
 
-    np.savetxt(f"{prefix}_{n}.mat", arr, fmt="%.4f")
+    # colour arr is 3D (size, size, 3) — reshape to (3*size, size) for savetxt
+    mat = arr.reshape(-1, arr.shape[1]) if colour else arr
+    np.savetxt(DIRS["mat"] / f"{prefix}_{n}.mat", mat, fmt="%.4f")
 
 
 # --- Quick demo ---
@@ -435,8 +507,9 @@ if __name__ == "__main__":
     print("=== Generating five test cases ===\n")
     for n in range(1, 6):
         board = random_board()
-        sentence = describe(board)
-        save_test_files(n, board, sentence)
+        colour = random.choice([True, False])
+        sentence = describe(board, colour=colour)
+        save_test_files(n, board, sentence, colour=colour)
         print(f"test_{n}:")
         print(sentence)
         print(board)
