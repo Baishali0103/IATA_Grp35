@@ -1,0 +1,2000 @@
+0.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+1.png	0 0 0 0 1 0 2 1 0	X in center, O in bottom left, X in bottom middle
+2.png	0 0 0 0 0 2 0 0 2	O in middle right, O in bottom right
+3.png	0 0 0 0 1 2 1 0 0	X in center, O in middle right, X in bottom left
+4.png	0 0 0 0 0 0 1 2 1	X in bottom left, O in bottom middle, X in bottom right
+5.png	2 0 0 0 1 2 0 0 0	O in top left, X in center, O in middle right
+6.png	1 1 0 0 0 0 0 1 2	X in top left, X in top middle, X in bottom middle, O in bottom right
+7.png	0 2 0 0 0 0 0 2 0	O in top middle, O in bottom middle
+8.png	0 0 2 2 0 2 0 0 0	O in top right, O in middle left, O in middle right
+9.png	0 1 0 1 0 0 0 0 2	X in top middle, X in middle left, O in bottom right
+10.png	0 0 1 0 0 0 1 0 0	X in top right, X in bottom left
+11.png	1 0 0 0 2 2 0 0 0	X in top left, O in center, O in middle right
+12.png	0 2 0 1 1 0 0 0 0	O in top middle, X in middle left, X in center
+13.png	1 1 0 0 0 2 0 0 0	X in top left, X in top middle, O in middle right
+14.png	2 1 2 0 0 0 0 0 0	O in top left, X in top middle, O in top right
+15.png	2 0 0 0 2 0 1 0 0	O in top left, O in center, X in bottom left
+16.png	0 2 1 0 0 0 0 1 0	O in top middle, X in top right, X in bottom middle
+17.png	2 2 0 2 0 0 0 0 0	O in top left, O in top middle, O in middle left
+18.png	0 0 0 0 0 0 0 2 2	O in bottom middle, O in bottom right
+19.png	0 1 1 0 0 1 0 0 0	X in top middle, X in top right, X in middle right
+20.png	0 0 0 2 0 0 0 2 1	O in middle left, O in bottom middle, X in bottom right
+21.png	0 0 1 0 0 0 1 0 0	X in top right, X in bottom left
+22.png	0 1 1 0 0 2 0 0 1	X in top middle, X in top right, O in middle right, X in bottom right
+23.png	0 0 0 0 1 0 0 2 0	X in center, O in bottom middle
+24.png	0 1 0 0 2 2 0 0 0	X in top middle, O in center, O in middle right
+25.png	0 1 0 0 0 0 1 0 1	X in top middle, X in bottom left, X in bottom right
+26.png	0 0 2 0 0 1 2 0 1	O in top right, X in middle right, O in bottom left, X in bottom right
+27.png	1 0 2 1 0 0 0 0 1	X in top left, O in top right, X in middle left, X in bottom right
+28.png	0 0 0 0 1 1 0 0 0	X in center, X in middle right
+29.png	0 0 2 0 0 1 2 0 0	O in top right, X in middle right, O in bottom left
+30.png	0 0 0 0 2 0 0 2 0	O in center, O in bottom middle
+31.png	0 2 0 0 2 2 0 1 0	O in top middle, O in center, O in middle right, X in bottom middle
+32.png	0 0 0 0 0 0 1 1 2	X in bottom left, X in bottom middle, O in bottom right
+33.png	2 0 0 0 0 0 0 2 2	O in top left, O in bottom middle, O in bottom right
+34.png	0 0 0 0 2 2 0 0 0	O in center, O in middle right
+35.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+36.png	0 0 0 0 0 0 0 0 1	X in bottom right
+37.png	0 0 1 1 0 1 0 0 0	X in top right, X in middle left, X in middle right
+38.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+39.png	1 0 1 0 1 0 0 0 0	X in top left, X in top right, X in center
+40.png	2 0 2 0 0 0 0 2 0	O in top left, O in top right, O in bottom middle
+41.png	0 2 1 0 1 0 0 0 0	O in top middle, X in top right, X in center
+42.png	2 0 0 0 1 0 0 1 0	O in top left, X in center, X in bottom middle
+43.png	0 0 2 1 0 0 0 0 0	O in top right, X in middle left
+44.png	0 0 1 0 0 0 0 0 1	X in top right, X in bottom right
+45.png	2 0 0 2 0 0 1 1 0	O in top left, O in middle left, X in bottom left, X in bottom middle
+46.png	2 0 0 0 2 1 0 0 0	O in top left, O in center, X in middle right
+47.png	0 0 2 2 0 0 1 2 0	O in top right, O in middle left, X in bottom left, O in bottom middle
+48.png	0 0 0 0 1 0 0 2 1	X in center, O in bottom middle, X in bottom right
+49.png	0 0 0 0 2 0 0 0 2	O in center, O in bottom right
+50.png	2 0 0 1 0 0 0 2 0	O in top left, X in middle left, O in bottom middle
+51.png	0 0 2 0 0 0 0 1 1	O in top right, X in bottom middle, X in bottom right
+52.png	0 2 0 1 2 1 0 0 0	O in top middle, X in middle left, O in center, X in middle right
+53.png	0 0 2 0 0 0 0 0 0	O in top right
+54.png	2 0 1 0 0 0 0 2 0	O in top left, X in top right, O in bottom middle
+55.png	1 0 0 0 0 2 1 0 0	X in top left, O in middle right, X in bottom left
+56.png	0 0 0 0 2 0 1 0 0	O in center, X in bottom left
+57.png	0 0 0 0 0 0 0 1 1	X in bottom middle, X in bottom right
+58.png	0 0 2 0 0 0 0 0 1	O in top right, X in bottom right
+59.png	1 0 0 0 0 0 0 0 1	X in top left, X in bottom right
+60.png	0 0 0 2 0 2 2 0 0	O in middle left, O in middle right, O in bottom left
+61.png	0 1 0 0 0 0 0 0 2	X in top middle, O in bottom right
+62.png	1 0 0 0 0 0 1 0 0	X in top left, X in bottom left
+63.png	0 1 0 0 0 1 0 0 0	X in top middle, X in middle right
+64.png	2 0 1 0 0 0 0 2 0	O in top left, X in top right, O in bottom middle
+65.png	0 0 1 0 0 2 0 0 0	X in top right, O in middle right
+66.png	0 0 1 2 0 0 1 0 0	X in top right, O in middle left, X in bottom left
+67.png	2 0 2 0 2 0 0 0 0	O in top left, O in top right, O in center
+68.png	2 0 0 2 0 0 2 0 2	O in top left, O in middle left, O in bottom left, O in bottom right
+69.png	0 0 0 0 1 2 0 1 1	X in center, O in middle right, X in bottom middle, X in bottom right
+70.png	1 2 0 0 0 1 2 0 0	X in top left, O in top middle, X in middle right, O in bottom left
+71.png	0 0 0 0 1 0 0 0 1	X in center, X in bottom right
+72.png	0 0 2 0 0 1 1 0 0	O in top right, X in middle right, X in bottom left
+73.png	0 0 0 0 1 1 0 0 0	X in center, X in middle right
+74.png	0 0 1 0 2 0 1 0 0	X in top right, O in center, X in bottom left
+75.png	0 0 0 1 0 0 1 1 0	X in middle left, X in bottom left, X in bottom middle
+76.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+77.png	0 0 0 0 0 1 0 1 0	X in middle right, X in bottom middle
+78.png	0 0 0 0 0 0 0 2 1	O in bottom middle, X in bottom right
+79.png	2 0 2 0 0 0 1 2 0	O in top left, O in top right, X in bottom left, O in bottom middle
+80.png	0 2 1 0 0 0 0 0 0	O in top middle, X in top right
+81.png	2 0 0 0 0 0 0 1 2	O in top left, X in bottom middle, O in bottom right
+82.png	1 0 0 1 0 0 0 0 0	X in top left, X in middle left
+83.png	0 0 0 0 0 0 0 2 1	O in bottom middle, X in bottom right
+84.png	1 0 0 0 1 0 0 0 1	X in top left, X in center, X in bottom right
+85.png	0 0 0 0 0 1 0 1 0	X in middle right, X in bottom middle
+86.png	0 0 0 0 0 0 0 1 1	X in bottom middle, X in bottom right
+87.png	0 0 0 2 2 0 0 0 2	O in middle left, O in center, O in bottom right
+88.png	0 1 2 0 0 0 2 0 0	X in top middle, O in top right, O in bottom left
+89.png	0 0 2 0 0 0 0 1 2	O in top right, X in bottom middle, O in bottom right
+90.png	2 0 1 0 0 0 0 0 2	O in top left, X in top right, O in bottom right
+91.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+92.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+93.png	0 0 0 1 1 1 0 0 0	X in middle left, X in center, X in middle right
+94.png	0 0 0 2 1 0 2 0 0	O in middle left, X in center, O in bottom left
+95.png	0 2 0 0 0 0 0 0 0	O in top middle
+96.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+97.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+98.png	2 0 0 1 0 0 0 2 0	O in top left, X in middle left, O in bottom middle
+99.png	0 2 0 0 0 1 0 0 0	O in top middle, X in middle right
+100.png	2 0 0 0 1 0 1 0 0	O in top left, X in center, X in bottom left
+101.png	0 0 2 0 2 0 0 1 2	O in top right, O in center, X in bottom middle, O in bottom right
+102.png	0 0 0 1 0 0 0 1 0	X in middle left, X in bottom middle
+103.png	2 1 0 2 0 0 0 0 0	O in top left, X in top middle, O in middle left
+104.png	0 0 0 0 0 0 0 2 0	O in bottom middle
+105.png	0 0 2 2 0 0 0 2 0	O in top right, O in middle left, O in bottom middle
+106.png	1 0 0 0 2 0 1 0 1	X in top left, O in center, X in bottom left, X in bottom right
+107.png	0 0 0 2 0 0 0 2 1	O in middle left, O in bottom middle, X in bottom right
+108.png	2 1 0 0 0 0 1 0 1	O in top left, X in top middle, X in bottom left, X in bottom right
+109.png	0 1 0 1 0 0 2 0 0	X in top middle, X in middle left, O in bottom left
+110.png	0 2 0 1 0 2 2 0 0	O in top middle, X in middle left, O in middle right, O in bottom left
+111.png	0 2 0 0 0 1 1 2 0	O in top middle, X in middle right, X in bottom left, O in bottom middle
+112.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+113.png	2 0 0 1 0 0 0 0 0	O in top left, X in middle left
+114.png	2 0 0 0 0 1 0 1 0	O in top left, X in middle right, X in bottom middle
+115.png	0 2 1 0 1 0 0 0 0	O in top middle, X in top right, X in center
+116.png	0 0 0 0 0 0 1 1 0	X in bottom left, X in bottom middle
+117.png	0 0 0 2 0 0 0 1 0	O in middle left, X in bottom middle
+118.png	1 2 0 0 0 0 0 0 1	X in top left, O in top middle, X in bottom right
+119.png	0 0 0 0 1 0 0 2 0	X in center, O in bottom middle
+120.png	1 0 0 0 0 0 0 0 1	X in top left, X in bottom right
+121.png	1 0 0 0 0 1 0 0 0	X in top left, X in middle right
+122.png	0 0 2 1 0 0 0 0 0	O in top right, X in middle left
+123.png	0 0 1 0 2 0 0 0 0	X in top right, O in center
+124.png	0 0 0 2 0 0 2 0 1	O in middle left, O in bottom left, X in bottom right
+125.png	2 0 1 2 0 0 1 0 0	O in top left, X in top right, O in middle left, X in bottom left
+126.png	1 0 0 0 2 0 0 0 0	X in top left, O in center
+127.png	0 1 0 0 2 0 2 0 1	X in top middle, O in center, O in bottom left, X in bottom right
+128.png	0 0 0 1 1 0 0 0 0	X in middle left, X in center
+129.png	0 0 1 0 0 0 0 0 1	X in top right, X in bottom right
+130.png	0 0 0 0 0 1 1 0 0	X in middle right, X in bottom left
+131.png	0 2 2 0 0 0 0 0 0	O in top middle, O in top right
+132.png	0 0 0 1 1 0 0 0 0	X in middle left, X in center
+133.png	0 1 2 1 0 0 0 0 0	X in top middle, O in top right, X in middle left
+134.png	0 0 0 0 0 2 0 0 0	O in middle right
+135.png	2 2 0 2 0 0 1 0 0	O in top left, O in top middle, O in middle left, X in bottom left
+136.png	1 0 0 2 0 0 0 0 0	X in top left, O in middle left
+137.png	0 0 2 1 0 0 0 2 0	O in top right, X in middle left, O in bottom middle
+138.png	0 2 0 0 0 0 0 0 1	O in top middle, X in bottom right
+139.png	0 0 0 0 0 1 0 2 0	X in middle right, O in bottom middle
+140.png	0 0 0 0 0 1 0 0 0	X in middle right
+141.png	1 0 0 0 1 0 0 2 0	X in top left, X in center, O in bottom middle
+142.png	0 0 0 0 2 0 2 0 0	O in center, O in bottom left
+143.png	0 0 1 0 0 0 0 2 1	X in top right, O in bottom middle, X in bottom right
+144.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+145.png	0 0 0 2 0 2 0 0 0	O in middle left, O in middle right
+146.png	0 0 0 0 0 0 1 0 2	X in bottom left, O in bottom right
+147.png	2 0 1 0 0 1 0 0 0	O in top left, X in top right, X in middle right
+148.png	0 0 0 1 1 0 1 0 0	X in middle left, X in center, X in bottom left
+149.png	0 2 0 0 0 2 0 1 0	O in top middle, O in middle right, X in bottom middle
+150.png	0 0 2 0 0 2 0 1 0	O in top right, O in middle right, X in bottom middle
+151.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+152.png	0 0 0 0 0 0 2 0 0	O in bottom left
+153.png	0 0 0 0 1 0 2 0 2	X in center, O in bottom left, O in bottom right
+154.png	1 0 2 0 0 0 0 0 0	X in top left, O in top right
+155.png	0 2 0 2 0 1 0 0 0	O in top middle, O in middle left, X in middle right
+156.png	2 0 2 0 0 0 0 0 0	O in top left, O in top right
+157.png	0 1 2 0 0 0 0 0 2	X in top middle, O in top right, O in bottom right
+158.png	0 0 1 0 0 2 0 2 0	X in top right, O in middle right, O in bottom middle
+159.png	0 0 1 0 0 0 1 0 1	X in top right, X in bottom left, X in bottom right
+160.png	0 0 0 0 0 0 1 2 2	X in bottom left, O in bottom middle, O in bottom right
+161.png	0 0 0 2 0 0 1 1 1	O in middle left, X in bottom left, X in bottom middle, X in bottom right
+162.png	0 0 1 0 2 0 2 2 0	X in top right, O in center, O in bottom left, O in bottom middle
+163.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+164.png	1 1 0 1 0 0 0 0 1	X in top left, X in top middle, X in middle left, X in bottom right
+165.png	1 0 2 0 0 0 0 0 0	X in top left, O in top right
+166.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+167.png	0 0 0 0 1 0 1 0 2	X in center, X in bottom left, O in bottom right
+168.png	0 0 1 0 0 0 2 2 2	X in top right, O in bottom left, O in bottom middle, O in bottom right
+169.png	1 0 0 0 0 0 0 2 0	X in top left, O in bottom middle
+170.png	0 0 1 0 2 0 0 1 0	X in top right, O in center, X in bottom middle
+171.png	2 0 1 0 2 0 0 0 0	O in top left, X in top right, O in center
+172.png	2 2 0 0 0 0 0 1 1	O in top left, O in top middle, X in bottom middle, X in bottom right
+173.png	2 0 0 2 0 0 0 1 0	O in top left, O in middle left, X in bottom middle
+174.png	2 0 2 0 2 0 2 0 0	O in top left, O in top right, O in center, O in bottom left
+175.png	0 0 2 0 0 0 2 2 0	O in top right, O in bottom left, O in bottom middle
+176.png	0 0 0 0 0 0 0 1 1	X in bottom middle, X in bottom right
+177.png	0 0 2 0 2 0 0 1 0	O in top right, O in center, X in bottom middle
+178.png	0 1 0 0 1 2 0 1 0	X in top middle, X in center, O in middle right, X in bottom middle
+179.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+180.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+181.png	0 0 0 2 0 1 0 2 0	O in middle left, X in middle right, O in bottom middle
+182.png	1 0 1 0 1 0 0 2 0	X in top left, X in top right, X in center, O in bottom middle
+183.png	0 1 0 0 1 0 0 2 0	X in top middle, X in center, O in bottom middle
+184.png	0 1 0 2 0 0 0 0 0	X in top middle, O in middle left
+185.png	0 0 1 1 0 0 1 0 0	X in top right, X in middle left, X in bottom left
+186.png	0 1 0 0 0 0 0 1 0	X in top middle, X in bottom middle
+187.png	0 0 0 0 1 2 0 0 0	X in center, O in middle right
+188.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+189.png	0 0 2 1 0 0 0 0 1	O in top right, X in middle left, X in bottom right
+190.png	0 0 2 2 0 0 0 0 1	O in top right, O in middle left, X in bottom right
+191.png	1 0 0 2 0 0 0 0 0	X in top left, O in middle left
+192.png	0 1 0 0 0 0 0 0 0	X in top middle
+193.png	1 0 0 0 0 2 0 0 2	X in top left, O in middle right, O in bottom right
+194.png	2 0 0 2 0 0 0 1 2	O in top left, O in middle left, X in bottom middle, O in bottom right
+195.png	1 2 0 0 0 0 0 0 0	X in top left, O in top middle
+196.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+197.png	0 1 0 2 2 0 0 0 0	X in top middle, O in middle left, O in center
+198.png	0 0 0 1 0 0 0 1 2	X in middle left, X in bottom middle, O in bottom right
+199.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+200.png	0 0 0 0 0 1 0 0 1	X in middle right, X in bottom right
+201.png	2 0 2 0 0 1 2 0 0	O in top left, O in top right, X in middle right, O in bottom left
+202.png	1 0 0 1 1 0 0 0 0	X in top left, X in middle left, X in center
+203.png	0 0 1 0 0 1 0 2 0	X in top right, X in middle right, O in bottom middle
+204.png	0 0 0 1 0 2 0 0 0	X in middle left, O in middle right
+205.png	0 0 2 2 0 1 0 0 1	O in top right, O in middle left, X in middle right, X in bottom right
+206.png	1 1 0 0 0 0 1 0 0	X in top left, X in top middle, X in bottom left
+207.png	0 0 2 2 0 2 0 0 0	O in top right, O in middle left, O in middle right
+208.png	0 0 2 0 2 0 0 0 0	O in top right, O in center
+209.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+210.png	0 1 0 0 0 0 0 2 2	X in top middle, O in bottom middle, O in bottom right
+211.png	2 0 1 0 0 2 0 0 0	O in top left, X in top right, O in middle right
+212.png	0 2 2 0 2 0 0 0 0	O in top middle, O in top right, O in center
+213.png	0 0 0 0 2 0 0 2 1	O in center, O in bottom middle, X in bottom right
+214.png	1 0 0 1 0 0 1 0 0	X in top left, X in middle left, X in bottom left
+215.png	0 0 0 2 1 0 2 0 1	O in middle left, X in center, O in bottom left, X in bottom right
+216.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+217.png	2 0 2 0 0 0 0 0 0	O in top left, O in top right
+218.png	0 0 0 0 1 0 0 1 1	X in center, X in bottom middle, X in bottom right
+219.png	0 0 2 2 1 0 0 0 0	O in top right, O in middle left, X in center
+220.png	2 0 0 0 0 0 0 0 0	O in top left
+221.png	0 0 2 0 1 0 0 0 0	O in top right, X in center
+222.png	1 0 1 2 2 0 0 0 0	X in top left, X in top right, O in middle left, O in center
+223.png	1 2 0 0 0 0 0 1 0	X in top left, O in top middle, X in bottom middle
+224.png	0 0 1 0 0 0 0 0 1	X in top right, X in bottom right
+225.png	0 0 0 0 0 0 2 0 2	O in bottom left, O in bottom right
+226.png	0 0 0 1 0 0 2 0 1	X in middle left, O in bottom left, X in bottom right
+227.png	0 0 1 1 0 0 0 0 1	X in top right, X in middle left, X in bottom right
+228.png	0 0 2 0 0 0 0 0 2	O in top right, O in bottom right
+229.png	1 0 0 0 0 0 0 0 0	X in top left
+230.png	0 0 0 2 2 0 0 0 0	O in middle left, O in center
+231.png	0 2 0 0 2 0 0 1 0	O in top middle, O in center, X in bottom middle
+232.png	0 2 0 1 1 0 0 0 0	O in top middle, X in middle left, X in center
+233.png	0 0 2 1 0 0 0 0 1	O in top right, X in middle left, X in bottom right
+234.png	0 0 0 0 2 0 0 2 2	O in center, O in bottom middle, O in bottom right
+235.png	0 1 0 1 0 0 0 0 0	X in top middle, X in middle left
+236.png	0 0 2 0 0 1 0 0 0	O in top right, X in middle right
+237.png	0 1 2 1 0 0 0 0 2	X in top middle, O in top right, X in middle left, O in bottom right
+238.png	0 1 1 0 0 0 1 0 2	X in top middle, X in top right, X in bottom left, O in bottom right
+239.png	0 1 0 0 1 0 1 2 0	X in top middle, X in center, X in bottom left, O in bottom middle
+240.png	1 0 0 0 0 0 2 0 0	X in top left, O in bottom left
+241.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+242.png	0 1 0 0 0 0 0 0 2	X in top middle, O in bottom right
+243.png	0 2 0 0 0 0 0 0 0	O in top middle
+244.png	0 0 0 0 2 0 1 0 0	O in center, X in bottom left
+245.png	2 2 0 1 0 1 0 0 0	O in top left, O in top middle, X in middle left, X in middle right
+246.png	0 0 0 0 2 0 1 2 2	O in center, X in bottom left, O in bottom middle, O in bottom right
+247.png	0 1 2 0 0 0 0 2 0	X in top middle, O in top right, O in bottom middle
+248.png	0 0 0 2 0 1 0 0 0	O in middle left, X in middle right
+249.png	0 2 0 2 0 0 0 0 2	O in top middle, O in middle left, O in bottom right
+250.png	1 0 0 0 0 0 0 0 0	X in top left
+251.png	0 0 2 0 0 0 0 1 0	O in top right, X in bottom middle
+252.png	1 0 2 0 0 0 0 2 0	X in top left, O in top right, O in bottom middle
+253.png	0 0 0 0 1 0 0 0 0	X in center
+254.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+255.png	0 0 0 0 0 2 1 0 0	O in middle right, X in bottom left
+256.png	2 0 0 0 0 1 0 0 0	O in top left, X in middle right
+257.png	1 0 0 0 2 0 0 0 2	X in top left, O in center, O in bottom right
+258.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+259.png	0 0 1 0 0 2 1 0 0	X in top right, O in middle right, X in bottom left
+260.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+261.png	1 0 0 0 0 0 1 1 0	X in top left, X in bottom left, X in bottom middle
+262.png	0 0 1 0 0 0 2 0 0	X in top right, O in bottom left
+263.png	1 0 0 0 0 0 0 0 1	X in top left, X in bottom right
+264.png	0 0 0 2 2 0 0 0 0	O in middle left, O in center
+265.png	0 0 1 0 1 1 0 0 0	X in top right, X in center, X in middle right
+266.png	0 2 0 0 1 0 2 2 0	O in top middle, X in center, O in bottom left, O in bottom middle
+267.png	0 1 0 0 2 0 0 2 0	X in top middle, O in center, O in bottom middle
+268.png	0 0 0 2 0 1 0 0 0	O in middle left, X in middle right
+269.png	1 0 0 0 2 2 0 0 0	X in top left, O in center, O in middle right
+270.png	0 2 0 2 0 0 0 0 1	O in top middle, O in middle left, X in bottom right
+271.png	1 0 0 0 0 2 0 0 1	X in top left, O in middle right, X in bottom right
+272.png	0 0 0 2 0 0 1 0 0	O in middle left, X in bottom left
+273.png	2 0 0 0 0 0 0 2 2	O in top left, O in bottom middle, O in bottom right
+274.png	0 2 0 2 0 0 1 0 1	O in top middle, O in middle left, X in bottom left, X in bottom right
+275.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+276.png	0 2 0 0 0 0 0 0 1	O in top middle, X in bottom right
+277.png	0 0 0 0 1 1 0 1 0	X in center, X in middle right, X in bottom middle
+278.png	0 0 0 2 1 0 0 2 0	O in middle left, X in center, O in bottom middle
+279.png	1 0 0 1 2 0 0 0 0	X in top left, X in middle left, O in center
+280.png	0 0 2 0 0 1 0 0 0	O in top right, X in middle right
+281.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+282.png	2 0 0 0 0 0 0 0 0	O in top left
+283.png	0 0 0 0 1 0 2 0 0	X in center, O in bottom left
+284.png	0 0 0 0 0 2 1 0 0	O in middle right, X in bottom left
+285.png	0 2 1 0 0 0 2 0 0	O in top middle, X in top right, O in bottom left
+286.png	0 2 0 0 0 2 0 0 0	O in top middle, O in middle right
+287.png	0 0 0 0 0 1 0 0 0	X in middle right
+288.png	0 0 1 1 0 0 0 1 0	X in top right, X in middle left, X in bottom middle
+289.png	2 0 2 2 0 0 0 0 1	O in top left, O in top right, O in middle left, X in bottom right
+290.png	1 0 1 0 0 0 0 0 2	X in top left, X in top right, O in bottom right
+291.png	0 0 0 0 0 1 0 0 0	X in middle right
+292.png	2 0 0 0 0 0 0 2 0	O in top left, O in bottom middle
+293.png	2 0 0 0 0 2 0 1 0	O in top left, O in middle right, X in bottom middle
+294.png	0 0 0 0 1 0 2 0 0	X in center, O in bottom left
+295.png	0 0 1 0 0 0 0 0 1	X in top right, X in bottom right
+296.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+297.png	1 0 2 0 0 1 0 0 0	X in top left, O in top right, X in middle right
+298.png	0 0 2 0 0 0 1 0 1	O in top right, X in bottom left, X in bottom right
+299.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+300.png	2 1 1 0 0 1 0 0 0	O in top left, X in top middle, X in top right, X in middle right
+301.png	0 0 2 0 2 0 1 1 0	O in top right, O in center, X in bottom left, X in bottom middle
+302.png	1 0 0 0 0 0 0 1 0	X in top left, X in bottom middle
+303.png	0 0 0 0 0 1 0 2 0	X in middle right, O in bottom middle
+304.png	0 0 0 0 0 1 2 1 1	X in middle right, O in bottom left, X in bottom middle, X in bottom right
+305.png	0 0 1 0 0 0 0 1 0	X in top right, X in bottom middle
+306.png	1 2 2 0 0 0 0 0 0	X in top left, O in top middle, O in top right
+307.png	0 0 0 2 0 0 0 0 1	O in middle left, X in bottom right
+308.png	0 1 0 1 0 0 0 0 0	X in top middle, X in middle left
+309.png	2 0 1 0 0 0 0 0 0	O in top left, X in top right
+310.png	0 0 1 0 0 0 1 2 0	X in top right, X in bottom left, O in bottom middle
+311.png	0 0 0 0 0 0 2 0 0	O in bottom left
+312.png	0 2 0 0 0 0 0 2 0	O in top middle, O in bottom middle
+313.png	1 0 0 0 0 2 0 1 0	X in top left, O in middle right, X in bottom middle
+314.png	2 0 0 0 2 2 0 0 0	O in top left, O in center, O in middle right
+315.png	0 0 2 0 2 0 0 0 0	O in top right, O in center
+316.png	0 2 0 0 0 0 1 2 2	O in top middle, X in bottom left, O in bottom middle, O in bottom right
+317.png	0 0 0 0 0 0 2 1 0	O in bottom left, X in bottom middle
+318.png	0 0 0 0 0 1 0 0 0	X in middle right
+319.png	0 0 0 0 0 1 0 0 1	X in middle right, X in bottom right
+320.png	1 0 2 0 0 1 0 0 1	X in top left, O in top right, X in middle right, X in bottom right
+321.png	2 1 0 0 0 0 1 0 0	O in top left, X in top middle, X in bottom left
+322.png	0 0 1 0 2 0 0 0 0	X in top right, O in center
+323.png	0 1 0 2 0 1 0 0 1	X in top middle, O in middle left, X in middle right, X in bottom right
+324.png	1 0 2 0 0 0 0 0 0	X in top left, O in top right
+325.png	0 0 0 2 0 2 1 0 0	O in middle left, O in middle right, X in bottom left
+326.png	0 1 0 0 0 2 0 0 0	X in top middle, O in middle right
+327.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+328.png	0 0 2 0 1 0 0 0 1	O in top right, X in center, X in bottom right
+329.png	0 0 1 1 0 0 0 0 0	X in top right, X in middle left
+330.png	0 0 0 1 0 0 2 2 0	X in middle left, O in bottom left, O in bottom middle
+331.png	2 0 0 0 1 0 0 0 0	O in top left, X in center
+332.png	0 1 0 0 2 1 0 0 0	X in top middle, O in center, X in middle right
+333.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+334.png	0 0 0 0 1 2 1 0 2	X in center, O in middle right, X in bottom left, O in bottom right
+335.png	2 1 0 1 0 1 0 0 0	O in top left, X in top middle, X in middle left, X in middle right
+336.png	1 0 0 0 0 0 2 1 2	X in top left, O in bottom left, X in bottom middle, O in bottom right
+337.png	0 0 0 0 0 2 0 1 0	O in middle right, X in bottom middle
+338.png	0 0 1 0 0 0 0 0 2	X in top right, O in bottom right
+339.png	0 0 1 0 0 2 0 2 0	X in top right, O in middle right, O in bottom middle
+340.png	0 2 1 0 2 0 0 2 0	O in top middle, X in top right, O in center, O in bottom middle
+341.png	0 0 0 2 0 0 1 0 0	O in middle left, X in bottom left
+342.png	0 0 0 0 0 0 0 0 2	O in bottom right
+343.png	0 0 2 0 0 1 0 1 0	O in top right, X in middle right, X in bottom middle
+344.png	0 1 0 0 0 0 1 2 0	X in top middle, X in bottom left, O in bottom middle
+345.png	1 0 2 0 0 0 0 0 0	X in top left, O in top right
+346.png	0 2 0 0 0 0 0 1 2	O in top middle, X in bottom middle, O in bottom right
+347.png	0 0 2 0 2 0 1 0 1	O in top right, O in center, X in bottom left, X in bottom right
+348.png	0 2 0 0 1 1 0 0 0	O in top middle, X in center, X in middle right
+349.png	0 1 0 2 0 0 2 0 0	X in top middle, O in middle left, O in bottom left
+350.png	0 2 1 0 1 1 0 0 0	O in top middle, X in top right, X in center, X in middle right
+351.png	1 0 0 0 0 1 0 0 0	X in top left, X in middle right
+352.png	0 0 0 1 0 0 0 1 0	X in middle left, X in bottom middle
+353.png	1 1 0 0 0 2 0 0 0	X in top left, X in top middle, O in middle right
+354.png	1 2 0 0 0 1 0 2 0	X in top left, O in top middle, X in middle right, O in bottom middle
+355.png	0 1 0 1 0 0 0 0 0	X in top middle, X in middle left
+356.png	0 0 0 1 2 0 2 0 0	X in middle left, O in center, O in bottom left
+357.png	0 0 1 0 0 0 1 0 0	X in top right, X in bottom left
+358.png	2 2 1 0 0 0 0 2 0	O in top left, O in top middle, X in top right, O in bottom middle
+359.png	0 0 0 0 2 0 1 0 0	O in center, X in bottom left
+360.png	0 0 0 0 0 1 0 0 2	X in middle right, O in bottom right
+361.png	0 0 0 0 2 2 2 1 0	O in center, O in middle right, O in bottom left, X in bottom middle
+362.png	1 0 0 0 0 0 0 0 0	X in top left
+363.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+364.png	0 0 1 0 1 0 0 0 1	X in top right, X in center, X in bottom right
+365.png	0 0 0 0 2 0 0 2 0	O in center, O in bottom middle
+366.png	0 1 0 0 1 1 0 2 0	X in top middle, X in center, X in middle right, O in bottom middle
+367.png	0 0 1 0 0 1 2 0 2	X in top right, X in middle right, O in bottom left, O in bottom right
+368.png	2 2 0 0 0 1 0 0 0	O in top left, O in top middle, X in middle right
+369.png	0 1 0 0 2 0 0 0 2	X in top middle, O in center, O in bottom right
+370.png	0 0 2 0 0 0 2 0 0	O in top right, O in bottom left
+371.png	0 0 2 0 0 0 0 0 1	O in top right, X in bottom right
+372.png	0 2 2 0 0 0 1 0 2	O in top middle, O in top right, X in bottom left, O in bottom right
+373.png	0 0 0 1 0 0 0 0 2	X in middle left, O in bottom right
+374.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+375.png	0 1 0 0 0 0 0 0 2	X in top middle, O in bottom right
+376.png	0 0 0 0 0 2 0 2 0	O in middle right, O in bottom middle
+377.png	0 0 0 2 0 2 0 0 1	O in middle left, O in middle right, X in bottom right
+378.png	0 0 0 0 0 0 1 0 0	X in bottom left
+379.png	1 0 0 2 0 0 0 0 0	X in top left, O in middle left
+380.png	0 2 0 1 0 1 0 0 0	O in top middle, X in middle left, X in middle right
+381.png	0 0 1 0 0 0 0 1 0	X in top right, X in bottom middle
+382.png	0 1 0 0 0 0 0 0 0	X in top middle
+383.png	0 1 0 0 0 0 1 0 0	X in top middle, X in bottom left
+384.png	0 0 1 1 0 0 0 2 0	X in top right, X in middle left, O in bottom middle
+385.png	2 0 0 0 0 0 0 1 1	O in top left, X in bottom middle, X in bottom right
+386.png	0 2 0 0 2 0 0 0 0	O in top middle, O in center
+387.png	0 0 0 0 1 0 0 0 1	X in center, X in bottom right
+388.png	0 1 0 0 2 0 2 1 0	X in top middle, O in center, O in bottom left, X in bottom middle
+389.png	1 0 0 0 0 0 0 2 1	X in top left, O in bottom middle, X in bottom right
+390.png	0 1 2 0 0 0 1 2 0	X in top middle, O in top right, X in bottom left, O in bottom middle
+391.png	2 2 0 0 0 0 2 2 0	O in top left, O in top middle, O in bottom left, O in bottom middle
+392.png	0 0 2 0 0 0 0 0 1	O in top right, X in bottom right
+393.png	2 0 0 0 0 0 0 1 0	O in top left, X in bottom middle
+394.png	0 0 0 2 0 0 0 2 1	O in middle left, O in bottom middle, X in bottom right
+395.png	0 0 2 0 0 2 1 0 2	O in top right, O in middle right, X in bottom left, O in bottom right
+396.png	0 0 2 1 0 0 1 0 0	O in top right, X in middle left, X in bottom left
+397.png	0 0 0 0 0 2 0 0 2	O in middle right, O in bottom right
+398.png	0 1 0 0 2 0 0 0 1	X in top middle, O in center, X in bottom right
+399.png	0 0 1 0 1 0 2 0 0	X in top right, X in center, O in bottom left
+400.png	1 0 2 0 2 0 0 0 0	X in top left, O in top right, O in center
+401.png	0 1 0 0 0 0 0 2 0	X in top middle, O in bottom middle
+402.png	0 0 1 0 0 0 1 1 0	X in top right, X in bottom left, X in bottom middle
+403.png	0 0 2 2 0 2 0 0 0	O in top right, O in middle left, O in middle right
+404.png	0 0 1 1 0 0 0 0 0	X in top right, X in middle left
+405.png	0 0 0 0 0 0 2 1 0	O in bottom left, X in bottom middle
+406.png	2 0 0 0 0 0 2 1 0	O in top left, O in bottom left, X in bottom middle
+407.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+408.png	2 0 0 0 0 0 2 1 0	O in top left, O in bottom left, X in bottom middle
+409.png	0 0 0 2 0 2 2 0 0	O in middle left, O in middle right, O in bottom left
+410.png	0 0 1 0 2 0 0 0 2	X in top right, O in center, O in bottom right
+411.png	0 0 2 0 0 2 0 1 0	O in top right, O in middle right, X in bottom middle
+412.png	1 1 0 2 0 2 0 0 0	X in top left, X in top middle, O in middle left, O in middle right
+413.png	0 0 1 1 0 0 0 0 1	X in top right, X in middle left, X in bottom right
+414.png	2 0 0 2 0 0 1 1 0	O in top left, O in middle left, X in bottom left, X in bottom middle
+415.png	1 0 0 0 2 0 2 0 0	X in top left, O in center, O in bottom left
+416.png	0 1 0 2 0 0 0 0 0	X in top middle, O in middle left
+417.png	0 2 0 0 0 0 0 0 0	O in top middle
+418.png	0 0 1 1 0 0 0 0 0	X in top right, X in middle left
+419.png	1 0 2 1 0 0 0 0 0	X in top left, O in top right, X in middle left
+420.png	0 0 0 1 2 0 0 0 0	X in middle left, O in center
+421.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+422.png	1 0 0 1 0 1 0 0 0	X in top left, X in middle left, X in middle right
+423.png	0 1 0 0 0 1 0 0 0	X in top middle, X in middle right
+424.png	2 0 0 1 0 1 0 0 0	O in top left, X in middle left, X in middle right
+425.png	0 0 2 1 1 0 0 0 0	O in top right, X in middle left, X in center
+426.png	0 0 0 1 0 0 0 2 0	X in middle left, O in bottom middle
+427.png	0 0 0 0 2 0 0 1 0	O in center, X in bottom middle
+428.png	2 0 1 0 2 0 0 1 0	O in top left, X in top right, O in center, X in bottom middle
+429.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+430.png	0 2 0 2 2 0 0 0 1	O in top middle, O in middle left, O in center, X in bottom right
+431.png	0 0 0 2 0 0 1 0 0	O in middle left, X in bottom left
+432.png	1 2 2 2 0 0 0 0 0	X in top left, O in top middle, O in top right, O in middle left
+433.png	0 0 2 1 0 2 0 0 0	O in top right, X in middle left, O in middle right
+434.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+435.png	1 0 0 0 0 0 1 1 0	X in top left, X in bottom left, X in bottom middle
+436.png	1 0 2 0 0 0 0 0 0	X in top left, O in top right
+437.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+438.png	2 0 0 0 0 1 0 0 1	O in top left, X in middle right, X in bottom right
+439.png	0 0 0 0 0 1 0 0 1	X in middle right, X in bottom right
+440.png	2 0 0 0 0 0 0 0 0	O in top left
+441.png	1 0 0 1 0 0 1 2 0	X in top left, X in middle left, X in bottom left, O in bottom middle
+442.png	0 0 2 0 0 0 0 2 0	O in top right, O in bottom middle
+443.png	2 0 0 0 0 0 1 0 2	O in top left, X in bottom left, O in bottom right
+444.png	1 0 0 2 2 0 0 0 0	X in top left, O in middle left, O in center
+445.png	0 0 0 0 2 1 0 0 2	O in center, X in middle right, O in bottom right
+446.png	0 0 0 0 2 0 1 0 0	O in center, X in bottom left
+447.png	0 0 0 1 0 0 0 2 0	X in middle left, O in bottom middle
+448.png	2 0 0 0 2 0 1 0 2	O in top left, O in center, X in bottom left, O in bottom right
+449.png	0 1 0 0 0 0 1 0 0	X in top middle, X in bottom left
+450.png	0 0 0 0 0 2 2 0 1	O in middle right, O in bottom left, X in bottom right
+451.png	0 0 1 0 0 2 0 0 0	X in top right, O in middle right
+452.png	0 0 0 2 0 0 0 0 2	O in middle left, O in bottom right
+453.png	0 1 0 0 0 1 0 0 0	X in top middle, X in middle right
+454.png	0 0 2 0 0 0 0 0 1	O in top right, X in bottom right
+455.png	0 0 0 0 0 0 2 1 0	O in bottom left, X in bottom middle
+456.png	0 0 1 1 2 0 0 0 0	X in top right, X in middle left, O in center
+457.png	0 2 0 0 2 0 0 0 0	O in top middle, O in center
+458.png	0 0 0 2 0 0 0 2 0	O in middle left, O in bottom middle
+459.png	0 1 2 2 0 0 0 2 0	X in top middle, O in top right, O in middle left, O in bottom middle
+460.png	0 0 1 0 0 0 0 0 0	X in top right
+461.png	0 0 0 1 0 0 2 0 0	X in middle left, O in bottom left
+462.png	0 0 0 2 0 0 0 2 2	O in middle left, O in bottom middle, O in bottom right
+463.png	0 0 0 1 0 0 0 2 0	X in middle left, O in bottom middle
+464.png	0 0 0 0 0 0 0 2 1	O in bottom middle, X in bottom right
+465.png	1 1 0 0 0 0 0 1 0	X in top left, X in top middle, X in bottom middle
+466.png	1 0 0 0 0 0 0 0 2	X in top left, O in bottom right
+467.png	1 0 0 0 0 2 0 0 2	X in top left, O in middle right, O in bottom right
+468.png	0 1 0 0 0 0 2 0 0	X in top middle, O in bottom left
+469.png	0 0 0 2 0 0 1 0 0	O in middle left, X in bottom left
+470.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+471.png	0 0 0 2 0 2 0 1 1	O in middle left, O in middle right, X in bottom middle, X in bottom right
+472.png	0 0 0 1 0 0 0 2 0	X in middle left, O in bottom middle
+473.png	0 2 1 2 0 0 0 0 0	O in top middle, X in top right, O in middle left
+474.png	2 0 0 2 0 0 0 2 0	O in top left, O in middle left, O in bottom middle
+475.png	2 0 1 0 0 1 0 0 1	O in top left, X in top right, X in middle right, X in bottom right
+476.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+477.png	0 2 0 0 0 0 0 0 1	O in top middle, X in bottom right
+478.png	1 0 0 0 2 1 0 0 2	X in top left, O in center, X in middle right, O in bottom right
+479.png	1 0 0 2 0 0 2 0 1	X in top left, O in middle left, O in bottom left, X in bottom right
+480.png	0 1 0 0 0 0 2 0 0	X in top middle, O in bottom left
+481.png	2 2 0 0 0 0 2 0 1	O in top left, O in top middle, O in bottom left, X in bottom right
+482.png	0 0 0 0 0 0 1 0 2	X in bottom left, O in bottom right
+483.png	1 0 0 0 1 0 0 0 2	X in top left, X in center, O in bottom right
+484.png	0 1 0 2 0 0 2 0 0	X in top middle, O in middle left, O in bottom left
+485.png	0 0 2 0 0 0 0 0 0	O in top right
+486.png	0 1 0 1 0 2 0 0 0	X in top middle, X in middle left, O in middle right
+487.png	1 1 0 0 1 0 0 0 2	X in top left, X in top middle, X in center, O in bottom right
+488.png	0 0 0 1 0 2 2 0 0	X in middle left, O in middle right, O in bottom left
+489.png	0 0 0 0 1 0 2 1 0	X in center, O in bottom left, X in bottom middle
+490.png	0 1 0 0 0 2 0 2 1	X in top middle, O in middle right, O in bottom middle, X in bottom right
+491.png	1 0 0 0 2 0 0 0 2	X in top left, O in center, O in bottom right
+492.png	0 1 1 0 2 2 0 0 0	X in top middle, X in top right, O in center, O in middle right
+493.png	1 0 1 1 0 0 0 1 0	X in top left, X in top right, X in middle left, X in bottom middle
+494.png	0 0 0 0 2 0 1 0 0	O in center, X in bottom left
+495.png	0 2 0 0 0 1 0 0 2	O in top middle, X in middle right, O in bottom right
+496.png	0 1 0 0 0 1 0 0 0	X in top middle, X in middle right
+497.png	0 1 1 0 0 1 1 0 0	X in top middle, X in top right, X in middle right, X in bottom left
+498.png	0 0 0 0 0 0 1 2 2	X in bottom left, O in bottom middle, O in bottom right
+499.png	0 2 1 0 0 0 1 0 0	O in top middle, X in top right, X in bottom left
+500.png	0 0 2 1 0 1 0 0 0	O in top right, X in middle left, X in middle right
+501.png	0 0 1 0 0 0 2 1 0	X in top right, O in bottom left, X in bottom middle
+502.png	1 0 0 1 0 0 0 0 0	X in top left, X in middle left
+503.png	0 1 0 0 0 2 1 0 0	X in top middle, O in middle right, X in bottom left
+504.png	0 0 2 0 0 0 0 2 0	O in top right, O in bottom middle
+505.png	0 0 0 0 0 0 1 0 1	X in bottom left, X in bottom right
+506.png	2 0 1 0 0 2 1 0 0	O in top left, X in top right, O in middle right, X in bottom left
+507.png	1 0 0 0 1 0 2 0 1	X in top left, X in center, O in bottom left, X in bottom right
+508.png	0 1 0 0 0 1 0 2 0	X in top middle, X in middle right, O in bottom middle
+509.png	0 0 0 0 0 2 0 1 0	O in middle right, X in bottom middle
+510.png	2 0 1 0 0 0 1 0 2	O in top left, X in top right, X in bottom left, O in bottom right
+511.png	0 0 0 0 0 0 0 0 2	O in bottom right
+512.png	0 0 0 0 0 2 2 0 1	O in middle right, O in bottom left, X in bottom right
+513.png	0 0 2 0 0 0 1 1 0	O in top right, X in bottom left, X in bottom middle
+514.png	0 0 0 0 2 0 0 0 2	O in center, O in bottom right
+515.png	0 0 2 0 0 2 0 2 0	O in top right, O in middle right, O in bottom middle
+516.png	0 0 0 2 0 2 0 0 2	O in middle left, O in middle right, O in bottom right
+517.png	0 1 0 0 0 0 2 0 0	X in top middle, O in bottom left
+518.png	1 0 0 0 0 0 0 0 0	X in top left
+519.png	0 1 2 0 0 0 0 0 1	X in top middle, O in top right, X in bottom right
+520.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+521.png	0 0 0 2 1 0 0 0 2	O in middle left, X in center, O in bottom right
+522.png	0 0 0 2 0 0 2 0 2	O in middle left, O in bottom left, O in bottom right
+523.png	0 0 1 1 0 0 0 2 0	X in top right, X in middle left, O in bottom middle
+524.png	2 0 0 2 0 1 0 1 0	O in top left, O in middle left, X in middle right, X in bottom middle
+525.png	2 0 2 2 0 0 0 0 2	O in top left, O in top right, O in middle left, O in bottom right
+526.png	0 2 0 0 0 0 1 1 0	O in top middle, X in bottom left, X in bottom middle
+527.png	0 1 0 0 0 2 2 0 0	X in top middle, O in middle right, O in bottom left
+528.png	1 1 0 0 0 0 0 1 0	X in top left, X in top middle, X in bottom middle
+529.png	0 0 0 0 1 2 2 2 0	X in center, O in middle right, O in bottom left, O in bottom middle
+530.png	0 1 0 1 0 0 2 0 0	X in top middle, X in middle left, O in bottom left
+531.png	0 1 0 0 0 1 1 0 0	X in top middle, X in middle right, X in bottom left
+532.png	1 0 0 0 0 0 2 0 0	X in top left, O in bottom left
+533.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+534.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+535.png	2 0 1 0 0 0 0 0 0	O in top left, X in top right
+536.png	0 0 0 2 1 2 0 0 1	O in middle left, X in center, O in middle right, X in bottom right
+537.png	0 2 0 0 0 0 0 0 0	O in top middle
+538.png	0 0 0 0 0 0 0 2 2	O in bottom middle, O in bottom right
+539.png	0 0 0 0 1 1 0 2 0	X in center, X in middle right, O in bottom middle
+540.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+541.png	2 2 0 0 1 0 0 0 0	O in top left, O in top middle, X in center
+542.png	2 2 0 2 0 2 0 0 0	O in top left, O in top middle, O in middle left, O in middle right
+543.png	0 0 1 0 0 0 0 0 0	X in top right
+544.png	1 0 0 0 1 2 2 0 0	X in top left, X in center, O in middle right, O in bottom left
+545.png	1 2 0 0 0 0 0 0 2	X in top left, O in top middle, O in bottom right
+546.png	0 0 0 0 0 1 0 0 2	X in middle right, O in bottom right
+547.png	2 0 1 0 0 1 0 0 0	O in top left, X in top right, X in middle right
+548.png	0 1 0 1 0 1 1 0 0	X in top middle, X in middle left, X in middle right, X in bottom left
+549.png	1 1 1 0 0 0 0 1 0	X in top left, X in top middle, X in top right, X in bottom middle
+550.png	0 0 2 1 2 0 0 0 0	O in top right, X in middle left, O in center
+551.png	0 0 0 0 2 0 1 0 0	O in center, X in bottom left
+552.png	2 0 1 2 0 0 0 0 0	O in top left, X in top right, O in middle left
+553.png	0 0 2 0 0 0 0 1 2	O in top right, X in bottom middle, O in bottom right
+554.png	0 0 0 0 0 0 1 0 0	X in bottom left
+555.png	0 0 0 0 1 0 0 1 0	X in center, X in bottom middle
+556.png	0 1 0 0 1 0 0 0 0	X in top middle, X in center
+557.png	0 2 0 0 0 1 0 0 0	O in top middle, X in middle right
+558.png	0 0 0 0 0 1 0 1 0	X in middle right, X in bottom middle
+559.png	1 2 1 0 0 1 0 0 0	X in top left, O in top middle, X in top right, X in middle right
+560.png	2 0 0 1 0 2 0 0 0	O in top left, X in middle left, O in middle right
+561.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+562.png	1 0 0 0 0 2 0 2 0	X in top left, O in middle right, O in bottom middle
+563.png	1 0 0 2 0 0 0 2 0	X in top left, O in middle left, O in bottom middle
+564.png	1 0 0 0 0 2 2 0 0	X in top left, O in middle right, O in bottom left
+565.png	1 2 0 0 0 0 2 0 0	X in top left, O in top middle, O in bottom left
+566.png	1 0 0 0 2 0 0 2 0	X in top left, O in center, O in bottom middle
+567.png	1 0 0 2 0 0 0 2 0	X in top left, O in middle left, O in bottom middle
+568.png	1 0 0 0 0 0 0 2 1	X in top left, O in bottom middle, X in bottom right
+569.png	2 2 0 0 0 0 0 0 0	O in top left, O in top middle
+570.png	0 0 0 2 0 0 0 1 1	O in middle left, X in bottom middle, X in bottom right
+571.png	2 0 0 0 0 0 0 0 0	O in top left
+572.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+573.png	1 0 0 0 0 0 0 0 1	X in top left, X in bottom right
+574.png	0 0 0 1 0 0 1 0 2	X in middle left, X in bottom left, O in bottom right
+575.png	0 2 2 0 0 0 0 0 2	O in top middle, O in top right, O in bottom right
+576.png	0 0 0 0 1 0 1 0 2	X in center, X in bottom left, O in bottom right
+577.png	0 0 0 0 0 2 2 1 0	O in middle right, O in bottom left, X in bottom middle
+578.png	1 0 0 2 0 0 2 1 0	X in top left, O in middle left, O in bottom left, X in bottom middle
+579.png	1 0 0 0 1 1 0 1 0	X in top left, X in center, X in middle right, X in bottom middle
+580.png	0 1 0 2 0 0 0 1 0	X in top middle, O in middle left, X in bottom middle
+581.png	0 0 2 0 1 0 0 1 0	O in top right, X in center, X in bottom middle
+582.png	0 0 0 0 1 2 1 0 0	X in center, O in middle right, X in bottom left
+583.png	2 1 0 0 2 0 0 0 0	O in top left, X in top middle, O in center
+584.png	0 0 0 2 0 1 0 0 0	O in middle left, X in middle right
+585.png	0 2 2 2 0 2 0 0 0	O in top middle, O in top right, O in middle left, O in middle right
+586.png	0 2 0 0 0 0 1 1 1	O in top middle, X in bottom left, X in bottom middle, X in bottom right
+587.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+588.png	0 0 0 2 2 2 0 2 0	O in middle left, O in center, O in middle right, O in bottom middle
+589.png	0 0 2 0 1 0 2 1 0	O in top right, X in center, O in bottom left, X in bottom middle
+590.png	0 0 0 2 1 0 0 0 0	O in middle left, X in center
+591.png	0 2 2 0 0 0 1 0 0	O in top middle, O in top right, X in bottom left
+592.png	0 0 0 0 0 0 2 2 0	O in bottom left, O in bottom middle
+593.png	0 0 0 0 2 0 0 0 2	O in center, O in bottom right
+594.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+595.png	0 0 0 2 2 0 0 0 1	O in middle left, O in center, X in bottom right
+596.png	0 1 0 0 0 1 0 2 0	X in top middle, X in middle right, O in bottom middle
+597.png	1 0 0 0 0 1 0 0 0	X in top left, X in middle right
+598.png	0 0 0 0 1 1 0 0 0	X in center, X in middle right
+599.png	0 0 0 1 0 0 0 0 0	X in middle left
+600.png	0 0 0 0 2 0 0 2 0	O in center, O in bottom middle
+601.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+602.png	0 1 2 0 1 0 0 0 0	X in top middle, O in top right, X in center
+603.png	0 0 0 0 0 2 0 0 0	O in middle right
+604.png	0 2 0 0 2 0 0 0 2	O in top middle, O in center, O in bottom right
+605.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+606.png	0 1 0 0 0 0 1 0 0	X in top middle, X in bottom left
+607.png	0 0 1 0 1 0 0 0 1	X in top right, X in center, X in bottom right
+608.png	0 2 0 0 1 0 1 1 0	O in top middle, X in center, X in bottom left, X in bottom middle
+609.png	0 0 1 2 0 0 1 0 1	X in top right, O in middle left, X in bottom left, X in bottom right
+610.png	0 2 0 0 0 0 2 0 0	O in top middle, O in bottom left
+611.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+612.png	0 0 0 0 2 2 0 2 0	O in center, O in middle right, O in bottom middle
+613.png	0 0 0 0 0 0 1 0 1	X in bottom left, X in bottom right
+614.png	1 0 2 0 0 0 1 0 0	X in top left, O in top right, X in bottom left
+615.png	0 0 0 0 0 0 0 1 1	X in bottom middle, X in bottom right
+616.png	0 0 0 0 2 0 1 0 2	O in center, X in bottom left, O in bottom right
+617.png	0 0 0 1 0 2 2 0 0	X in middle left, O in middle right, O in bottom left
+618.png	0 2 0 0 2 0 0 0 0	O in top middle, O in center
+619.png	0 1 2 0 0 0 0 1 0	X in top middle, O in top right, X in bottom middle
+620.png	0 2 0 0 0 2 0 1 1	O in top middle, O in middle right, X in bottom middle, X in bottom right
+621.png	0 0 0 2 0 0 0 2 0	O in middle left, O in bottom middle
+622.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+623.png	0 1 0 0 2 2 0 0 2	X in top middle, O in center, O in middle right, O in bottom right
+624.png	0 2 2 0 0 0 0 0 0	O in top middle, O in top right
+625.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+626.png	0 0 0 0 0 0 2 0 1	O in bottom left, X in bottom right
+627.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+628.png	2 0 0 0 0 0 1 0 0	O in top left, X in bottom left
+629.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+630.png	0 0 0 0 0 1 0 0 1	X in middle right, X in bottom right
+631.png	0 0 0 0 0 1 0 0 2	X in middle right, O in bottom right
+632.png	0 0 0 1 0 2 0 0 0	X in middle left, O in middle right
+633.png	0 0 0 0 2 1 0 0 2	O in center, X in middle right, O in bottom right
+634.png	0 0 0 0 0 1 0 0 2	X in middle right, O in bottom right
+635.png	0 0 0 2 0 0 2 1 0	O in middle left, O in bottom left, X in bottom middle
+636.png	0 0 0 1 0 0 0 0 2	X in middle left, O in bottom right
+637.png	0 1 2 1 0 0 0 0 0	X in top middle, O in top right, X in middle left
+638.png	0 0 0 0 1 0 2 0 1	X in center, O in bottom left, X in bottom right
+639.png	0 0 0 0 0 1 0 0 0	X in middle right
+640.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+641.png	1 0 1 0 0 0 0 0 0	X in top left, X in top right
+642.png	0 0 0 1 1 0 0 0 0	X in middle left, X in center
+643.png	1 0 0 0 1 0 0 0 1	X in top left, X in center, X in bottom right
+644.png	0 1 0 0 0 0 2 0 0	X in top middle, O in bottom left
+645.png	2 0 2 0 0 0 1 0 0	O in top left, O in top right, X in bottom left
+646.png	0 0 1 0 0 0 0 1 0	X in top right, X in bottom middle
+647.png	2 2 0 0 0 0 0 0 0	O in top left, O in top middle
+648.png	2 0 0 0 1 0 0 0 0	O in top left, X in center
+649.png	1 0 0 2 0 2 0 0 0	X in top left, O in middle left, O in middle right
+650.png	0 0 0 0 0 0 2 0 0	O in bottom left
+651.png	0 0 1 1 0 1 0 1 0	X in top right, X in middle left, X in middle right, X in bottom middle
+652.png	2 0 0 2 0 0 2 1 0	O in top left, O in middle left, O in bottom left, X in bottom middle
+653.png	0 1 1 0 0 0 0 0 0	X in top middle, X in top right
+654.png	1 2 0 0 2 0 0 0 2	X in top left, O in top middle, O in center, O in bottom right
+655.png	2 0 2 0 0 0 2 1 0	O in top left, O in top right, O in bottom left, X in bottom middle
+656.png	0 0 1 0 0 0 0 0 0	X in top right
+657.png	0 2 2 0 1 0 1 0 0	O in top middle, O in top right, X in center, X in bottom left
+658.png	2 0 0 0 2 0 1 0 0	O in top left, O in center, X in bottom left
+659.png	0 0 0 0 0 0 2 0 1	O in bottom left, X in bottom right
+660.png	0 0 0 2 0 2 0 0 0	O in middle left, O in middle right
+661.png	0 0 2 0 0 1 0 0 0	O in top right, X in middle right
+662.png	2 0 2 0 0 0 2 0 2	O in top left, O in top right, O in bottom left, O in bottom right
+663.png	0 0 2 0 0 0 0 0 2	O in top right, O in bottom right
+664.png	0 0 0 0 0 0 0 1 0	X in bottom middle
+665.png	0 0 1 0 2 0 0 2 0	X in top right, O in center, O in bottom middle
+666.png	0 0 0 0 0 0 2 0 2	O in bottom left, O in bottom right
+667.png	0 0 0 0 2 0 1 0 2	O in center, X in bottom left, O in bottom right
+668.png	1 0 0 0 1 1 0 0 0	X in top left, X in center, X in middle right
+669.png	2 0 0 0 1 0 0 0 0	O in top left, X in center
+670.png	1 0 2 0 0 1 0 0 0	X in top left, O in top right, X in middle right
+671.png	2 0 0 1 0 0 0 0 0	O in top left, X in middle left
+672.png	0 0 2 0 1 2 0 0 0	O in top right, X in center, O in middle right
+673.png	0 0 0 0 1 0 0 1 2	X in center, X in bottom middle, O in bottom right
+674.png	0 0 0 0 0 1 0 2 0	X in middle right, O in bottom middle
+675.png	2 0 1 0 0 0 2 0 0	O in top left, X in top right, O in bottom left
+676.png	0 0 0 2 1 2 0 0 0	O in middle left, X in center, O in middle right
+677.png	1 0 0 0 1 0 0 1 0	X in top left, X in center, X in bottom middle
+678.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+679.png	0 2 0 2 1 0 0 0 0	O in top middle, O in middle left, X in center
+680.png	0 1 0 0 0 0 0 2 0	X in top middle, O in bottom middle
+681.png	0 0 0 0 0 0 0 1 0	X in bottom middle
+682.png	0 2 1 2 0 0 0 0 0	O in top middle, X in top right, O in middle left
+683.png	0 0 0 2 0 0 1 0 0	O in middle left, X in bottom left
+684.png	2 0 2 0 0 2 0 0 0	O in top left, O in top right, O in middle right
+685.png	1 0 2 0 0 0 0 0 0	X in top left, O in top right
+686.png	2 0 0 0 0 0 0 2 0	O in top left, O in bottom middle
+687.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+688.png	0 2 1 0 1 0 0 0 0	O in top middle, X in top right, X in center
+689.png	0 0 2 0 0 0 0 0 0	O in top right
+690.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+691.png	0 1 0 1 0 0 0 0 1	X in top middle, X in middle left, X in bottom right
+692.png	0 1 0 2 0 0 1 0 0	X in top middle, O in middle left, X in bottom left
+693.png	0 1 0 0 1 2 0 0 0	X in top middle, X in center, O in middle right
+694.png	0 0 1 0 0 0 0 1 1	X in top right, X in bottom middle, X in bottom right
+695.png	0 1 0 1 0 2 0 0 0	X in top middle, X in middle left, O in middle right
+696.png	2 0 0 1 0 0 0 0 0	O in top left, X in middle left
+697.png	0 0 2 0 0 0 0 2 1	O in top right, O in bottom middle, X in bottom right
+698.png	0 0 0 1 0 1 0 0 1	X in middle left, X in middle right, X in bottom right
+699.png	0 0 0 2 0 0 2 2 1	O in middle left, O in bottom left, O in bottom middle, X in bottom right
+700.png	1 2 0 2 0 0 1 0 0	X in top left, O in top middle, O in middle left, X in bottom left
+701.png	0 0 0 2 0 0 1 0 0	O in middle left, X in bottom left
+702.png	0 1 0 0 0 0 0 2 0	X in top middle, O in bottom middle
+703.png	0 0 0 0 2 2 1 2 0	O in center, O in middle right, X in bottom left, O in bottom middle
+704.png	0 0 0 2 1 0 0 1 0	O in middle left, X in center, X in bottom middle
+705.png	0 0 0 2 0 0 0 0 2	O in middle left, O in bottom right
+706.png	2 0 0 0 0 1 0 0 0	O in top left, X in middle right
+707.png	1 0 2 0 0 1 2 0 0	X in top left, O in top right, X in middle right, O in bottom left
+708.png	0 1 0 2 1 0 0 0 0	X in top middle, O in middle left, X in center
+709.png	2 0 2 0 1 0 0 0 0	O in top left, O in top right, X in center
+710.png	1 2 2 0 0 0 0 0 0	X in top left, O in top middle, O in top right
+711.png	0 0 2 0 0 0 0 0 0	O in top right
+712.png	0 0 2 0 0 0 1 0 0	O in top right, X in bottom left
+713.png	0 0 1 0 0 0 0 0 0	X in top right
+714.png	0 0 2 0 1 0 1 0 0	O in top right, X in center, X in bottom left
+715.png	1 0 0 0 0 1 0 0 0	X in top left, X in middle right
+716.png	0 0 0 2 1 0 2 0 0	O in middle left, X in center, O in bottom left
+717.png	1 0 0 0 1 0 0 0 2	X in top left, X in center, O in bottom right
+718.png	1 0 0 0 1 0 0 0 0	X in top left, X in center
+719.png	0 2 0 2 0 1 0 0 0	O in top middle, O in middle left, X in middle right
+720.png	1 0 0 0 2 0 0 0 0	X in top left, O in center
+721.png	0 0 0 0 1 0 2 0 0	X in center, O in bottom left
+722.png	0 0 0 0 0 0 2 0 1	O in bottom left, X in bottom right
+723.png	0 0 0 0 0 0 0 2 0	O in bottom middle
+724.png	2 0 1 0 0 0 0 0 0	O in top left, X in top right
+725.png	2 0 0 0 2 0 0 0 1	O in top left, O in center, X in bottom right
+726.png	0 0 1 0 0 0 0 0 1	X in top right, X in bottom right
+727.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+728.png	0 0 0 0 0 0 1 0 1	X in bottom left, X in bottom right
+729.png	0 0 2 0 2 0 0 0 0	O in top right, O in center
+730.png	2 0 1 0 0 0 0 0 1	O in top left, X in top right, X in bottom right
+731.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+732.png	0 2 1 1 0 0 0 0 0	O in top middle, X in top right, X in middle left
+733.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+734.png	0 0 2 0 0 0 0 0 0	O in top right
+735.png	0 0 1 2 0 2 1 0 0	X in top right, O in middle left, O in middle right, X in bottom left
+736.png	0 0 2 0 0 1 0 1 0	O in top right, X in middle right, X in bottom middle
+737.png	0 0 2 0 1 1 0 0 0	O in top right, X in center, X in middle right
+738.png	0 0 1 0 2 0 0 0 2	X in top right, O in center, O in bottom right
+739.png	0 0 0 2 1 0 0 0 0	O in middle left, X in center
+740.png	1 0 0 0 0 1 0 0 0	X in top left, X in middle right
+741.png	0 0 0 0 1 2 0 0 0	X in center, O in middle right
+742.png	0 0 0 0 0 0 0 1 0	X in bottom middle
+743.png	0 0 1 0 0 0 2 0 1	X in top right, O in bottom left, X in bottom right
+744.png	0 0 0 0 0 0 1 1 2	X in bottom left, X in bottom middle, O in bottom right
+745.png	1 0 0 0 0 0 0 1 0	X in top left, X in bottom middle
+746.png	0 0 0 0 1 0 2 2 0	X in center, O in bottom left, O in bottom middle
+747.png	0 0 0 0 1 0 2 2 0	X in center, O in bottom left, O in bottom middle
+748.png	0 2 2 0 0 2 0 2 0	O in top middle, O in top right, O in middle right, O in bottom middle
+749.png	2 2 1 0 2 0 0 0 0	O in top left, O in top middle, X in top right, O in center
+750.png	0 0 0 0 0 2 0 1 0	O in middle right, X in bottom middle
+751.png	1 0 0 0 0 0 2 0 0	X in top left, O in bottom left
+752.png	0 2 0 1 1 0 0 0 0	O in top middle, X in middle left, X in center
+753.png	0 1 0 1 1 0 0 0 0	X in top middle, X in middle left, X in center
+754.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+755.png	0 0 0 2 1 0 0 0 2	O in middle left, X in center, O in bottom right
+756.png	0 0 0 2 0 0 0 2 0	O in middle left, O in bottom middle
+757.png	2 0 0 0 0 1 0 0 0	O in top left, X in middle right
+758.png	0 0 0 1 2 0 2 0 0	X in middle left, O in center, O in bottom left
+759.png	0 0 0 0 0 0 1 0 1	X in bottom left, X in bottom right
+760.png	0 0 1 0 0 0 0 1 2	X in top right, X in bottom middle, O in bottom right
+761.png	0 0 1 0 0 0 2 0 0	X in top right, O in bottom left
+762.png	1 0 2 1 0 0 0 0 2	X in top left, O in top right, X in middle left, O in bottom right
+763.png	0 2 0 1 1 0 0 0 0	O in top middle, X in middle left, X in center
+764.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+765.png	0 0 2 0 0 0 2 0 0	O in top right, O in bottom left
+766.png	2 0 0 0 0 1 0 0 1	O in top left, X in middle right, X in bottom right
+767.png	1 0 0 0 0 0 1 0 2	X in top left, X in bottom left, O in bottom right
+768.png	1 0 0 0 0 2 2 0 0	X in top left, O in middle right, O in bottom left
+769.png	0 0 2 2 0 1 0 1 0	O in top right, O in middle left, X in middle right, X in bottom middle
+770.png	0 0 0 0 0 0 0 1 1	X in bottom middle, X in bottom right
+771.png	0 1 0 0 0 0 1 0 0	X in top middle, X in bottom left
+772.png	0 0 0 2 0 0 0 0 2	O in middle left, O in bottom right
+773.png	2 0 0 0 0 0 0 1 0	O in top left, X in bottom middle
+774.png	1 0 0 0 0 1 0 2 0	X in top left, X in middle right, O in bottom middle
+775.png	0 2 1 0 0 0 0 1 1	O in top middle, X in top right, X in bottom middle, X in bottom right
+776.png	2 1 0 0 0 0 0 0 0	O in top left, X in top middle
+777.png	0 1 0 1 0 0 0 0 0	X in top middle, X in middle left
+778.png	2 2 0 0 0 0 0 0 1	O in top left, O in top middle, X in bottom right
+779.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+780.png	0 0 0 0 0 1 1 0 0	X in middle right, X in bottom left
+781.png	0 0 1 0 0 0 1 1 0	X in top right, X in bottom left, X in bottom middle
+782.png	0 2 0 0 0 0 0 1 0	O in top middle, X in bottom middle
+783.png	1 0 0 0 0 0 1 0 1	X in top left, X in bottom left, X in bottom right
+784.png	1 2 1 0 0 0 0 0 0	X in top left, O in top middle, X in top right
+785.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+786.png	0 2 0 2 0 0 1 0 0	O in top middle, O in middle left, X in bottom left
+787.png	1 0 0 1 1 0 0 0 0	X in top left, X in middle left, X in center
+788.png	2 0 2 0 0 0 0 0 2	O in top left, O in top right, O in bottom right
+789.png	0 0 0 1 0 0 0 1 1	X in middle left, X in bottom middle, X in bottom right
+790.png	1 0 2 0 0 2 0 0 0	X in top left, O in top right, O in middle right
+791.png	1 0 0 0 2 0 1 1 0	X in top left, O in center, X in bottom left, X in bottom middle
+792.png	0 0 0 1 0 1 0 2 0	X in middle left, X in middle right, O in bottom middle
+793.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+794.png	0 0 1 0 0 0 0 0 1	X in top right, X in bottom right
+795.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+796.png	2 2 0 0 1 0 1 0 0	O in top left, O in top middle, X in center, X in bottom left
+797.png	0 2 0 0 2 0 0 0 0	O in top middle, O in center
+798.png	0 1 0 1 0 1 2 0 0	X in top middle, X in middle left, X in middle right, O in bottom left
+799.png	2 0 0 2 0 1 1 0 0	O in top left, O in middle left, X in middle right, X in bottom left
+800.png	0 1 0 1 0 1 0 0 0	X in top middle, X in middle left, X in middle right
+801.png	0 0 0 0 1 0 1 0 0	X in center, X in bottom left
+802.png	2 1 0 0 0 0 0 2 0	O in top left, X in top middle, O in bottom middle
+803.png	2 0 0 1 2 0 0 0 2	O in top left, X in middle left, O in center, O in bottom right
+804.png	0 0 0 0 0 1 0 2 0	X in middle right, O in bottom middle
+805.png	2 1 0 2 0 0 0 0 0	O in top left, X in top middle, O in middle left
+806.png	0 1 0 0 0 0 1 0 1	X in top middle, X in bottom left, X in bottom right
+807.png	0 0 0 0 0 0 0 0 2	O in bottom right
+808.png	0 0 0 0 0 0 0 0 2	O in bottom right
+809.png	0 0 1 2 0 1 1 0 0	X in top right, O in middle left, X in middle right, X in bottom left
+810.png	0 2 0 0 0 1 0 0 0	O in top middle, X in middle right
+811.png	1 2 0 0 0 0 0 0 0	X in top left, O in top middle
+812.png	0 0 0 0 1 0 0 0 1	X in center, X in bottom right
+813.png	2 1 0 1 0 0 0 0 0	O in top left, X in top middle, X in middle left
+814.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+815.png	0 1 2 0 1 0 0 0 0	X in top middle, O in top right, X in center
+816.png	2 0 0 0 0 0 2 0 1	O in top left, O in bottom left, X in bottom right
+817.png	0 0 0 0 2 0 2 1 0	O in center, O in bottom left, X in bottom middle
+818.png	1 1 0 0 0 1 0 0 0	X in top left, X in top middle, X in middle right
+819.png	0 0 0 1 0 1 0 0 2	X in middle left, X in middle right, O in bottom right
+820.png	0 0 0 0 0 2 0 0 2	O in middle right, O in bottom right
+821.png	1 0 0 0 1 0 0 0 0	X in top left, X in center
+822.png	0 0 0 2 0 0 1 2 0	O in middle left, X in bottom left, O in bottom middle
+823.png	0 1 0 0 0 0 1 0 0	X in top middle, X in bottom left
+824.png	2 0 0 0 0 0 2 0 0	O in top left, O in bottom left
+825.png	1 2 0 1 0 0 0 0 0	X in top left, O in top middle, X in middle left
+826.png	0 0 0 0 1 0 0 0 0	X in center
+827.png	0 0 1 2 0 1 0 2 0	X in top right, O in middle left, X in middle right, O in bottom middle
+828.png	0 2 2 0 1 1 0 0 0	O in top middle, O in top right, X in center, X in middle right
+829.png	0 1 0 1 0 0 0 0 0	X in top middle, X in middle left
+830.png	0 2 0 2 0 2 0 0 0	O in top middle, O in middle left, O in middle right
+831.png	0 0 0 2 0 0 0 0 1	O in middle left, X in bottom right
+832.png	0 0 0 2 0 0 2 0 0	O in middle left, O in bottom left
+833.png	0 0 0 0 0 0 2 0 1	O in bottom left, X in bottom right
+834.png	2 2 0 0 1 0 0 0 0	O in top left, O in top middle, X in center
+835.png	1 0 0 1 1 0 0 0 2	X in top left, X in middle left, X in center, O in bottom right
+836.png	0 0 0 0 0 0 1 1 0	X in bottom left, X in bottom middle
+837.png	2 0 0 0 1 0 1 0 1	O in top left, X in center, X in bottom left, X in bottom right
+838.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+839.png	2 0 0 1 0 0 0 0 0	O in top left, X in middle left
+840.png	2 1 0 0 0 0 0 2 0	O in top left, X in top middle, O in bottom middle
+841.png	0 0 2 0 1 0 0 0 0	O in top right, X in center
+842.png	0 0 0 2 1 0 0 1 0	O in middle left, X in center, X in bottom middle
+843.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+844.png	0 1 0 1 0 0 1 0 0	X in top middle, X in middle left, X in bottom left
+845.png	0 0 1 1 0 0 0 0 2	X in top right, X in middle left, O in bottom right
+846.png	0 0 0 0 0 0 2 1 2	O in bottom left, X in bottom middle, O in bottom right
+847.png	0 0 0 0 0 0 2 1 0	O in bottom left, X in bottom middle
+848.png	1 0 0 0 1 0 0 0 0	X in top left, X in center
+849.png	0 1 0 0 0 0 1 0 2	X in top middle, X in bottom left, O in bottom right
+850.png	0 0 0 0 0 0 2 1 2	O in bottom left, X in bottom middle, O in bottom right
+851.png	0 0 0 0 0 2 0 1 0	O in middle right, X in bottom middle
+852.png	2 0 1 2 0 0 0 1 0	O in top left, X in top right, O in middle left, X in bottom middle
+853.png	0 1 1 2 0 0 0 0 0	X in top middle, X in top right, O in middle left
+854.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+855.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+856.png	0 0 2 0 0 0 2 0 2	O in top right, O in bottom left, O in bottom right
+857.png	0 0 2 1 0 0 0 1 0	O in top right, X in middle left, X in bottom middle
+858.png	2 0 0 0 1 1 0 0 0	O in top left, X in center, X in middle right
+859.png	0 0 0 0 1 2 0 0 0	X in center, O in middle right
+860.png	0 2 0 0 0 0 0 2 0	O in top middle, O in bottom middle
+861.png	1 0 0 0 0 0 1 2 0	X in top left, X in bottom left, O in bottom middle
+862.png	0 2 0 2 0 2 0 0 0	O in top middle, O in middle left, O in middle right
+863.png	0 0 0 0 1 0 2 0 0	X in center, O in bottom left
+864.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+865.png	0 2 0 0 0 0 2 0 0	O in top middle, O in bottom left
+866.png	0 0 0 0 0 1 0 1 2	X in middle right, X in bottom middle, O in bottom right
+867.png	2 0 0 0 0 0 0 2 0	O in top left, O in bottom middle
+868.png	0 0 0 2 0 0 1 1 2	O in middle left, X in bottom left, X in bottom middle, O in bottom right
+869.png	0 0 0 2 2 2 0 0 0	O in middle left, O in center, O in middle right
+870.png	1 0 0 0 1 0 0 0 1	X in top left, X in center, X in bottom right
+871.png	0 0 0 0 2 0 0 0 2	O in center, O in bottom right
+872.png	1 2 0 0 0 0 0 0 1	X in top left, O in top middle, X in bottom right
+873.png	0 0 1 0 0 1 0 0 0	X in top right, X in middle right
+874.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+875.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+876.png	0 2 0 0 0 0 0 0 2	O in top middle, O in bottom right
+877.png	0 2 2 0 0 0 0 0 2	O in top middle, O in top right, O in bottom right
+878.png	0 0 1 0 2 2 0 1 0	X in top right, O in center, O in middle right, X in bottom middle
+879.png	0 0 0 0 0 0 2 0 0	O in bottom left
+880.png	0 0 1 0 0 2 0 2 0	X in top right, O in middle right, O in bottom middle
+881.png	0 1 2 0 1 0 1 0 0	X in top middle, O in top right, X in center, X in bottom left
+882.png	0 0 0 1 0 0 0 2 0	X in middle left, O in bottom middle
+883.png	2 0 0 0 0 0 1 0 2	O in top left, X in bottom left, O in bottom right
+884.png	2 0 0 0 0 0 0 1 0	O in top left, X in bottom middle
+885.png	0 0 2 0 1 0 2 0 0	O in top right, X in center, O in bottom left
+886.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+887.png	0 1 0 0 1 0 1 0 1	X in top middle, X in center, X in bottom left, X in bottom right
+888.png	0 2 0 0 0 2 0 0 0	O in top middle, O in middle right
+889.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+890.png	0 0 0 0 0 0 0 0 2	O in bottom right
+891.png	2 0 0 0 1 0 0 0 0	O in top left, X in center
+892.png	0 0 0 2 1 2 2 0 0	O in middle left, X in center, O in middle right, O in bottom left
+893.png	2 0 0 0 0 2 0 0 0	O in top left, O in middle right
+894.png	0 0 0 1 2 0 0 1 0	X in middle left, O in center, X in bottom middle
+895.png	0 1 2 0 0 2 0 0 0	X in top middle, O in top right, O in middle right
+896.png	0 0 1 0 0 0 2 0 0	X in top right, O in bottom left
+897.png	0 0 0 0 2 1 2 0 0	O in center, X in middle right, O in bottom left
+898.png	0 0 0 1 1 0 0 0 0	X in middle left, X in center
+899.png	0 0 1 0 0 0 0 1 0	X in top right, X in bottom middle
+900.png	0 0 0 2 2 0 1 0 0	O in middle left, O in center, X in bottom left
+901.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+902.png	2 2 0 0 0 0 0 0 0	O in top left, O in top middle
+903.png	2 0 1 0 0 0 0 0 0	O in top left, X in top right
+904.png	0 0 0 1 0 1 0 2 0	X in middle left, X in middle right, O in bottom middle
+905.png	0 0 1 1 1 0 0 0 0	X in top right, X in middle left, X in center
+906.png	0 0 1 0 0 2 0 0 0	X in top right, O in middle right
+907.png	0 0 1 0 2 0 0 0 1	X in top right, O in center, X in bottom right
+908.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+909.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+910.png	0 0 1 0 2 0 0 1 1	X in top right, O in center, X in bottom middle, X in bottom right
+911.png	0 0 1 0 0 0 2 1 0	X in top right, O in bottom left, X in bottom middle
+912.png	0 0 0 1 0 0 0 0 1	X in middle left, X in bottom right
+913.png	0 0 1 0 0 1 0 0 2	X in top right, X in middle right, O in bottom right
+914.png	0 0 1 0 2 0 0 0 1	X in top right, O in center, X in bottom right
+915.png	0 0 0 0 0 0 0 2 2	O in bottom middle, O in bottom right
+916.png	0 0 1 0 2 0 0 0 0	X in top right, O in center
+917.png	0 0 0 2 0 0 0 0 0	O in middle left
+918.png	2 2 0 0 2 0 0 0 0	O in top left, O in top middle, O in center
+919.png	0 2 2 0 2 0 0 1 0	O in top middle, O in top right, O in center, X in bottom middle
+920.png	0 0 2 0 2 0 2 2 0	O in top right, O in center, O in bottom left, O in bottom middle
+921.png	0 0 0 0 0 2 0 1 2	O in middle right, X in bottom middle, O in bottom right
+922.png	0 0 0 0 2 2 0 0 0	O in center, O in middle right
+923.png	0 2 0 0 0 2 0 2 0	O in top middle, O in middle right, O in bottom middle
+924.png	2 0 0 0 0 0 0 2 0	O in top left, O in bottom middle
+925.png	0 1 1 0 2 0 0 2 0	X in top middle, X in top right, O in center, O in bottom middle
+926.png	1 0 2 0 0 0 0 0 0	X in top left, O in top right
+927.png	0 0 0 0 2 0 1 0 2	O in center, X in bottom left, O in bottom right
+928.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+929.png	0 0 0 0 0 0 2 0 1	O in bottom left, X in bottom right
+930.png	0 0 2 1 0 0 2 0 1	O in top right, X in middle left, O in bottom left, X in bottom right
+931.png	0 1 0 1 0 0 0 0 2	X in top middle, X in middle left, O in bottom right
+932.png	2 0 0 1 0 0 0 2 0	O in top left, X in middle left, O in bottom middle
+933.png	0 0 0 0 0 0 1 2 0	X in bottom left, O in bottom middle
+934.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+935.png	0 1 0 0 0 0 2 0 0	X in top middle, O in bottom left
+936.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+937.png	2 0 1 0 1 0 2 0 0	O in top left, X in top right, X in center, O in bottom left
+938.png	0 0 0 2 0 1 0 0 0	O in middle left, X in middle right
+939.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+940.png	0 0 0 0 0 2 0 0 2	O in middle right, O in bottom right
+941.png	0 1 0 1 0 0 0 0 0	X in top middle, X in middle left
+942.png	0 0 0 0 0 0 2 1 0	O in bottom left, X in bottom middle
+943.png	0 0 2 0 0 0 0 0 2	O in top right, O in bottom right
+944.png	2 0 0 0 0 0 0 1 0	O in top left, X in bottom middle
+945.png	0 0 1 0 0 0 0 1 2	X in top right, X in bottom middle, O in bottom right
+946.png	1 0 0 0 0 1 0 0 1	X in top left, X in middle right, X in bottom right
+947.png	0 0 0 0 0 0 0 0 1	X in bottom right
+948.png	0 0 0 0 0 0 2 1 1	O in bottom left, X in bottom middle, X in bottom right
+949.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+950.png	0 0 1 0 0 0 2 0 0	X in top right, O in bottom left
+951.png	2 0 0 0 0 1 1 2 0	O in top left, X in middle right, X in bottom left, O in bottom middle
+952.png	0 0 2 1 0 0 0 2 0	O in top right, X in middle left, O in bottom middle
+953.png	2 0 0 0 0 0 1 1 0	O in top left, X in bottom left, X in bottom middle
+954.png	0 0 0 0 0 2 1 0 0	O in middle right, X in bottom left
+955.png	0 2 2 0 0 0 2 0 1	O in top middle, O in top right, O in bottom left, X in bottom right
+956.png	2 2 0 0 0 2 1 0 0	O in top left, O in top middle, O in middle right, X in bottom left
+957.png	2 2 0 0 0 0 0 0 1	O in top left, O in top middle, X in bottom right
+958.png	0 0 0 2 1 0 0 1 0	O in middle left, X in center, X in bottom middle
+959.png	2 0 2 0 0 0 0 0 2	O in top left, O in top right, O in bottom right
+960.png	0 0 0 1 0 2 2 0 0	X in middle left, O in middle right, O in bottom left
+961.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+962.png	2 0 0 0 0 2 0 0 0	O in top left, O in middle right
+963.png	0 0 0 0 0 1 2 0 1	X in middle right, O in bottom left, X in bottom right
+964.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+965.png	0 0 0 0 0 2 0 1 1	O in middle right, X in bottom middle, X in bottom right
+966.png	1 0 0 1 0 2 0 0 0	X in top left, X in middle left, O in middle right
+967.png	2 1 0 0 0 2 2 0 0	O in top left, X in top middle, O in middle right, O in bottom left
+968.png	0 0 0 0 1 0 1 0 0	X in center, X in bottom left
+969.png	1 1 0 0 0 1 0 0 2	X in top left, X in top middle, X in middle right, O in bottom right
+970.png	0 0 0 0 1 0 2 0 0	X in center, O in bottom left
+971.png	0 2 0 0 0 0 2 0 0	O in top middle, O in bottom left
+972.png	0 0 0 2 0 0 1 0 2	O in middle left, X in bottom left, O in bottom right
+973.png	0 2 0 0 0 0 0 0 1	O in top middle, X in bottom right
+974.png	0 0 2 1 0 1 0 0 0	O in top right, X in middle left, X in middle right
+975.png	0 0 0 0 0 0 0 2 0	O in bottom middle
+976.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+977.png	0 1 0 0 0 0 0 1 0	X in top middle, X in bottom middle
+978.png	2 0 0 0 0 0 0 0 1	O in top left, X in bottom right
+979.png	0 2 0 0 0 2 0 2 0	O in top middle, O in middle right, O in bottom middle
+980.png	0 0 1 1 0 2 1 0 0	X in top right, X in middle left, O in middle right, X in bottom left
+981.png	0 0 0 0 2 2 0 2 0	O in center, O in middle right, O in bottom middle
+982.png	1 0 1 0 1 0 0 2 0	X in top left, X in top right, X in center, O in bottom middle
+983.png	0 0 2 2 0 0 0 2 0	O in top right, O in middle left, O in bottom middle
+984.png	1 2 0 0 0 1 0 2 0	X in top left, O in top middle, X in middle right, O in bottom middle
+985.png	2 0 0 0 0 1 1 0 2	O in top left, X in middle right, X in bottom left, O in bottom right
+986.png	2 0 0 0 0 0 2 2 0	O in top left, O in bottom left, O in bottom middle
+987.png	0 0 0 0 2 2 0 0 0	O in center, O in middle right
+988.png	0 0 0 0 0 0 0 1 1	X in bottom middle, X in bottom right
+989.png	0 2 0 0 0 0 0 2 2	O in top middle, O in bottom middle, O in bottom right
+990.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+991.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+992.png	0 1 0 0 0 2 1 0 0	X in top middle, O in middle right, X in bottom left
+993.png	2 0 0 0 0 2 0 2 0	O in top left, O in middle right, O in bottom middle
+994.png	0 0 0 1 1 0 0 0 2	X in middle left, X in center, O in bottom right
+995.png	0 2 0 2 0 2 0 0 2	O in top middle, O in middle left, O in middle right, O in bottom right
+996.png	0 0 1 0 0 0 2 0 0	X in top right, O in bottom left
+997.png	2 0 2 0 0 0 0 0 0	O in top left, O in top right
+998.png	1 0 0 0 0 0 0 2 0	X in top left, O in bottom middle
+999.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+1000.png	1 1 0 1 2 0 0 0 0	X in top left, X in top middle, X in middle left, O in center
+1001.png	0 1 2 1 0 0 0 0 0	X in top middle, O in top right, X in middle left
+1002.png	0 2 0 2 0 0 0 2 2	O in top middle, O in middle left, O in bottom middle, O in bottom right
+1003.png	0 2 0 1 0 0 1 0 0	O in top middle, X in middle left, X in bottom left
+1004.png	0 0 1 0 0 0 0 1 1	X in top right, X in bottom middle, X in bottom right
+1005.png	0 0 2 0 0 0 0 1 2	O in top right, X in bottom middle, O in bottom right
+1006.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+1007.png	0 0 0 0 0 0 1 2 1	X in bottom left, O in bottom middle, X in bottom right
+1008.png	0 0 0 2 0 2 0 0 0	O in middle left, O in middle right
+1009.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+1010.png	0 0 0 0 0 0 2 1 1	O in bottom left, X in bottom middle, X in bottom right
+1011.png	1 0 0 0 0 0 0 2 2	X in top left, O in bottom middle, O in bottom right
+1012.png	0 1 0 2 0 0 1 0 0	X in top middle, O in middle left, X in bottom left
+1013.png	0 0 0 0 1 0 0 0 1	X in center, X in bottom right
+1014.png	0 0 1 0 0 2 1 0 0	X in top right, O in middle right, X in bottom left
+1015.png	0 0 1 0 0 2 0 0 2	X in top right, O in middle right, O in bottom right
+1016.png	1 0 0 0 0 2 0 0 0	X in top left, O in middle right
+1017.png	0 0 1 0 1 0 2 0 1	X in top right, X in center, O in bottom left, X in bottom right
+1018.png	2 0 0 2 0 0 0 2 1	O in top left, O in middle left, O in bottom middle, X in bottom right
+1019.png	0 0 0 0 0 0 2 0 1	O in bottom left, X in bottom right
+1020.png	0 0 0 1 1 1 0 0 0	X in middle left, X in center, X in middle right
+1021.png	0 1 0 1 0 0 0 1 0	X in top middle, X in middle left, X in bottom middle
+1022.png	0 0 0 0 1 2 0 0 1	X in center, O in middle right, X in bottom right
+1023.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+1024.png	0 2 0 0 0 2 0 0 2	O in top middle, O in middle right, O in bottom right
+1025.png	0 1 0 0 0 0 0 1 1	X in top middle, X in bottom middle, X in bottom right
+1026.png	0 2 2 0 0 1 0 0 0	O in top middle, O in top right, X in middle right
+1027.png	2 0 0 0 0 2 0 2 2	O in top left, O in middle right, O in bottom middle, O in bottom right
+1028.png	2 0 0 1 2 0 0 0 0	O in top left, X in middle left, O in center
+1029.png	1 0 0 0 1 0 0 0 1	X in top left, X in center, X in bottom right
+1030.png	0 0 0 2 2 0 0 0 0	O in middle left, O in center
+1031.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+1032.png	0 1 0 0 2 2 0 0 0	X in top middle, O in center, O in middle right
+1033.png	0 0 2 0 0 0 0 0 0	O in top right
+1034.png	0 0 0 1 1 0 1 1 0	X in middle left, X in center, X in bottom left, X in bottom middle
+1035.png	1 0 0 0 0 0 2 0 0	X in top left, O in bottom left
+1036.png	0 0 0 1 2 0 2 2 0	X in middle left, O in center, O in bottom left, O in bottom middle
+1037.png	0 1 2 0 0 0 0 2 0	X in top middle, O in top right, O in bottom middle
+1038.png	1 0 1 2 0 0 0 1 0	X in top left, X in top right, O in middle left, X in bottom middle
+1039.png	0 0 1 0 2 0 1 0 0	X in top right, O in center, X in bottom left
+1040.png	1 0 0 0 1 0 1 0 0	X in top left, X in center, X in bottom left
+1041.png	1 0 0 0 0 0 2 2 0	X in top left, O in bottom left, O in bottom middle
+1042.png	0 0 0 1 1 0 0 2 0	X in middle left, X in center, O in bottom middle
+1043.png	1 0 0 0 0 0 0 0 1	X in top left, X in bottom right
+1044.png	0 0 2 0 2 0 0 1 2	O in top right, O in center, X in bottom middle, O in bottom right
+1045.png	0 0 0 1 0 2 1 0 0	X in middle left, O in middle right, X in bottom left
+1046.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+1047.png	0 2 0 0 0 0 2 0 0	O in top middle, O in bottom left
+1048.png	0 1 0 0 1 0 0 0 0	X in top middle, X in center
+1049.png	0 1 1 0 0 0 0 0 2	X in top middle, X in top right, O in bottom right
+1050.png	2 0 0 0 2 0 0 0 1	O in top left, O in center, X in bottom right
+1051.png	0 0 0 2 0 2 0 0 2	O in middle left, O in middle right, O in bottom right
+1052.png	0 1 1 0 0 0 0 1 0	X in top middle, X in top right, X in bottom middle
+1053.png	0 0 0 0 0 2 0 1 0	O in middle right, X in bottom middle
+1054.png	0 0 0 1 2 0 1 0 0	X in middle left, O in center, X in bottom left
+1055.png	0 2 1 0 0 0 2 0 0	O in top middle, X in top right, O in bottom left
+1056.png	0 2 0 0 1 0 0 1 0	O in top middle, X in center, X in bottom middle
+1057.png	1 1 0 0 2 0 0 0 0	X in top left, X in top middle, O in center
+1058.png	0 2 0 0 0 1 0 1 0	O in top middle, X in middle right, X in bottom middle
+1059.png	0 0 2 0 0 1 0 1 0	O in top right, X in middle right, X in bottom middle
+1060.png	0 1 0 0 0 0 2 1 0	X in top middle, O in bottom left, X in bottom middle
+1061.png	0 0 1 0 0 0 2 0 2	X in top right, O in bottom left, O in bottom right
+1062.png	0 1 0 0 2 0 0 0 2	X in top middle, O in center, O in bottom right
+1063.png	0 2 2 0 0 0 0 1 0	O in top middle, O in top right, X in bottom middle
+1064.png	0 0 0 0 2 2 0 2 2	O in center, O in middle right, O in bottom middle, O in bottom right
+1065.png	0 0 1 1 1 0 0 0 0	X in top right, X in middle left, X in center
+1066.png	0 0 2 0 2 0 0 0 1	O in top right, O in center, X in bottom right
+1067.png	0 2 0 1 0 1 0 0 0	O in top middle, X in middle left, X in middle right
+1068.png	0 0 0 0 1 2 0 1 0	X in center, O in middle right, X in bottom middle
+1069.png	0 0 1 2 0 1 0 0 0	X in top right, O in middle left, X in middle right
+1070.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+1071.png	0 0 0 0 2 1 0 1 0	O in center, X in middle right, X in bottom middle
+1072.png	0 0 0 1 0 0 0 2 1	X in middle left, O in bottom middle, X in bottom right
+1073.png	0 2 0 1 1 0 0 0 2	O in top middle, X in middle left, X in center, O in bottom right
+1074.png	0 0 2 0 0 0 2 0 0	O in top right, O in bottom left
+1075.png	0 0 0 0 0 1 1 0 0	X in middle right, X in bottom left
+1076.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+1077.png	1 1 1 0 0 1 0 0 0	X in top left, X in top middle, X in top right, X in middle right
+1078.png	0 0 0 0 2 2 2 0 0	O in center, O in middle right, O in bottom left
+1079.png	0 0 0 0 0 0 0 2 2	O in bottom middle, O in bottom right
+1080.png	1 0 0 0 0 0 0 0 2	X in top left, O in bottom right
+1081.png	0 1 0 0 0 1 0 0 0	X in top middle, X in middle right
+1082.png	0 0 0 0 0 1 0 1 2	X in middle right, X in bottom middle, O in bottom right
+1083.png	1 0 0 0 0 0 2 0 1	X in top left, O in bottom left, X in bottom right
+1084.png	0 0 2 0 2 0 0 1 0	O in top right, O in center, X in bottom middle
+1085.png	0 0 1 0 0 0 0 1 0	X in top right, X in bottom middle
+1086.png	0 0 2 0 1 0 2 0 2	O in top right, X in center, O in bottom left, O in bottom right
+1087.png	0 0 0 0 0 1 2 0 0	X in middle right, O in bottom left
+1088.png	0 0 0 0 0 1 1 0 1	X in middle right, X in bottom left, X in bottom right
+1089.png	0 0 0 0 1 1 0 0 0	X in center, X in middle right
+1090.png	0 0 2 1 2 2 0 0 0	O in top right, X in middle left, O in center, O in middle right
+1091.png	0 0 0 0 0 0 1 2 0	X in bottom left, O in bottom middle
+1092.png	1 0 0 0 0 0 0 0 0	X in top left
+1093.png	1 0 1 2 0 0 0 0 0	X in top left, X in top right, O in middle left
+1094.png	0 2 1 0 0 0 1 0 0	O in top middle, X in top right, X in bottom left
+1095.png	0 0 0 0 1 2 0 1 0	X in center, O in middle right, X in bottom middle
+1096.png	1 0 0 2 0 0 2 0 1	X in top left, O in middle left, O in bottom left, X in bottom right
+1097.png	0 1 0 0 0 0 1 1 0	X in top middle, X in bottom left, X in bottom middle
+1098.png	2 2 0 1 0 0 0 0 0	O in top left, O in top middle, X in middle left
+1099.png	2 0 0 0 1 0 0 2 0	O in top left, X in center, O in bottom middle
+1100.png	0 0 0 1 0 2 0 1 0	X in middle left, O in middle right, X in bottom middle
+1101.png	0 2 1 0 0 1 0 0 0	O in top middle, X in top right, X in middle right
+1102.png	0 0 2 0 0 0 0 2 0	O in top right, O in bottom middle
+1103.png	2 1 1 0 0 2 0 0 0	O in top left, X in top middle, X in top right, O in middle right
+1104.png	0 0 2 0 0 1 0 1 0	O in top right, X in middle right, X in bottom middle
+1105.png	0 2 0 0 2 0 0 0 0	O in top middle, O in center
+1106.png	0 0 0 0 0 0 1 0 1	X in bottom left, X in bottom right
+1107.png	1 0 0 0 0 0 0 0 1	X in top left, X in bottom right
+1108.png	0 1 0 0 0 1 0 0 0	X in top middle, X in middle right
+1109.png	0 0 0 0 1 1 0 0 0	X in center, X in middle right
+1110.png	0 0 0 2 2 0 1 0 0	O in middle left, O in center, X in bottom left
+1111.png	2 0 0 1 0 0 0 0 0	O in top left, X in middle left
+1112.png	0 1 2 0 0 2 0 2 0	X in top middle, O in top right, O in middle right, O in bottom middle
+1113.png	0 0 1 0 2 0 0 0 0	X in top right, O in center
+1114.png	0 0 0 0 0 1 0 1 0	X in middle right, X in bottom middle
+1115.png	0 1 2 0 0 0 0 0 0	X in top middle, O in top right
+1116.png	0 0 0 2 0 1 0 0 0	O in middle left, X in middle right
+1117.png	0 0 0 0 1 1 0 0 0	X in center, X in middle right
+1118.png	0 0 0 0 2 0 0 2 1	O in center, O in bottom middle, X in bottom right
+1119.png	0 0 0 2 0 0 0 1 1	O in middle left, X in bottom middle, X in bottom right
+1120.png	0 1 0 1 0 0 0 1 0	X in top middle, X in middle left, X in bottom middle
+1121.png	2 0 0 0 0 2 2 0 1	O in top left, O in middle right, O in bottom left, X in bottom right
+1122.png	1 0 0 1 0 0 0 0 1	X in top left, X in middle left, X in bottom right
+1123.png	2 0 0 0 1 0 1 0 0	O in top left, X in center, X in bottom left
+1124.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+1125.png	1 0 0 0 0 2 2 0 2	X in top left, O in middle right, O in bottom left, O in bottom right
+1126.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+1127.png	0 2 0 0 0 0 0 2 0	O in top middle, O in bottom middle
+1128.png	0 1 0 0 0 0 2 0 0	X in top middle, O in bottom left
+1129.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+1130.png	0 1 0 1 0 0 0 2 0	X in top middle, X in middle left, O in bottom middle
+1131.png	0 0 0 2 0 0 2 1 2	O in middle left, O in bottom left, X in bottom middle, O in bottom right
+1132.png	0 0 0 0 1 0 0 2 0	X in center, O in bottom middle
+1133.png	1 0 0 0 2 0 1 2 0	X in top left, O in center, X in bottom left, O in bottom middle
+1134.png	0 0 0 0 0 0 2 1 0	O in bottom left, X in bottom middle
+1135.png	2 0 0 0 0 0 0 0 1	O in top left, X in bottom right
+1136.png	1 0 0 0 0 0 2 0 0	X in top left, O in bottom left
+1137.png	1 2 1 0 0 0 0 0 2	X in top left, O in top middle, X in top right, O in bottom right
+1138.png	0 0 1 1 0 0 0 0 0	X in top right, X in middle left
+1139.png	0 0 1 2 0 2 0 0 0	X in top right, O in middle left, O in middle right
+1140.png	0 1 0 0 0 0 0 0 0	X in top middle
+1141.png	0 0 1 0 0 0 0 0 2	X in top right, O in bottom right
+1142.png	0 0 0 0 1 1 1 0 0	X in center, X in middle right, X in bottom left
+1143.png	0 1 2 2 0 0 0 0 0	X in top middle, O in top right, O in middle left
+1144.png	1 0 2 2 0 0 0 0 1	X in top left, O in top right, O in middle left, X in bottom right
+1145.png	0 0 0 2 0 0 0 0 0	O in middle left
+1146.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+1147.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+1148.png	0 0 2 0 0 0 1 2 0	O in top right, X in bottom left, O in bottom middle
+1149.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+1150.png	0 1 0 0 0 1 0 0 0	X in top middle, X in middle right
+1151.png	0 1 0 2 0 1 0 1 0	X in top middle, O in middle left, X in middle right, X in bottom middle
+1152.png	2 2 0 0 0 0 0 0 0	O in top left, O in top middle
+1153.png	1 0 0 0 2 0 0 0 2	X in top left, O in center, O in bottom right
+1154.png	0 0 2 1 0 0 0 2 2	O in top right, X in middle left, O in bottom middle, O in bottom right
+1155.png	0 0 0 0 2 0 0 2 2	O in center, O in bottom middle, O in bottom right
+1156.png	1 2 0 0 0 0 0 0 0	X in top left, O in top middle
+1157.png	0 0 0 1 0 0 0 0 0	X in middle left
+1158.png	2 0 1 0 0 0 0 0 0	O in top left, X in top right
+1159.png	1 0 0 0 2 0 0 0 0	X in top left, O in center
+1160.png	0 0 0 0 1 2 0 0 1	X in center, O in middle right, X in bottom right
+1161.png	0 2 0 1 0 0 0 0 0	O in top middle, X in middle left
+1162.png	2 0 0 1 0 1 0 0 0	O in top left, X in middle left, X in middle right
+1163.png	2 1 0 0 0 0 1 0 0	O in top left, X in top middle, X in bottom left
+1164.png	0 0 1 0 0 2 0 0 0	X in top right, O in middle right
+1165.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+1166.png	2 0 1 0 1 2 0 0 0	O in top left, X in top right, X in center, O in middle right
+1167.png	1 0 0 0 0 1 1 0 0	X in top left, X in middle right, X in bottom left
+1168.png	0 2 0 1 0 0 2 0 0	O in top middle, X in middle left, O in bottom left
+1169.png	0 0 0 2 0 0 2 0 1	O in middle left, O in bottom left, X in bottom right
+1170.png	0 0 0 0 1 2 0 0 0	X in center, O in middle right
+1171.png	0 0 0 0 2 0 0 0 1	O in center, X in bottom right
+1172.png	0 0 0 1 0 2 0 0 0	X in middle left, O in middle right
+1173.png	0 1 2 2 0 0 0 0 1	X in top middle, O in top right, O in middle left, X in bottom right
+1174.png	0 0 1 1 0 0 0 0 0	X in top right, X in middle left
+1175.png	2 0 0 0 0 2 0 0 0	O in top left, O in middle right
+1176.png	0 0 2 0 1 1 0 0 0	O in top right, X in center, X in middle right
+1177.png	0 0 0 1 0 0 0 0 1	X in middle left, X in bottom right
+1178.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+1179.png	0 2 0 0 2 2 0 2 0	O in top middle, O in center, O in middle right, O in bottom middle
+1180.png	2 0 0 0 0 0 2 0 0	O in top left, O in bottom left
+1181.png	0 2 0 0 0 0 1 0 0	O in top middle, X in bottom left
+1182.png	2 0 1 0 0 2 0 0 0	O in top left, X in top right, O in middle right
+1183.png	0 2 0 0 0 0 1 0 0	O in top middle, X in bottom left
+1184.png	0 2 0 0 0 0 0 1 0	O in top middle, X in bottom middle
+1185.png	0 1 0 1 1 0 0 0 0	X in top middle, X in middle left, X in center
+1186.png	0 0 0 0 2 0 2 0 1	O in center, O in bottom left, X in bottom right
+1187.png	1 0 2 0 1 0 0 0 0	X in top left, O in top right, X in center
+1188.png	0 1 0 2 0 1 0 0 1	X in top middle, O in middle left, X in middle right, X in bottom right
+1189.png	0 0 0 1 1 0 1 0 0	X in middle left, X in center, X in bottom left
+1190.png	0 1 0 0 1 2 0 0 0	X in top middle, X in center, O in middle right
+1191.png	0 2 0 0 2 1 0 0 0	O in top middle, O in center, X in middle right
+1192.png	1 0 2 0 0 0 2 0 0	X in top left, O in top right, O in bottom left
+1193.png	0 0 0 2 0 0 0 2 0	O in middle left, O in bottom middle
+1194.png	0 0 1 0 1 0 2 0 0	X in top right, X in center, O in bottom left
+1195.png	0 0 1 0 1 0 0 0 1	X in top right, X in center, X in bottom right
+1196.png	0 0 1 0 0 0 0 1 1	X in top right, X in bottom middle, X in bottom right
+1197.png	0 1 2 0 0 0 0 0 2	X in top middle, O in top right, O in bottom right
+1198.png	0 0 2 0 0 1 1 0 0	O in top right, X in middle right, X in bottom left
+1199.png	0 0 0 0 1 0 0 2 0	X in center, O in bottom middle
+1200.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+1201.png	0 0 2 0 0 0 0 2 1	O in top right, O in bottom middle, X in bottom right
+1202.png	0 1 2 0 0 0 0 2 0	X in top middle, O in top right, O in bottom middle
+1203.png	0 0 0 2 0 0 0 1 1	O in middle left, X in bottom middle, X in bottom right
+1204.png	0 0 0 0 0 0 2 2 2	O in bottom left, O in bottom middle, O in bottom right
+1205.png	2 0 1 0 0 1 0 0 2	O in top left, X in top right, X in middle right, O in bottom right
+1206.png	0 0 0 0 1 0 0 1 0	X in center, X in bottom middle
+1207.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+1208.png	0 0 0 0 0 0 0 2 1	O in bottom middle, X in bottom right
+1209.png	0 0 2 1 0 0 2 0 0	O in top right, X in middle left, O in bottom left
+1210.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+1211.png	1 0 0 0 0 0 0 2 0	X in top left, O in bottom middle
+1212.png	0 1 2 0 0 0 0 0 0	X in top middle, O in top right
+1213.png	2 2 1 0 0 0 0 0 0	O in top left, O in top middle, X in top right
+1214.png	2 1 0 0 0 1 0 0 0	O in top left, X in top middle, X in middle right
+1215.png	2 0 0 1 2 0 0 0 0	O in top left, X in middle left, O in center
+1216.png	0 0 1 0 0 2 0 0 0	X in top right, O in middle right
+1217.png	0 0 0 2 0 0 0 1 0	O in middle left, X in bottom middle
+1218.png	0 0 0 2 2 0 0 2 0	O in middle left, O in center, O in bottom middle
+1219.png	1 0 0 0 0 0 1 0 0	X in top left, X in bottom left
+1220.png	0 0 0 0 1 2 0 0 2	X in center, O in middle right, O in bottom right
+1221.png	1 0 0 0 0 0 0 2 0	X in top left, O in bottom middle
+1222.png	0 2 0 1 0 0 0 0 2	O in top middle, X in middle left, O in bottom right
+1223.png	0 0 2 0 0 0 2 1 0	O in top right, O in bottom left, X in bottom middle
+1224.png	0 1 2 2 0 0 1 0 0	X in top middle, O in top right, O in middle left, X in bottom left
+1225.png	0 0 0 0 1 0 0 2 0	X in center, O in bottom middle
+1226.png	0 0 1 0 0 2 0 0 0	X in top right, O in middle right
+1227.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+1228.png	0 1 0 0 0 1 1 0 0	X in top middle, X in middle right, X in bottom left
+1229.png	1 0 0 0 0 1 0 1 0	X in top left, X in middle right, X in bottom middle
+1230.png	0 0 1 0 0 0 0 2 1	X in top right, O in bottom middle, X in bottom right
+1231.png	1 0 0 0 0 1 0 0 0	X in top left, X in middle right
+1232.png	1 0 0 0 2 1 1 0 0	X in top left, O in center, X in middle right, X in bottom left
+1233.png	0 2 0 1 0 0 0 0 0	O in top middle, X in middle left
+1234.png	0 0 0 0 0 0 2 0 2	O in bottom left, O in bottom right
+1235.png	0 0 2 2 0 0 1 0 0	O in top right, O in middle left, X in bottom left
+1236.png	0 0 1 1 0 0 2 0 0	X in top right, X in middle left, O in bottom left
+1237.png	2 2 0 0 0 1 0 0 2	O in top left, O in top middle, X in middle right, O in bottom right
+1238.png	0 0 2 0 0 0 0 0 1	O in top right, X in bottom right
+1239.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+1240.png	0 0 1 1 0 0 0 0 0	X in top right, X in middle left
+1241.png	1 0 0 0 0 2 2 0 0	X in top left, O in middle right, O in bottom left
+1242.png	0 0 0 0 0 0 0 0 1	X in bottom right
+1243.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+1244.png	0 0 1 0 2 1 0 2 0	X in top right, O in center, X in middle right, O in bottom middle
+1245.png	1 1 0 2 0 0 0 0 0	X in top left, X in top middle, O in middle left
+1246.png	0 1 0 0 0 0 2 2 0	X in top middle, O in bottom left, O in bottom middle
+1247.png	0 0 1 0 2 0 0 0 1	X in top right, O in center, X in bottom right
+1248.png	0 0 0 1 2 0 0 0 0	X in middle left, O in center
+1249.png	0 0 0 0 0 0 1 0 0	X in bottom left
+1250.png	1 0 0 0 0 0 2 0 0	X in top left, O in bottom left
+1251.png	2 0 0 0 0 2 1 0 2	O in top left, O in middle right, X in bottom left, O in bottom right
+1252.png	0 0 0 0 0 0 0 2 0	O in bottom middle
+1253.png	1 2 0 1 1 0 0 0 0	X in top left, O in top middle, X in middle left, X in center
+1254.png	0 0 0 2 0 0 0 1 0	O in middle left, X in bottom middle
+1255.png	0 0 2 0 1 0 0 0 0	O in top right, X in center
+1256.png	0 0 0 0 1 1 1 0 0	X in center, X in middle right, X in bottom left
+1257.png	0 1 0 0 0 0 0 1 0	X in top middle, X in bottom middle
+1258.png	0 0 2 2 0 0 0 1 1	O in top right, O in middle left, X in bottom middle, X in bottom right
+1259.png	0 2 0 0 2 0 1 0 0	O in top middle, O in center, X in bottom left
+1260.png	1 0 0 0 0 2 2 2 0	X in top left, O in middle right, O in bottom left, O in bottom middle
+1261.png	1 0 0 1 0 0 0 0 0	X in top left, X in middle left
+1262.png	2 2 0 0 0 0 0 0 0	O in top left, O in top middle
+1263.png	0 0 2 0 0 0 0 1 2	O in top right, X in bottom middle, O in bottom right
+1264.png	1 1 0 0 0 1 0 0 2	X in top left, X in top middle, X in middle right, O in bottom right
+1265.png	0 0 0 2 0 0 0 2 1	O in middle left, O in bottom middle, X in bottom right
+1266.png	2 0 0 1 2 0 0 2 0	O in top left, X in middle left, O in center, O in bottom middle
+1267.png	1 2 0 0 0 0 0 0 0	X in top left, O in top middle
+1268.png	2 0 0 0 0 0 2 2 0	O in top left, O in bottom left, O in bottom middle
+1269.png	0 2 2 0 2 0 0 0 0	O in top middle, O in top right, O in center
+1270.png	0 0 1 0 0 1 0 0 0	X in top right, X in middle right
+1271.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+1272.png	1 0 0 0 0 0 1 0 0	X in top left, X in bottom left
+1273.png	1 0 0 2 0 0 0 1 0	X in top left, O in middle left, X in bottom middle
+1274.png	0 0 0 0 2 0 0 0 2	O in center, O in bottom right
+1275.png	1 0 0 1 0 0 0 0 0	X in top left, X in middle left
+1276.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+1277.png	2 0 2 0 1 0 0 0 0	O in top left, O in top right, X in center
+1278.png	0 0 0 0 1 0 2 0 0	X in center, O in bottom left
+1279.png	0 2 0 0 0 0 1 0 0	O in top middle, X in bottom left
+1280.png	0 0 0 0 2 1 0 0 2	O in center, X in middle right, O in bottom right
+1281.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+1282.png	1 0 1 0 0 2 0 0 0	X in top left, X in top right, O in middle right
+1283.png	0 0 0 0 0 0 2 2 0	O in bottom left, O in bottom middle
+1284.png	0 0 0 2 0 0 2 0 0	O in middle left, O in bottom left
+1285.png	1 0 0 0 1 0 0 0 0	X in top left, X in center
+1286.png	0 2 2 0 2 0 0 0 0	O in top middle, O in top right, O in center
+1287.png	0 1 0 2 2 0 2 0 0	X in top middle, O in middle left, O in center, O in bottom left
+1288.png	0 0 0 1 1 0 0 0 0	X in middle left, X in center
+1289.png	1 0 0 1 0 0 0 2 0	X in top left, X in middle left, O in bottom middle
+1290.png	0 1 2 0 0 0 0 0 0	X in top middle, O in top right
+1291.png	0 0 0 0 2 0 0 0 0	O in center
+1292.png	1 0 2 0 2 0 0 1 0	X in top left, O in top right, O in center, X in bottom middle
+1293.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+1294.png	0 2 0 1 0 0 0 0 0	O in top middle, X in middle left
+1295.png	0 2 0 0 0 0 1 0 0	O in top middle, X in bottom left
+1296.png	0 0 0 0 0 1 1 2 0	X in middle right, X in bottom left, O in bottom middle
+1297.png	1 0 0 0 0 0 1 0 0	X in top left, X in bottom left
+1298.png	1 0 0 0 0 0 2 2 0	X in top left, O in bottom left, O in bottom middle
+1299.png	0 0 0 0 2 0 0 0 2	O in center, O in bottom right
+1300.png	1 0 0 0 0 1 0 0 2	X in top left, X in middle right, O in bottom right
+1301.png	0 0 1 0 0 0 0 0 0	X in top right
+1302.png	0 0 1 2 0 0 0 0 0	X in top right, O in middle left
+1303.png	0 0 1 2 0 0 0 2 1	X in top right, O in middle left, O in bottom middle, X in bottom right
+1304.png	0 0 0 2 0 0 2 0 0	O in middle left, O in bottom left
+1305.png	2 2 0 1 0 0 0 0 0	O in top left, O in top middle, X in middle left
+1306.png	0 0 0 0 1 0 0 2 0	X in center, O in bottom middle
+1307.png	0 2 0 2 2 0 0 2 0	O in top middle, O in middle left, O in center, O in bottom middle
+1308.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+1309.png	1 0 2 0 0 0 1 0 2	X in top left, O in top right, X in bottom left, O in bottom right
+1310.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+1311.png	2 0 2 0 0 0 0 0 0	O in top left, O in top right
+1312.png	0 0 0 0 2 0 0 0 1	O in center, X in bottom right
+1313.png	0 2 0 0 0 0 1 0 0	O in top middle, X in bottom left
+1314.png	2 1 0 1 0 0 0 0 0	O in top left, X in top middle, X in middle left
+1315.png	0 0 0 0 0 0 0 0 2	O in bottom right
+1316.png	0 0 0 0 1 0 0 2 0	X in center, O in bottom middle
+1317.png	0 0 0 1 0 2 0 2 0	X in middle left, O in middle right, O in bottom middle
+1318.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+1319.png	0 1 2 1 2 0 0 0 0	X in top middle, O in top right, X in middle left, O in center
+1320.png	0 0 1 0 0 0 1 1 0	X in top right, X in bottom left, X in bottom middle
+1321.png	0 0 2 0 0 0 0 1 0	O in top right, X in bottom middle
+1322.png	0 0 0 0 2 0 0 0 2	O in center, O in bottom right
+1323.png	0 0 0 0 1 0 1 0 0	X in center, X in bottom left
+1324.png	0 1 0 2 1 0 1 0 0	X in top middle, O in middle left, X in center, X in bottom left
+1325.png	0 0 0 2 0 1 0 0 0	O in middle left, X in middle right
+1326.png	0 0 1 0 2 0 0 0 2	X in top right, O in center, O in bottom right
+1327.png	0 1 0 2 0 0 2 0 0	X in top middle, O in middle left, O in bottom left
+1328.png	0 0 0 2 0 2 0 0 0	O in middle left, O in middle right
+1329.png	0 2 0 1 2 0 1 0 0	O in top middle, X in middle left, O in center, X in bottom left
+1330.png	0 0 1 0 0 1 0 1 1	X in top right, X in middle right, X in bottom middle, X in bottom right
+1331.png	0 2 0 2 0 0 2 0 2	O in top middle, O in middle left, O in bottom left, O in bottom right
+1332.png	0 0 0 2 0 1 2 1 0	O in middle left, X in middle right, O in bottom left, X in bottom middle
+1333.png	1 0 2 2 0 0 0 2 0	X in top left, O in top right, O in middle left, O in bottom middle
+1334.png	0 2 2 0 0 0 0 1 0	O in top middle, O in top right, X in bottom middle
+1335.png	0 0 0 0 0 0 1 2 0	X in bottom left, O in bottom middle
+1336.png	0 0 1 0 0 0 0 1 2	X in top right, X in bottom middle, O in bottom right
+1337.png	2 0 0 0 0 0 2 0 0	O in top left, O in bottom left
+1338.png	0 0 0 1 2 0 0 0 0	X in middle left, O in center
+1339.png	0 2 0 0 0 0 2 0 0	O in top middle, O in bottom left
+1340.png	1 0 0 0 0 0 2 2 0	X in top left, O in bottom left, O in bottom middle
+1341.png	0 2 0 0 1 1 2 0 0	O in top middle, X in center, X in middle right, O in bottom left
+1342.png	2 2 0 0 1 0 0 0 0	O in top left, O in top middle, X in center
+1343.png	0 1 0 0 0 0 0 1 0	X in top middle, X in bottom middle
+1344.png	0 0 2 0 1 0 2 0 0	O in top right, X in center, O in bottom left
+1345.png	1 2 2 0 0 0 0 0 0	X in top left, O in top middle, O in top right
+1346.png	1 0 0 1 0 2 0 0 0	X in top left, X in middle left, O in middle right
+1347.png	0 1 0 0 0 2 1 0 2	X in top middle, O in middle right, X in bottom left, O in bottom right
+1348.png	2 0 0 0 0 0 1 0 2	O in top left, X in bottom left, O in bottom right
+1349.png	0 0 2 0 1 0 0 1 2	O in top right, X in center, X in bottom middle, O in bottom right
+1350.png	0 0 0 2 0 1 2 2 0	O in middle left, X in middle right, O in bottom left, O in bottom middle
+1351.png	0 2 0 0 1 0 0 2 1	O in top middle, X in center, O in bottom middle, X in bottom right
+1352.png	0 0 1 2 0 2 0 0 0	X in top right, O in middle left, O in middle right
+1353.png	2 0 0 1 0 0 0 0 2	O in top left, X in middle left, O in bottom right
+1354.png	0 0 0 0 0 0 0 2 2	O in bottom middle, O in bottom right
+1355.png	0 0 0 2 2 0 1 0 0	O in middle left, O in center, X in bottom left
+1356.png	0 1 0 0 0 0 2 0 2	X in top middle, O in bottom left, O in bottom right
+1357.png	0 0 1 2 0 0 0 0 0	X in top right, O in middle left
+1358.png	0 0 1 0 0 1 0 0 0	X in top right, X in middle right
+1359.png	0 0 2 1 0 0 1 0 1	O in top right, X in middle left, X in bottom left, X in bottom right
+1360.png	2 0 2 0 0 0 0 0 1	O in top left, O in top right, X in bottom right
+1361.png	0 1 1 0 0 0 0 1 0	X in top middle, X in top right, X in bottom middle
+1362.png	1 0 0 2 0 1 0 1 0	X in top left, O in middle left, X in middle right, X in bottom middle
+1363.png	0 0 0 0 2 0 0 0 0	O in center
+1364.png	0 0 0 1 0 2 0 2 2	X in middle left, O in middle right, O in bottom middle, O in bottom right
+1365.png	0 0 0 0 0 0 1 0 2	X in bottom left, O in bottom right
+1366.png	0 0 0 0 1 0 0 1 1	X in center, X in bottom middle, X in bottom right
+1367.png	2 0 1 1 0 0 0 0 1	O in top left, X in top right, X in middle left, X in bottom right
+1368.png	0 0 0 0 0 2 0 0 1	O in middle right, X in bottom right
+1369.png	0 0 2 0 2 0 2 0 0	O in top right, O in center, O in bottom left
+1370.png	2 0 0 0 0 0 0 0 1	O in top left, X in bottom right
+1371.png	0 0 2 0 0 0 2 0 0	O in top right, O in bottom left
+1372.png	0 1 0 0 0 1 0 2 0	X in top middle, X in middle right, O in bottom middle
+1373.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+1374.png	2 2 0 0 0 0 0 2 0	O in top left, O in top middle, O in bottom middle
+1375.png	2 0 0 0 0 0 0 0 0	O in top left
+1376.png	0 2 0 0 0 2 0 0 2	O in top middle, O in middle right, O in bottom right
+1377.png	0 0 2 0 0 0 1 0 0	O in top right, X in bottom left
+1378.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+1379.png	2 2 0 0 2 1 0 0 0	O in top left, O in top middle, O in center, X in middle right
+1380.png	0 1 0 1 0 0 0 0 1	X in top middle, X in middle left, X in bottom right
+1381.png	0 2 0 0 0 0 0 0 1	O in top middle, X in bottom right
+1382.png	2 0 0 0 0 0 1 0 0	O in top left, X in bottom left
+1383.png	0 0 2 0 0 2 0 0 1	O in top right, O in middle right, X in bottom right
+1384.png	0 0 1 0 0 2 0 0 0	X in top right, O in middle right
+1385.png	1 0 0 2 0 0 0 0 0	X in top left, O in middle left
+1386.png	1 0 1 1 1 0 0 0 0	X in top left, X in top right, X in middle left, X in center
+1387.png	0 0 1 2 0 1 0 2 0	X in top right, O in middle left, X in middle right, O in bottom middle
+1388.png	0 0 0 0 0 0 2 2 0	O in bottom left, O in bottom middle
+1389.png	0 0 0 0 2 1 2 0 0	O in center, X in middle right, O in bottom left
+1390.png	0 0 2 0 0 0 2 2 0	O in top right, O in bottom left, O in bottom middle
+1391.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+1392.png	0 0 0 0 0 0 0 1 1	X in bottom middle, X in bottom right
+1393.png	1 0 0 0 0 0 2 0 0	X in top left, O in bottom left
+1394.png	1 0 0 0 2 0 1 0 2	X in top left, O in center, X in bottom left, O in bottom right
+1395.png	0 1 0 0 2 0 1 0 1	X in top middle, O in center, X in bottom left, X in bottom right
+1396.png	2 0 1 0 2 0 1 0 0	O in top left, X in top right, O in center, X in bottom left
+1397.png	2 0 2 0 0 0 1 0 0	O in top left, O in top right, X in bottom left
+1398.png	0 0 0 1 0 2 0 1 2	X in middle left, O in middle right, X in bottom middle, O in bottom right
+1399.png	0 0 0 2 0 1 0 1 0	O in middle left, X in middle right, X in bottom middle
+1400.png	0 0 1 0 0 2 1 0 0	X in top right, O in middle right, X in bottom left
+1401.png	0 0 0 0 1 0 0 1 0	X in center, X in bottom middle
+1402.png	1 0 0 2 0 0 0 2 0	X in top left, O in middle left, O in bottom middle
+1403.png	0 2 0 1 0 0 0 1 0	O in top middle, X in middle left, X in bottom middle
+1404.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+1405.png	0 0 1 0 0 0 2 0 0	X in top right, O in bottom left
+1406.png	0 2 0 0 2 0 0 0 0	O in top middle, O in center
+1407.png	0 0 0 0 1 0 2 1 0	X in center, O in bottom left, X in bottom middle
+1408.png	0 0 0 0 2 2 0 1 0	O in center, O in middle right, X in bottom middle
+1409.png	1 0 0 0 1 0 0 2 0	X in top left, X in center, O in bottom middle
+1410.png	0 0 0 0 0 2 0 1 0	O in middle right, X in bottom middle
+1411.png	0 0 2 0 0 2 2 0 0	O in top right, O in middle right, O in bottom left
+1412.png	0 1 2 1 0 0 0 0 0	X in top middle, O in top right, X in middle left
+1413.png	2 0 0 2 1 0 1 0 0	O in top left, O in middle left, X in center, X in bottom left
+1414.png	0 0 1 0 2 1 1 0 0	X in top right, O in center, X in middle right, X in bottom left
+1415.png	0 0 0 0 1 2 0 2 0	X in center, O in middle right, O in bottom middle
+1416.png	2 0 0 0 0 0 0 0 1	O in top left, X in bottom right
+1417.png	1 2 0 0 0 0 1 1 0	X in top left, O in top middle, X in bottom left, X in bottom middle
+1418.png	2 0 0 2 0 0 2 0 0	O in top left, O in middle left, O in bottom left
+1419.png	0 0 0 0 0 2 1 1 0	O in middle right, X in bottom left, X in bottom middle
+1420.png	0 0 1 0 0 0 0 0 0	X in top right
+1421.png	0 0 1 0 0 0 1 0 2	X in top right, X in bottom left, O in bottom right
+1422.png	0 2 0 0 2 0 0 0 0	O in top middle, O in center
+1423.png	0 1 0 0 0 0 2 0 0	X in top middle, O in bottom left
+1424.png	0 0 0 0 0 0 2 2 1	O in bottom left, O in bottom middle, X in bottom right
+1425.png	0 2 2 1 0 0 1 0 0	O in top middle, O in top right, X in middle left, X in bottom left
+1426.png	0 0 1 1 2 0 0 1 0	X in top right, X in middle left, O in center, X in bottom middle
+1427.png	0 2 0 0 2 2 1 0 0	O in top middle, O in center, O in middle right, X in bottom left
+1428.png	0 0 0 0 0 1 2 0 0	X in middle right, O in bottom left
+1429.png	1 2 1 0 0 0 0 0 0	X in top left, O in top middle, X in top right
+1430.png	1 0 0 2 0 1 0 0 0	X in top left, O in middle left, X in middle right
+1431.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+1432.png	0 0 0 0 0 0 2 1 0	O in bottom left, X in bottom middle
+1433.png	0 2 1 0 1 1 0 0 0	O in top middle, X in top right, X in center, X in middle right
+1434.png	0 0 0 0 0 0 0 2 1	O in bottom middle, X in bottom right
+1435.png	0 0 0 0 2 0 0 2 1	O in center, O in bottom middle, X in bottom right
+1436.png	0 0 1 2 0 0 0 0 2	X in top right, O in middle left, O in bottom right
+1437.png	1 1 0 0 2 0 0 0 0	X in top left, X in top middle, O in center
+1438.png	0 0 0 1 2 0 2 0 0	X in middle left, O in center, O in bottom left
+1439.png	2 1 1 0 0 0 0 2 0	O in top left, X in top middle, X in top right, O in bottom middle
+1440.png	0 2 0 0 1 0 2 0 0	O in top middle, X in center, O in bottom left
+1441.png	1 0 0 0 0 1 0 1 0	X in top left, X in middle right, X in bottom middle
+1442.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+1443.png	0 2 0 0 0 0 2 0 0	O in top middle, O in bottom left
+1444.png	0 1 1 0 0 0 1 1 0	X in top middle, X in top right, X in bottom left, X in bottom middle
+1445.png	1 0 0 0 0 2 0 0 0	X in top left, O in middle right
+1446.png	0 1 2 0 0 1 0 0 0	X in top middle, O in top right, X in middle right
+1447.png	0 0 2 1 0 1 0 0 0	O in top right, X in middle left, X in middle right
+1448.png	1 0 0 2 1 0 0 0 0	X in top left, O in middle left, X in center
+1449.png	0 0 0 0 0 1 1 0 0	X in middle right, X in bottom left
+1450.png	0 1 0 0 0 1 1 0 1	X in top middle, X in middle right, X in bottom left, X in bottom right
+1451.png	0 0 0 0 0 2 1 0 0	O in middle right, X in bottom left
+1452.png	0 0 1 1 0 0 0 0 0	X in top right, X in middle left
+1453.png	2 0 0 0 1 0 2 1 0	O in top left, X in center, O in bottom left, X in bottom middle
+1454.png	0 0 0 0 1 0 0 1 0	X in center, X in bottom middle
+1455.png	1 0 0 0 0 0 0 1 2	X in top left, X in bottom middle, O in bottom right
+1456.png	1 0 0 0 0 0 0 2 0	X in top left, O in bottom middle
+1457.png	0 1 0 0 1 1 0 0 0	X in top middle, X in center, X in middle right
+1458.png	2 0 0 2 2 1 0 0 0	O in top left, O in middle left, O in center, X in middle right
+1459.png	0 0 2 2 2 0 0 0 0	O in top right, O in middle left, O in center
+1460.png	1 0 0 0 1 1 0 0 0	X in top left, X in center, X in middle right
+1461.png	2 0 2 0 0 0 0 2 0	O in top left, O in top right, O in bottom middle
+1462.png	0 0 2 0 0 1 0 1 0	O in top right, X in middle right, X in bottom middle
+1463.png	0 0 0 0 1 1 1 1 0	X in center, X in middle right, X in bottom left, X in bottom middle
+1464.png	2 0 0 0 0 0 1 2 1	O in top left, X in bottom left, O in bottom middle, X in bottom right
+1465.png	1 2 0 0 0 0 2 0 2	X in top left, O in top middle, O in bottom left, O in bottom right
+1466.png	0 1 0 0 1 0 1 0 2	X in top middle, X in center, X in bottom left, O in bottom right
+1467.png	0 0 0 1 0 0 2 0 0	X in middle left, O in bottom left
+1468.png	0 0 0 0 2 0 2 1 0	O in center, O in bottom left, X in bottom middle
+1469.png	1 0 0 0 0 0 2 0 0	X in top left, O in bottom left
+1470.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+1471.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+1472.png	2 0 1 0 0 0 2 0 0	O in top left, X in top right, O in bottom left
+1473.png	0 0 2 0 0 2 0 0 1	O in top right, O in middle right, X in bottom right
+1474.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+1475.png	0 0 0 0 0 2 2 0 2	O in middle right, O in bottom left, O in bottom right
+1476.png	0 2 0 0 0 0 0 0 1	O in top middle, X in bottom right
+1477.png	0 0 0 0 2 0 0 0 0	O in center
+1478.png	0 0 0 2 0 2 0 0 0	O in middle left, O in middle right
+1479.png	0 2 0 0 2 0 0 1 0	O in top middle, O in center, X in bottom middle
+1480.png	0 1 1 0 0 0 0 0 1	X in top middle, X in top right, X in bottom right
+1481.png	1 2 0 0 0 0 1 0 0	X in top left, O in top middle, X in bottom left
+1482.png	0 2 0 0 0 0 0 0 1	O in top middle, X in bottom right
+1483.png	0 0 0 2 2 0 0 0 0	O in middle left, O in center
+1484.png	0 0 0 0 2 2 0 1 1	O in center, O in middle right, X in bottom middle, X in bottom right
+1485.png	0 2 1 1 0 0 0 0 0	O in top middle, X in top right, X in middle left
+1486.png	0 2 1 0 0 0 0 0 0	O in top middle, X in top right
+1487.png	0 0 0 0 0 0 1 2 0	X in bottom left, O in bottom middle
+1488.png	0 0 2 0 0 0 0 0 2	O in top right, O in bottom right
+1489.png	0 0 0 0 0 0 0 1 0	X in bottom middle
+1490.png	1 0 0 2 0 0 0 0 1	X in top left, O in middle left, X in bottom right
+1491.png	1 1 0 0 0 0 2 0 0	X in top left, X in top middle, O in bottom left
+1492.png	0 1 0 0 0 0 0 2 0	X in top middle, O in bottom middle
+1493.png	0 0 1 0 2 0 1 0 0	X in top right, O in center, X in bottom left
+1494.png	1 0 0 2 0 0 0 0 0	X in top left, O in middle left
+1495.png	0 2 2 0 2 0 0 0 0	O in top middle, O in top right, O in center
+1496.png	0 0 1 1 0 1 0 0 0	X in top right, X in middle left, X in middle right
+1497.png	0 1 0 1 0 0 0 0 0	X in top middle, X in middle left
+1498.png	0 0 0 2 0 0 1 0 0	O in middle left, X in bottom left
+1499.png	2 1 2 0 0 1 0 0 0	O in top left, X in top middle, O in top right, X in middle right
+1500.png	1 0 0 0 0 1 0 0 0	X in top left, X in middle right
+1501.png	0 0 2 0 1 0 0 0 2	O in top right, X in center, O in bottom right
+1502.png	0 2 1 2 0 0 0 0 0	O in top middle, X in top right, O in middle left
+1503.png	0 0 0 0 1 0 0 0 0	X in center
+1504.png	1 0 2 0 1 1 0 0 0	X in top left, O in top right, X in center, X in middle right
+1505.png	0 0 1 0 0 1 0 0 0	X in top right, X in middle right
+1506.png	2 0 0 0 0 0 1 0 0	O in top left, X in bottom left
+1507.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+1508.png	0 0 0 0 0 1 0 0 1	X in middle right, X in bottom right
+1509.png	0 1 0 0 0 0 2 0 0	X in top middle, O in bottom left
+1510.png	1 0 0 0 1 0 0 0 0	X in top left, X in center
+1511.png	2 1 0 2 0 0 0 1 0	O in top left, X in top middle, O in middle left, X in bottom middle
+1512.png	0 0 0 1 0 0 1 0 1	X in middle left, X in bottom left, X in bottom right
+1513.png	2 2 2 0 0 1 0 0 0	O in top left, O in top middle, O in top right, X in middle right
+1514.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+1515.png	0 0 0 0 0 1 1 2 0	X in middle right, X in bottom left, O in bottom middle
+1516.png	0 2 0 2 0 1 0 0 0	O in top middle, O in middle left, X in middle right
+1517.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+1518.png	1 0 1 0 0 0 1 2 0	X in top left, X in top right, X in bottom left, O in bottom middle
+1519.png	0 0 0 2 0 2 0 0 2	O in middle left, O in middle right, O in bottom right
+1520.png	2 0 0 1 2 0 0 0 0	O in top left, X in middle left, O in center
+1521.png	2 2 0 0 0 0 0 0 0	O in top left, O in top middle
+1522.png	2 0 1 0 0 2 2 0 0	O in top left, X in top right, O in middle right, O in bottom left
+1523.png	0 0 1 0 0 2 0 0 0	X in top right, O in middle right
+1524.png	2 2 0 2 2 0 0 0 0	O in top left, O in top middle, O in middle left, O in center
+1525.png	0 2 2 0 1 0 0 2 0	O in top middle, O in top right, X in center, O in bottom middle
+1526.png	1 0 0 0 0 1 1 2 0	X in top left, X in middle right, X in bottom left, O in bottom middle
+1527.png	0 2 2 0 1 0 0 0 0	O in top middle, O in top right, X in center
+1528.png	1 0 0 0 0 1 0 0 1	X in top left, X in middle right, X in bottom right
+1529.png	0 0 0 0 0 2 1 0 0	O in middle right, X in bottom left
+1530.png	1 0 1 0 2 0 0 0 0	X in top left, X in top right, O in center
+1531.png	0 0 0 1 0 0 0 0 2	X in middle left, O in bottom right
+1532.png	0 0 0 0 1 0 0 0 0	X in center
+1533.png	2 0 0 2 2 0 0 2 0	O in top left, O in middle left, O in center, O in bottom middle
+1534.png	1 1 0 0 1 0 1 0 0	X in top left, X in top middle, X in center, X in bottom left
+1535.png	0 0 2 0 0 0 0 2 0	O in top right, O in bottom middle
+1536.png	0 2 0 2 0 0 2 0 1	O in top middle, O in middle left, O in bottom left, X in bottom right
+1537.png	2 0 0 1 0 0 0 1 0	O in top left, X in middle left, X in bottom middle
+1538.png	0 2 0 0 1 1 0 0 0	O in top middle, X in center, X in middle right
+1539.png	0 0 0 0 1 2 0 0 0	X in center, O in middle right
+1540.png	0 0 0 1 1 0 0 0 1	X in middle left, X in center, X in bottom right
+1541.png	0 2 0 0 0 0 0 0 0	O in top middle
+1542.png	0 0 0 0 1 0 0 2 0	X in center, O in bottom middle
+1543.png	0 1 0 0 0 0 1 1 0	X in top middle, X in bottom left, X in bottom middle
+1544.png	0 0 1 0 0 1 1 0 0	X in top right, X in middle right, X in bottom left
+1545.png	0 0 2 1 0 0 0 0 0	O in top right, X in middle left
+1546.png	2 1 0 0 0 0 0 0 0	O in top left, X in top middle
+1547.png	1 1 0 2 0 0 0 0 0	X in top left, X in top middle, O in middle left
+1548.png	0 0 0 1 0 1 0 2 0	X in middle left, X in middle right, O in bottom middle
+1549.png	2 0 1 0 0 0 0 0 1	O in top left, X in top right, X in bottom right
+1550.png	0 0 0 1 0 0 0 0 0	X in middle left
+1551.png	1 0 0 0 0 2 0 0 0	X in top left, O in middle right
+1552.png	0 0 0 0 0 0 2 0 1	O in bottom left, X in bottom right
+1553.png	0 0 0 1 0 0 0 0 1	X in middle left, X in bottom right
+1554.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+1555.png	1 2 1 1 0 0 0 0 0	X in top left, O in top middle, X in top right, X in middle left
+1556.png	0 0 0 0 0 0 2 0 0	O in bottom left
+1557.png	0 1 0 0 0 0 0 0 2	X in top middle, O in bottom right
+1558.png	0 2 0 1 0 2 0 0 2	O in top middle, X in middle left, O in middle right, O in bottom right
+1559.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+1560.png	0 0 0 0 2 1 1 0 0	O in center, X in middle right, X in bottom left
+1561.png	0 1 1 0 0 0 2 0 0	X in top middle, X in top right, O in bottom left
+1562.png	0 0 2 2 0 2 0 0 0	O in top right, O in middle left, O in middle right
+1563.png	0 1 0 2 0 0 2 0 0	X in top middle, O in middle left, O in bottom left
+1564.png	2 0 0 0 0 0 2 1 2	O in top left, O in bottom left, X in bottom middle, O in bottom right
+1565.png	0 1 0 2 0 1 0 0 0	X in top middle, O in middle left, X in middle right
+1566.png	0 0 0 0 0 0 2 0 0	O in bottom left
+1567.png	0 2 0 0 0 0 2 1 1	O in top middle, O in bottom left, X in bottom middle, X in bottom right
+1568.png	0 0 0 0 0 0 1 1 0	X in bottom left, X in bottom middle
+1569.png	2 0 0 1 1 0 0 0 1	O in top left, X in middle left, X in center, X in bottom right
+1570.png	0 0 0 2 0 2 0 0 0	O in middle left, O in middle right
+1571.png	0 0 0 0 0 1 0 0 2	X in middle right, O in bottom right
+1572.png	2 0 0 0 2 0 1 0 0	O in top left, O in center, X in bottom left
+1573.png	1 0 0 0 0 0 1 0 0	X in top left, X in bottom left
+1574.png	0 0 0 0 0 1 0 0 1	X in middle right, X in bottom right
+1575.png	0 0 1 0 0 2 0 0 2	X in top right, O in middle right, O in bottom right
+1576.png	0 2 0 0 0 0 0 1 2	O in top middle, X in bottom middle, O in bottom right
+1577.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+1578.png	0 0 0 0 0 0 0 2 2	O in bottom middle, O in bottom right
+1579.png	0 2 0 1 2 0 2 0 0	O in top middle, X in middle left, O in center, O in bottom left
+1580.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+1581.png	0 0 0 1 0 2 0 2 0	X in middle left, O in middle right, O in bottom middle
+1582.png	0 0 0 0 0 2 0 0 1	O in middle right, X in bottom right
+1583.png	0 2 2 2 0 0 0 0 0	O in top middle, O in top right, O in middle left
+1584.png	0 0 0 2 0 0 0 0 2	O in middle left, O in bottom right
+1585.png	2 0 2 0 2 0 0 0 1	O in top left, O in top right, O in center, X in bottom right
+1586.png	0 0 0 0 1 0 0 0 1	X in center, X in bottom right
+1587.png	0 2 0 1 0 1 0 0 1	O in top middle, X in middle left, X in middle right, X in bottom right
+1588.png	1 0 0 1 0 0 2 0 0	X in top left, X in middle left, O in bottom left
+1589.png	1 0 0 0 0 0 0 1 0	X in top left, X in bottom middle
+1590.png	2 0 0 0 0 0 0 1 0	O in top left, X in bottom middle
+1591.png	0 0 0 0 2 0 0 0 0	O in center
+1592.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+1593.png	0 0 1 2 0 0 0 0 0	X in top right, O in middle left
+1594.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+1595.png	2 2 2 0 0 0 0 2 0	O in top left, O in top middle, O in top right, O in bottom middle
+1596.png	2 0 0 2 2 0 1 0 0	O in top left, O in middle left, O in center, X in bottom left
+1597.png	2 0 2 0 0 0 0 0 1	O in top left, O in top right, X in bottom right
+1598.png	0 0 0 2 1 0 0 0 2	O in middle left, X in center, O in bottom right
+1599.png	2 1 0 1 0 0 2 0 0	O in top left, X in top middle, X in middle left, O in bottom left
+1600.png	0 0 0 2 0 1 0 0 0	O in middle left, X in middle right
+1601.png	0 2 0 0 1 0 0 2 0	O in top middle, X in center, O in bottom middle
+1602.png	1 2 0 0 0 2 0 0 0	X in top left, O in top middle, O in middle right
+1603.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+1604.png	1 2 0 1 0 0 0 0 2	X in top left, O in top middle, X in middle left, O in bottom right
+1605.png	1 0 1 0 0 0 0 2 0	X in top left, X in top right, O in bottom middle
+1606.png	0 0 0 2 0 0 0 1 0	O in middle left, X in bottom middle
+1607.png	0 0 1 2 0 0 0 0 0	X in top right, O in middle left
+1608.png	0 1 0 0 2 0 0 1 0	X in top middle, O in center, X in bottom middle
+1609.png	0 0 0 2 0 0 0 0 2	O in middle left, O in bottom right
+1610.png	0 0 1 0 2 0 0 0 0	X in top right, O in center
+1611.png	0 0 1 0 2 0 0 1 0	X in top right, O in center, X in bottom middle
+1612.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+1613.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+1614.png	0 0 0 0 0 1 0 1 0	X in middle right, X in bottom middle
+1615.png	0 0 0 0 1 1 0 1 0	X in center, X in middle right, X in bottom middle
+1616.png	1 0 0 0 0 2 0 0 1	X in top left, O in middle right, X in bottom right
+1617.png	0 1 0 0 2 2 0 0 0	X in top middle, O in center, O in middle right
+1618.png	1 0 0 2 0 0 0 0 1	X in top left, O in middle left, X in bottom right
+1619.png	2 0 0 0 0 0 1 2 0	O in top left, X in bottom left, O in bottom middle
+1620.png	0 1 0 0 1 0 0 2 1	X in top middle, X in center, O in bottom middle, X in bottom right
+1621.png	1 2 0 0 0 0 0 0 2	X in top left, O in top middle, O in bottom right
+1622.png	0 0 0 1 0 2 0 0 2	X in middle left, O in middle right, O in bottom right
+1623.png	0 0 0 1 0 0 2 0 0	X in middle left, O in bottom left
+1624.png	1 0 0 2 0 1 0 0 0	X in top left, O in middle left, X in middle right
+1625.png	2 0 0 0 1 0 2 0 0	O in top left, X in center, O in bottom left
+1626.png	2 0 0 2 0 0 1 0 1	O in top left, O in middle left, X in bottom left, X in bottom right
+1627.png	2 1 0 0 0 0 0 1 2	O in top left, X in top middle, X in bottom middle, O in bottom right
+1628.png	0 0 2 2 2 0 1 0 0	O in top right, O in middle left, O in center, X in bottom left
+1629.png	0 2 2 0 0 0 2 0 0	O in top middle, O in top right, O in bottom left
+1630.png	0 0 0 2 2 0 0 0 0	O in middle left, O in center
+1631.png	0 0 0 0 2 0 1 2 0	O in center, X in bottom left, O in bottom middle
+1632.png	1 0 2 0 0 0 1 0 0	X in top left, O in top right, X in bottom left
+1633.png	0 0 0 0 0 0 1 0 0	X in bottom left
+1634.png	1 0 0 0 0 0 1 2 1	X in top left, X in bottom left, O in bottom middle, X in bottom right
+1635.png	1 0 0 0 0 0 0 1 0	X in top left, X in bottom middle
+1636.png	1 1 0 1 0 1 0 0 0	X in top left, X in top middle, X in middle left, X in middle right
+1637.png	0 0 0 2 0 0 2 0 1	O in middle left, O in bottom left, X in bottom right
+1638.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+1639.png	0 0 1 0 0 2 1 0 0	X in top right, O in middle right, X in bottom left
+1640.png	2 0 0 0 0 1 0 2 0	O in top left, X in middle right, O in bottom middle
+1641.png	1 0 0 0 0 0 0 1 0	X in top left, X in bottom middle
+1642.png	0 0 0 0 1 0 0 0 1	X in center, X in bottom right
+1643.png	1 0 1 0 0 0 0 0 0	X in top left, X in top right
+1644.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+1645.png	0 0 2 2 0 0 2 0 0	O in top right, O in middle left, O in bottom left
+1646.png	0 0 0 1 2 1 0 0 0	X in middle left, O in center, X in middle right
+1647.png	2 0 0 0 0 2 0 0 0	O in top left, O in middle right
+1648.png	1 0 0 2 1 1 0 0 0	X in top left, O in middle left, X in center, X in middle right
+1649.png	0 0 0 0 1 2 1 2 0	X in center, O in middle right, X in bottom left, O in bottom middle
+1650.png	0 0 0 0 0 0 1 2 1	X in bottom left, O in bottom middle, X in bottom right
+1651.png	1 0 2 2 2 0 0 0 0	X in top left, O in top right, O in middle left, O in center
+1652.png	0 0 1 0 0 0 0 0 0	X in top right
+1653.png	2 0 2 0 0 0 0 0 0	O in top left, O in top right
+1654.png	2 0 0 0 0 2 0 0 0	O in top left, O in middle right
+1655.png	0 2 2 2 2 0 0 0 0	O in top middle, O in top right, O in middle left, O in center
+1656.png	0 2 0 0 0 0 1 2 0	O in top middle, X in bottom left, O in bottom middle
+1657.png	2 0 2 0 0 0 0 0 0	O in top left, O in top right
+1658.png	0 0 0 0 0 0 1 2 0	X in bottom left, O in bottom middle
+1659.png	2 0 0 2 0 0 1 2 0	O in top left, O in middle left, X in bottom left, O in bottom middle
+1660.png	2 0 2 0 0 0 2 0 0	O in top left, O in top right, O in bottom left
+1661.png	0 1 0 0 0 1 0 1 0	X in top middle, X in middle right, X in bottom middle
+1662.png	0 2 0 1 1 0 0 0 0	O in top middle, X in middle left, X in center
+1663.png	2 0 0 0 2 0 0 0 0	O in top left, O in center
+1664.png	0 0 0 0 1 0 0 0 1	X in center, X in bottom right
+1665.png	1 1 0 2 0 0 0 0 0	X in top left, X in top middle, O in middle left
+1666.png	1 0 0 1 2 0 2 0 0	X in top left, X in middle left, O in center, O in bottom left
+1667.png	0 0 2 0 0 0 2 0 0	O in top right, O in bottom left
+1668.png	0 1 0 0 0 0 1 0 0	X in top middle, X in bottom left
+1669.png	0 0 2 0 0 0 0 2 1	O in top right, O in bottom middle, X in bottom right
+1670.png	0 1 0 0 0 2 2 0 0	X in top middle, O in middle right, O in bottom left
+1671.png	0 0 0 2 0 2 0 1 0	O in middle left, O in middle right, X in bottom middle
+1672.png	0 2 2 0 0 0 0 0 0	O in top middle, O in top right
+1673.png	1 0 2 1 0 0 0 0 0	X in top left, O in top right, X in middle left
+1674.png	2 0 0 0 0 0 0 0 2	O in top left, O in bottom right
+1675.png	0 0 0 1 0 1 0 0 1	X in middle left, X in middle right, X in bottom right
+1676.png	1 0 2 0 2 0 0 0 1	X in top left, O in top right, O in center, X in bottom right
+1677.png	2 0 2 2 0 0 0 0 0	O in top left, O in top right, O in middle left
+1678.png	0 0 0 0 1 0 2 0 0	X in center, O in bottom left
+1679.png	0 0 1 0 0 2 2 0 1	X in top right, O in middle right, O in bottom left, X in bottom right
+1680.png	2 2 0 0 0 0 1 0 2	O in top left, O in top middle, X in bottom left, O in bottom right
+1681.png	0 0 1 2 0 0 0 0 1	X in top right, O in middle left, X in bottom right
+1682.png	2 2 0 0 1 0 0 2 0	O in top left, O in top middle, X in center, O in bottom middle
+1683.png	2 1 0 0 1 1 0 0 0	O in top left, X in top middle, X in center, X in middle right
+1684.png	2 0 2 0 0 0 0 2 0	O in top left, O in top right, O in bottom middle
+1685.png	2 0 0 0 0 0 2 0 0	O in top left, O in bottom left
+1686.png	0 0 2 0 0 0 0 0 0	O in top right
+1687.png	0 0 0 2 2 0 0 1 1	O in middle left, O in center, X in bottom middle, X in bottom right
+1688.png	0 0 0 0 0 1 0 0 1	X in middle right, X in bottom right
+1689.png	0 0 0 2 0 0 2 0 0	O in middle left, O in bottom left
+1690.png	1 2 0 0 0 1 0 0 0	X in top left, O in top middle, X in middle right
+1691.png	0 1 0 0 0 2 0 0 1	X in top middle, O in middle right, X in bottom right
+1692.png	0 0 0 2 0 0 0 2 0	O in middle left, O in bottom middle
+1693.png	0 1 0 0 1 0 0 0 2	X in top middle, X in center, O in bottom right
+1694.png	0 2 0 0 0 0 0 0 2	O in top middle, O in bottom right
+1695.png	0 1 1 0 0 0 0 0 0	X in top middle, X in top right
+1696.png	0 0 1 0 0 2 0 2 0	X in top right, O in middle right, O in bottom middle
+1697.png	2 0 0 0 0 1 0 0 1	O in top left, X in middle right, X in bottom right
+1698.png	0 0 1 0 1 0 2 0 0	X in top right, X in center, O in bottom left
+1699.png	0 2 2 1 1 0 0 0 0	O in top middle, O in top right, X in middle left, X in center
+1700.png	0 2 1 2 0 0 0 0 0	O in top middle, X in top right, O in middle left
+1701.png	0 0 0 2 0 2 0 0 0	O in middle left, O in middle right
+1702.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+1703.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+1704.png	1 2 2 0 0 0 0 0 0	X in top left, O in top middle, O in top right
+1705.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+1706.png	0 0 0 0 0 1 1 0 0	X in middle right, X in bottom left
+1707.png	1 0 0 2 0 0 0 0 2	X in top left, O in middle left, O in bottom right
+1708.png	0 1 0 0 2 0 0 1 0	X in top middle, O in center, X in bottom middle
+1709.png	2 0 0 2 0 0 0 1 0	O in top left, O in middle left, X in bottom middle
+1710.png	2 0 1 0 1 0 0 1 0	O in top left, X in top right, X in center, X in bottom middle
+1711.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+1712.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+1713.png	1 0 2 0 0 0 1 0 0	X in top left, O in top right, X in bottom left
+1714.png	0 0 0 1 0 0 1 0 1	X in middle left, X in bottom left, X in bottom right
+1715.png	0 2 0 2 0 0 1 0 0	O in top middle, O in middle left, X in bottom left
+1716.png	1 0 0 0 2 0 0 0 0	X in top left, O in center
+1717.png	0 1 0 2 0 0 0 0 1	X in top middle, O in middle left, X in bottom right
+1718.png	0 0 0 0 2 0 0 0 1	O in center, X in bottom right
+1719.png	2 0 2 0 0 0 0 1 0	O in top left, O in top right, X in bottom middle
+1720.png	0 2 0 0 1 0 0 0 0	O in top middle, X in center
+1721.png	0 0 2 0 1 0 0 0 0	O in top right, X in center
+1722.png	2 0 0 1 2 0 0 2 0	O in top left, X in middle left, O in center, O in bottom middle
+1723.png	0 0 0 0 0 0 0 2 2	O in bottom middle, O in bottom right
+1724.png	0 0 2 0 1 0 0 0 2	O in top right, X in center, O in bottom right
+1725.png	0 0 1 2 0 1 0 0 0	X in top right, O in middle left, X in middle right
+1726.png	0 2 0 0 2 0 2 0 1	O in top middle, O in center, O in bottom left, X in bottom right
+1727.png	1 0 0 0 0 0 0 2 0	X in top left, O in bottom middle
+1728.png	1 0 0 2 0 0 0 0 0	X in top left, O in middle left
+1729.png	0 0 2 1 0 0 0 0 0	O in top right, X in middle left
+1730.png	0 0 0 0 0 0 1 2 0	X in bottom left, O in bottom middle
+1731.png	0 0 0 0 1 0 0 0 0	X in center
+1732.png	0 1 0 0 0 1 0 0 0	X in top middle, X in middle right
+1733.png	0 2 0 1 0 0 0 0 0	O in top middle, X in middle left
+1734.png	1 0 1 0 0 0 0 0 0	X in top left, X in top right
+1735.png	0 0 1 0 1 0 0 0 0	X in top right, X in center
+1736.png	1 0 0 0 0 0 0 0 2	X in top left, O in bottom right
+1737.png	2 0 0 0 0 0 0 1 0	O in top left, X in bottom middle
+1738.png	0 1 2 0 0 0 1 0 0	X in top middle, O in top right, X in bottom left
+1739.png	0 0 0 1 0 0 2 1 0	X in middle left, O in bottom left, X in bottom middle
+1740.png	1 0 0 0 0 2 0 0 0	X in top left, O in middle right
+1741.png	1 0 0 0 0 1 0 0 1	X in top left, X in middle right, X in bottom right
+1742.png	0 0 1 0 0 0 0 2 0	X in top right, O in bottom middle
+1743.png	2 0 2 0 2 0 2 0 0	O in top left, O in top right, O in center, O in bottom left
+1744.png	0 1 0 2 0 0 0 0 0	X in top middle, O in middle left
+1745.png	1 0 0 0 0 0 1 0 0	X in top left, X in bottom left
+1746.png	0 2 2 0 0 0 0 0 0	O in top middle, O in top right
+1747.png	2 0 1 0 0 0 0 0 0	O in top left, X in top right
+1748.png	0 2 0 0 1 0 0 1 0	O in top middle, X in center, X in bottom middle
+1749.png	2 1 0 2 0 0 0 0 0	O in top left, X in top middle, O in middle left
+1750.png	0 2 2 2 0 1 0 0 0	O in top middle, O in top right, O in middle left, X in middle right
+1751.png	0 2 1 0 0 0 0 0 0	O in top middle, X in top right
+1752.png	0 0 0 1 0 0 0 0 2	X in middle left, O in bottom right
+1753.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+1754.png	0 2 0 0 0 0 0 2 0	O in top middle, O in bottom middle
+1755.png	0 2 0 0 0 2 2 0 1	O in top middle, O in middle right, O in bottom left, X in bottom right
+1756.png	0 1 0 0 2 1 2 0 0	X in top middle, O in center, X in middle right, O in bottom left
+1757.png	1 0 0 0 2 0 0 0 1	X in top left, O in center, X in bottom right
+1758.png	0 2 0 1 0 0 0 0 1	O in top middle, X in middle left, X in bottom right
+1759.png	1 0 2 0 1 0 0 0 0	X in top left, O in top right, X in center
+1760.png	0 0 0 0 1 2 1 1 0	X in center, O in middle right, X in bottom left, X in bottom middle
+1761.png	0 0 0 0 2 0 1 0 1	O in center, X in bottom left, X in bottom right
+1762.png	0 0 0 0 0 1 0 0 2	X in middle right, O in bottom right
+1763.png	1 2 2 0 0 0 1 0 0	X in top left, O in top middle, O in top right, X in bottom left
+1764.png	0 2 0 0 0 0 0 2 1	O in top middle, O in bottom middle, X in bottom right
+1765.png	0 0 0 0 0 0 1 0 1	X in bottom left, X in bottom right
+1766.png	0 0 2 0 1 0 0 0 0	O in top right, X in center
+1767.png	0 1 0 1 0 2 0 2 0	X in top middle, X in middle left, O in middle right, O in bottom middle
+1768.png	2 0 0 0 0 2 0 0 0	O in top left, O in middle right
+1769.png	0 0 0 1 0 0 1 1 0	X in middle left, X in bottom left, X in bottom middle
+1770.png	0 0 0 1 2 0 2 0 0	X in middle left, O in center, O in bottom left
+1771.png	2 0 0 0 2 0 0 1 2	O in top left, O in center, X in bottom middle, O in bottom right
+1772.png	0 0 0 1 0 0 0 1 0	X in middle left, X in bottom middle
+1773.png	0 2 0 0 0 0 2 0 0	O in top middle, O in bottom left
+1774.png	0 0 0 0 1 0 0 0 2	X in center, O in bottom right
+1775.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+1776.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+1777.png	0 0 0 0 1 2 0 0 0	X in center, O in middle right
+1778.png	1 0 0 2 1 2 0 0 0	X in top left, O in middle left, X in center, O in middle right
+1779.png	0 2 0 2 0 0 0 0 0	O in top middle, O in middle left
+1780.png	0 0 0 0 1 1 0 1 0	X in center, X in middle right, X in bottom middle
+1781.png	0 0 0 1 0 1 0 0 0	X in middle left, X in middle right
+1782.png	0 1 0 0 0 2 0 0 2	X in top middle, O in middle right, O in bottom right
+1783.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+1784.png	0 1 2 0 0 1 0 0 0	X in top middle, O in top right, X in middle right
+1785.png	1 2 0 1 0 0 0 0 1	X in top left, O in top middle, X in middle left, X in bottom right
+1786.png	2 2 0 0 0 2 0 0 0	O in top left, O in top middle, O in middle right
+1787.png	0 0 1 1 0 0 0 0 1	X in top right, X in middle left, X in bottom right
+1788.png	2 0 1 0 0 0 0 0 0	O in top left, X in top right
+1789.png	0 2 0 1 0 2 0 0 0	O in top middle, X in middle left, O in middle right
+1790.png	0 0 1 0 2 0 0 0 0	X in top right, O in center
+1791.png	1 0 2 0 0 0 0 0 2	X in top left, O in top right, O in bottom right
+1792.png	2 2 0 0 0 0 1 1 0	O in top left, O in top middle, X in bottom left, X in bottom middle
+1793.png	0 2 0 0 0 2 2 1 0	O in top middle, O in middle right, O in bottom left, X in bottom middle
+1794.png	0 0 0 2 2 0 1 0 0	O in middle left, O in center, X in bottom left
+1795.png	0 1 0 1 0 0 1 0 0	X in top middle, X in middle left, X in bottom left
+1796.png	0 0 0 0 0 0 1 0 2	X in bottom left, O in bottom right
+1797.png	2 0 0 0 1 0 0 0 0	O in top left, X in center
+1798.png	0 2 0 0 0 0 1 0 0	O in top middle, X in bottom left
+1799.png	0 2 1 0 0 2 0 0 0	O in top middle, X in top right, O in middle right
+1800.png	0 1 0 0 1 0 2 0 0	X in top middle, X in center, O in bottom left
+1801.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+1802.png	0 0 1 0 0 0 2 0 0	X in top right, O in bottom left
+1803.png	0 0 2 0 2 2 0 2 0	O in top right, O in center, O in middle right, O in bottom middle
+1804.png	0 2 0 0 2 0 0 0 1	O in top middle, O in center, X in bottom right
+1805.png	1 0 0 1 0 0 0 0 0	X in top left, X in middle left
+1806.png	0 0 0 2 1 2 0 0 0	O in middle left, X in center, O in middle right
+1807.png	2 0 1 2 0 2 0 0 0	O in top left, X in top right, O in middle left, O in middle right
+1808.png	2 0 0 0 0 0 0 0 0	O in top left
+1809.png	0 0 0 0 0 0 1 0 2	X in bottom left, O in bottom right
+1810.png	2 0 0 0 0 0 2 0 0	O in top left, O in bottom left
+1811.png	1 0 0 0 0 0 2 1 0	X in top left, O in bottom left, X in bottom middle
+1812.png	2 0 0 0 0 2 1 0 0	O in top left, O in middle right, X in bottom left
+1813.png	0 1 2 2 0 0 0 0 2	X in top middle, O in top right, O in middle left, O in bottom right
+1814.png	0 2 0 0 0 2 1 1 0	O in top middle, O in middle right, X in bottom left, X in bottom middle
+1815.png	0 2 2 0 0 0 0 0 0	O in top middle, O in top right
+1816.png	0 0 2 1 0 0 0 0 1	O in top right, X in middle left, X in bottom right
+1817.png	0 0 2 0 0 1 0 0 1	O in top right, X in middle right, X in bottom right
+1818.png	0 2 2 0 0 2 0 0 0	O in top middle, O in top right, O in middle right
+1819.png	0 1 2 0 0 0 0 0 0	X in top middle, O in top right
+1820.png	0 0 0 2 0 0 0 1 0	O in middle left, X in bottom middle
+1821.png	0 0 0 2 0 0 0 1 0	O in middle left, X in bottom middle
+1822.png	0 0 0 0 0 0 0 2 1	O in bottom middle, X in bottom right
+1823.png	2 0 0 1 0 2 0 0 0	O in top left, X in middle left, O in middle right
+1824.png	0 1 0 1 0 0 0 2 0	X in top middle, X in middle left, O in bottom middle
+1825.png	1 0 0 0 0 0 0 2 1	X in top left, O in bottom middle, X in bottom right
+1826.png	0 0 1 0 0 2 2 0 0	X in top right, O in middle right, O in bottom left
+1827.png	0 0 1 0 0 0 1 0 0	X in top right, X in bottom left
+1828.png	0 0 0 1 0 2 0 0 0	X in middle left, O in middle right
+1829.png	0 0 1 0 0 0 0 2 1	X in top right, O in bottom middle, X in bottom right
+1830.png	2 2 2 0 0 0 0 0 0	O in top left, O in top middle, O in top right
+1831.png	0 0 0 0 0 0 1 2 0	X in bottom left, O in bottom middle
+1832.png	2 0 0 2 2 0 0 0 0	O in top left, O in middle left, O in center
+1833.png	0 0 1 1 0 0 0 0 0	X in top right, X in middle left
+1834.png	0 2 0 0 0 0 1 0 0	O in top middle, X in bottom left
+1835.png	1 0 0 0 2 0 0 1 0	X in top left, O in center, X in bottom middle
+1836.png	0 1 0 0 0 0 0 0 0	X in top middle
+1837.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+1838.png	0 0 2 0 0 1 0 1 0	O in top right, X in middle right, X in bottom middle
+1839.png	2 0 1 0 2 0 0 0 2	O in top left, X in top right, O in center, O in bottom right
+1840.png	0 0 1 0 0 0 0 0 0	X in top right
+1841.png	0 2 0 0 0 2 0 0 0	O in top middle, O in middle right
+1842.png	0 0 1 2 0 0 0 0 0	X in top right, O in middle left
+1843.png	0 0 2 0 0 1 0 0 0	O in top right, X in middle right
+1844.png	2 0 1 0 0 0 0 0 0	O in top left, X in top right
+1845.png	0 0 0 0 0 0 2 0 1	O in bottom left, X in bottom right
+1846.png	0 0 0 1 0 0 0 0 1	X in middle left, X in bottom right
+1847.png	0 0 0 1 2 0 0 0 2	X in middle left, O in center, O in bottom right
+1848.png	0 0 0 2 0 0 0 2 1	O in middle left, O in bottom middle, X in bottom right
+1849.png	0 0 1 0 0 1 2 0 0	X in top right, X in middle right, O in bottom left
+1850.png	1 0 1 1 0 0 0 0 0	X in top left, X in top right, X in middle left
+1851.png	2 0 0 0 0 2 0 0 0	O in top left, O in middle right
+1852.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+1853.png	1 0 1 0 0 0 1 0 1	X in top left, X in top right, X in bottom left, X in bottom right
+1854.png	0 1 0 0 2 0 0 0 0	X in top middle, O in center
+1855.png	0 0 0 1 0 0 2 0 0	X in middle left, O in bottom left
+1856.png	0 0 0 0 0 0 1 2 2	X in bottom left, O in bottom middle, O in bottom right
+1857.png	0 0 2 0 0 0 0 1 2	O in top right, X in bottom middle, O in bottom right
+1858.png	0 0 0 0 0 2 1 0 1	O in middle right, X in bottom left, X in bottom right
+1859.png	0 1 0 1 0 2 0 1 0	X in top middle, X in middle left, O in middle right, X in bottom middle
+1860.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+1861.png	0 1 0 2 0 0 1 0 0	X in top middle, O in middle left, X in bottom left
+1862.png	1 0 0 0 0 0 0 0 1	X in top left, X in bottom right
+1863.png	0 0 0 0 0 0 0 2 0	O in bottom middle
+1864.png	2 2 0 2 0 0 2 0 0	O in top left, O in top middle, O in middle left, O in bottom left
+1865.png	0 2 0 0 0 2 2 0 0	O in top middle, O in middle right, O in bottom left
+1866.png	0 0 0 1 0 0 0 0 1	X in middle left, X in bottom right
+1867.png	0 0 0 1 0 2 1 0 0	X in middle left, O in middle right, X in bottom left
+1868.png	0 0 0 0 0 0 2 0 2	O in bottom left, O in bottom right
+1869.png	0 0 0 0 0 1 1 0 1	X in middle right, X in bottom left, X in bottom right
+1870.png	0 0 0 1 0 0 1 1 0	X in middle left, X in bottom left, X in bottom middle
+1871.png	0 0 0 0 2 0 2 0 0	O in center, O in bottom left
+1872.png	1 0 0 2 0 2 0 0 0	X in top left, O in middle left, O in middle right
+1873.png	0 1 1 0 0 0 1 0 2	X in top middle, X in top right, X in bottom left, O in bottom right
+1874.png	0 2 0 1 0 0 2 0 0	O in top middle, X in middle left, O in bottom left
+1875.png	1 2 2 0 0 0 0 0 2	X in top left, O in top middle, O in top right, O in bottom right
+1876.png	0 0 2 0 0 0 1 1 0	O in top right, X in bottom left, X in bottom middle
+1877.png	0 2 0 0 0 0 0 1 0	O in top middle, X in bottom middle
+1878.png	0 0 0 0 2 0 0 0 0	O in center
+1879.png	0 0 0 0 2 1 0 0 0	O in center, X in middle right
+1880.png	0 0 0 0 0 0 1 2 0	X in bottom left, O in bottom middle
+1881.png	1 0 0 0 2 1 0 2 0	X in top left, O in center, X in middle right, O in bottom middle
+1882.png	0 2 0 1 0 0 0 0 1	O in top middle, X in middle left, X in bottom right
+1883.png	0 0 2 0 0 2 0 0 0	O in top right, O in middle right
+1884.png	0 0 2 0 2 2 0 0 0	O in top right, O in center, O in middle right
+1885.png	0 2 0 1 0 1 1 0 0	O in top middle, X in middle left, X in middle right, X in bottom left
+1886.png	0 1 0 2 0 0 1 0 2	X in top middle, O in middle left, X in bottom left, O in bottom right
+1887.png	0 1 0 1 0 0 2 0 0	X in top middle, X in middle left, O in bottom left
+1888.png	0 0 2 1 0 0 0 1 1	O in top right, X in middle left, X in bottom middle, X in bottom right
+1889.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+1890.png	0 2 0 0 0 0 0 0 1	O in top middle, X in bottom right
+1891.png	0 0 1 0 0 2 0 0 2	X in top right, O in middle right, O in bottom right
+1892.png	0 0 2 2 0 0 1 2 0	O in top right, O in middle left, X in bottom left, O in bottom middle
+1893.png	0 1 2 0 0 0 0 2 0	X in top middle, O in top right, O in bottom middle
+1894.png	1 0 0 0 2 0 0 0 1	X in top left, O in center, X in bottom right
+1895.png	0 1 0 0 1 0 0 0 0	X in top middle, X in center
+1896.png	0 0 1 0 0 0 0 1 0	X in top right, X in bottom middle
+1897.png	0 0 1 0 0 0 2 0 0	X in top right, O in bottom left
+1898.png	0 0 0 0 2 0 1 0 1	O in center, X in bottom left, X in bottom right
+1899.png	0 0 1 1 1 0 0 2 0	X in top right, X in middle left, X in center, O in bottom middle
+1900.png	0 0 1 1 0 0 0 0 1	X in top right, X in middle left, X in bottom right
+1901.png	1 0 0 0 1 0 2 0 1	X in top left, X in center, O in bottom left, X in bottom right
+1902.png	0 0 0 2 2 1 0 0 0	O in middle left, O in center, X in middle right
+1903.png	2 0 0 0 0 1 0 1 0	O in top left, X in middle right, X in bottom middle
+1904.png	0 2 0 0 0 2 1 0 2	O in top middle, O in middle right, X in bottom left, O in bottom right
+1905.png	2 0 2 0 1 0 0 0 0	O in top left, O in top right, X in center
+1906.png	2 0 2 0 0 0 1 0 0	O in top left, O in top right, X in bottom left
+1907.png	0 1 0 1 1 0 2 0 0	X in top middle, X in middle left, X in center, O in bottom left
+1908.png	0 0 0 0 0 0 2 0 2	O in bottom left, O in bottom right
+1909.png	0 0 2 2 0 0 0 1 0	O in top right, O in middle left, X in bottom middle
+1910.png	0 0 0 2 0 0 0 0 2	O in middle left, O in bottom right
+1911.png	0 0 0 1 0 2 0 0 1	X in middle left, O in middle right, X in bottom right
+1912.png	0 0 2 0 0 0 0 0 0	O in top right
+1913.png	2 0 0 2 0 0 0 0 0	O in top left, O in middle left
+1914.png	0 1 0 0 0 1 1 0 0	X in top middle, X in middle right, X in bottom left
+1915.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+1916.png	0 2 0 0 0 1 2 0 1	O in top middle, X in middle right, O in bottom left, X in bottom right
+1917.png	1 0 0 0 1 1 0 0 0	X in top left, X in center, X in middle right
+1918.png	0 0 2 0 0 1 0 0 0	O in top right, X in middle right
+1919.png	0 0 0 1 0 0 2 0 1	X in middle left, O in bottom left, X in bottom right
+1920.png	1 0 1 0 0 0 0 0 1	X in top left, X in top right, X in bottom right
+1921.png	0 2 0 0 0 1 0 0 0	O in top middle, X in middle right
+1922.png	0 2 0 0 0 2 0 0 0	O in top middle, O in middle right
+1923.png	2 0 0 0 0 0 0 2 0	O in top left, O in bottom middle
+1924.png	0 0 1 0 2 0 2 0 0	X in top right, O in center, O in bottom left
+1925.png	2 0 0 0 0 1 0 0 0	O in top left, X in middle right
+1926.png	0 0 2 2 0 0 2 0 0	O in top right, O in middle left, O in bottom left
+1927.png	0 1 0 0 0 2 0 2 0	X in top middle, O in middle right, O in bottom middle
+1928.png	1 0 0 0 0 1 1 0 0	X in top left, X in middle right, X in bottom left
+1929.png	0 0 0 0 0 2 0 1 0	O in middle right, X in bottom middle
+1930.png	0 0 0 0 0 0 0 1 1	X in bottom middle, X in bottom right
+1931.png	0 2 0 0 0 2 0 0 1	O in top middle, O in middle right, X in bottom right
+1932.png	2 0 0 0 1 0 2 0 0	O in top left, X in center, O in bottom left
+1933.png	1 2 0 0 1 0 1 0 0	X in top left, O in top middle, X in center, X in bottom left
+1934.png	0 1 0 0 0 2 0 0 2	X in top middle, O in middle right, O in bottom right
+1935.png	1 0 0 0 2 0 0 0 0	X in top left, O in center
+1936.png	0 0 0 0 0 2 0 1 0	O in middle right, X in bottom middle
+1937.png	2 0 0 0 0 0 0 0 0	O in top left
+1938.png	0 0 0 0 2 0 0 0 0	O in center
+1939.png	1 0 0 1 0 2 0 2 0	X in top left, X in middle left, O in middle right, O in bottom middle
+1940.png	0 0 0 0 0 0 0 1 2	X in bottom middle, O in bottom right
+1941.png	0 0 2 0 2 0 0 0 0	O in top right, O in center
+1942.png	0 0 0 2 0 2 0 0 1	O in middle left, O in middle right, X in bottom right
+1943.png	1 0 2 0 2 0 0 0 0	X in top left, O in top right, O in center
+1944.png	0 0 2 2 0 0 0 0 0	O in top right, O in middle left
+1945.png	0 1 0 2 2 0 0 0 0	X in top middle, O in middle left, O in center
+1946.png	0 1 2 0 0 0 0 0 2	X in top middle, O in top right, O in bottom right
+1947.png	0 0 2 0 1 0 0 2 0	O in top right, X in center, O in bottom middle
+1948.png	0 1 1 0 1 0 0 0 0	X in top middle, X in top right, X in center
+1949.png	0 1 0 1 0 1 0 1 0	X in top middle, X in middle left, X in middle right, X in bottom middle
+1950.png	0 1 0 0 0 0 0 0 0	X in top middle
+1951.png	0 0 0 1 0 2 1 0 0	X in middle left, O in middle right, X in bottom left
+1952.png	0 0 0 2 0 0 0 2 0	O in middle left, O in bottom middle
+1953.png	0 0 1 0 0 1 0 0 0	X in top right, X in middle right
+1954.png	0 2 0 0 2 1 0 0 1	O in top middle, O in center, X in middle right, X in bottom right
+1955.png	0 2 0 0 0 0 1 1 2	O in top middle, X in bottom left, X in bottom middle, O in bottom right
+1956.png	0 0 0 2 0 2 0 0 0	O in middle left, O in middle right
+1957.png	0 0 0 0 0 1 1 0 0	X in middle right, X in bottom left
+1958.png	0 1 0 0 0 0 0 1 0	X in top middle, X in bottom middle
+1959.png	1 1 0 0 2 0 0 2 0	X in top left, X in top middle, O in center, O in bottom middle
+1960.png	0 1 1 0 0 0 0 0 2	X in top middle, X in top right, O in bottom right
+1961.png	0 0 0 0 2 0 0 0 1	O in center, X in bottom right
+1962.png	0 1 0 0 1 1 0 0 0	X in top middle, X in center, X in middle right
+1963.png	0 0 0 1 0 0 1 0 0	X in middle left, X in bottom left
+1964.png	0 2 0 0 1 0 1 0 0	O in top middle, X in center, X in bottom left
+1965.png	1 0 0 0 1 0 0 0 0	X in top left, X in center
+1966.png	0 1 2 0 0 0 0 1 0	X in top middle, O in top right, X in bottom middle
+1967.png	0 0 0 0 1 0 2 0 0	X in center, O in bottom left
+1968.png	2 0 0 0 2 0 1 0 0	O in top left, O in center, X in bottom left
+1969.png	2 0 0 0 0 1 0 2 0	O in top left, X in middle right, O in bottom middle
+1970.png	1 0 0 0 2 0 0 1 1	X in top left, O in center, X in bottom middle, X in bottom right
+1971.png	0 1 0 1 1 1 0 0 0	X in top middle, X in middle left, X in center, X in middle right
+1972.png	1 0 0 0 0 0 2 1 0	X in top left, O in bottom left, X in bottom middle
+1973.png	2 0 0 0 0 0 0 0 1	O in top left, X in bottom right
+1974.png	2 0 0 0 0 0 2 0 2	O in top left, O in bottom left, O in bottom right
+1975.png	0 0 0 0 0 0 1 0 2	X in bottom left, O in bottom right
+1976.png	0 0 0 0 0 2 2 0 0	O in middle right, O in bottom left
+1977.png	2 0 0 0 0 0 1 0 0	O in top left, X in bottom left
+1978.png	0 1 0 0 0 1 2 2 0	X in top middle, X in middle right, O in bottom left, O in bottom middle
+1979.png	0 0 0 0 0 0 0 2 2	O in bottom middle, O in bottom right
+1980.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+1981.png	2 0 0 0 0 0 0 1 0	O in top left, X in bottom middle
+1982.png	2 0 0 0 1 0 1 2 0	O in top left, X in center, X in bottom left, O in bottom middle
+1983.png	0 0 0 1 2 0 0 0 0	X in middle left, O in center
+1984.png	0 0 0 1 2 1 0 0 0	X in middle left, O in center, X in middle right
+1985.png	1 2 0 0 0 0 0 2 1	X in top left, O in top middle, O in bottom middle, X in bottom right
+1986.png	0 2 1 0 0 0 0 0 0	O in top middle, X in top right
+1987.png	0 0 0 0 2 0 0 0 1	O in center, X in bottom right
+1988.png	1 1 0 0 0 0 0 0 0	X in top left, X in top middle
+1989.png	2 0 0 0 1 0 0 0 0	O in top left, X in center
+1990.png	0 2 2 0 0 0 0 2 0	O in top middle, O in top right, O in bottom middle
+1991.png	0 0 2 0 1 0 2 0 0	O in top right, X in center, O in bottom left
+1992.png	0 0 1 0 1 2 0 0 0	X in top right, X in center, O in middle right
+1993.png	0 0 1 0 0 0 0 1 0	X in top right, X in bottom middle
+1994.png	1 1 0 0 0 0 2 0 0	X in top left, X in top middle, O in bottom left
+1995.png	0 0 0 0 0 1 0 2 0	X in middle right, O in bottom middle
+1996.png	0 1 0 0 0 0 0 0 1	X in top middle, X in bottom right
+1997.png	0 2 0 0 0 0 0 2 0	O in top middle, O in bottom middle
+1998.png	0 0 1 0 0 0 0 1 0	X in top right, X in bottom middle
+1999.png	0 0 1 0 2 0 0 0 0	X in top right, O in center
