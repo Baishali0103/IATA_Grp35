@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # 这是一个示例 Python 脚本。
 
 # 按 Shift+F10 执行或将其替换为您的代码。
@@ -14,3 +15,28 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # 访问 https://www.jetbrains.com/help/pycharm/ 获取 PyCharm 帮助
+=======
+from text_representation import *
+
+DATA_PATH = "TicTacToe_Data/train/text"
+
+sentences = load_sentences(DATA_PATH)
+
+print("Example sentence:")
+print(sentences[0])
+
+vocab = build_vocab(sentences)
+
+print("\nVocabulary size:")
+print(len(vocab))
+
+encoded = encode_sentence(sentences[0], vocab)
+
+print("\nEncoded sentence:")
+print(encoded)
+
+padded = pad_sequence(encoded, 40, vocab["<pad>"])
+
+print("\nPadded sentence:")
+print(padded)
+>>>>>>> Stashed changes
