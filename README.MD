@@ -7,7 +7,7 @@ images (shapes, numbers, tic-tac-toe boards) in natural language. Supports
 three CNN encoder variants, two tokenization strategies, multi-metric
 evaluation, error analysis, and attention visualisation.
 
-This README describes the code — the rationale for each design decision, and
+This README describes the code the rationale for each design decision, and
 how to run the pipeline end-to-end.
 
 ---
