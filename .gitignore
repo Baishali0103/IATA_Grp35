@@ -1,0 +1,32 @@
+# --- Python ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.Python
+
+# --- Large data that shouldn't be in git ---
+Data/
+Model_Results/*.pt
+Model_Results/custom_vocab.json
+
+# --- Large prediction CSVs (keep metrics only) ---
+outputs_dir/predictions_*.csv
+outputs_dir/errors_*.csv
+outputs_dir/attention_*/
+
+# --- IDE / editor stuff ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Environment files that might contain keys ---
+.env
+*.key
