@@ -643,22 +643,56 @@ def _generate_board(num_moves: int, outcome: str) -> Board:
 
 # ----------------------- OPTION A -------------------------------------------------
 
-if __name__ == "__main__":
-    TOTAL    = 100                           # change to generate more/fewer samples
-    OUTCOMES = ["x_win", "o_win", "draw", "in_progress"]
-    per_moves = TOTAL // 10                   # equal samples per num_moves bucket
+# if __name__ == "__main__":
+#     TOTAL    = 100                           # change to generate more/fewer samples
+#     OUTCOMES = ["x_win", "o_win", "draw", "in_progress"]
+#     per_moves = TOTAL // 10                   # equal samples per num_moves bucket
+#
+#     print(f"=== Generating {TOTAL} samples ===\n")
+#     n = 0
+#
+#     for num_moves in range(10):
+#         for i in range(per_moves):
+#             outcome = OUTCOMES[i % len(OUTCOMES)]          # cycle through outcomes
+#             colour  = (i % 2 == 0)                         # strict 50/50 colour
+#
+#             # deterministic split assignment within each bucket
+#             r     = i / per_moves
+#             split = "train" if r < 0.70 else "val" if r < 0.85 else "test"
+#
+#             board    = _generate_board(num_moves, outcome)
+#             sentence = describe(board, colour=colour)
+#             save_test_files(n, board, sentence, colour=colour, split=split)
+#
+#             if n % 100 == 0:
+#                 print(f"  [{n:>4}/{TOTAL}] split={split} | moves={num_moves} "
+#                       f"| outcome={outcome:<12} | colour={colour}")
+#             n += 1
+#
+#     print(f"\nDone. {n} samples saved to {BASE_DIR}")
+    
+    
+# ----------------------- OPTION B -------------------------------------------------
 
-    print(f"=== Generating {TOTAL} samples ===\n")
+if __name__ == "__main__":
+    TRAIN_TARGET = 1000                        # training samples you actually want
+    SPLIT_RATIOS = {"train": 0.70, "val": 0.15, "test": 0.15}
+    TOTAL        = round(TRAIN_TARGET / SPLIT_RATIOS["train"])  # ~1429 total
+    OUTCOMES     = ["x_win", "o_win", "draw", "in_progress"]
+    per_moves    = TOTAL // 10                 # samples per num_moves bucket (~142)
+
+    print(f"=== Generating {TOTAL} samples (~{TRAIN_TARGET} training) ===\n")
     n = 0
 
     for num_moves in range(10):
         for i in range(per_moves):
-            outcome = OUTCOMES[i % len(OUTCOMES)]          # cycle through outcomes
-            colour  = (i % 2 == 0)                         # strict 50/50 colour
+            outcome = OUTCOMES[i % len(OUTCOMES)]
+            colour  = (i % 2 == 0)
 
-            # deterministic split assignment within each bucket
             r     = i / per_moves
-            split = "train" if r < 0.70 else "val" if r < 0.85 else "test"
+            split = "train" if r < SPLIT_RATIOS["train"] else \
+                    "val"   if r < SPLIT_RATIOS["train"] + SPLIT_RATIOS["val"] else \
+                    "test"
 
             board    = _generate_board(num_moves, outcome)
             sentence = describe(board, colour=colour)
@@ -669,40 +703,6 @@ if __name__ == "__main__":
                       f"| outcome={outcome:<12} | colour={colour}")
             n += 1
 
-    print(f"\nDone. {n} samples saved to {BASE_DIR}")
-    
-    
-# ----------------------- OPTION B -------------------------------------------------
-
-# if __name__ == "__main__":
-#     TRAIN_TARGET = 1000                        # training samples you actually want
-#     SPLIT_RATIOS = {"train": 0.70, "val": 0.15, "test": 0.15}
-#     TOTAL        = round(TRAIN_TARGET / SPLIT_RATIOS["train"])  # ~1429 total
-#     OUTCOMES     = ["x_win", "o_win", "draw", "in_progress"]
-#     per_moves    = TOTAL // 10                 # samples per num_moves bucket (~142)
-
-#     print(f"=== Generating {TOTAL} samples (~{TRAIN_TARGET} training) ===\n")
-#     n = 0
-
-#     for num_moves in range(10):
-#         for i in range(per_moves):
-#             outcome = OUTCOMES[i % len(OUTCOMES)]
-#             colour  = (i % 2 == 0)
-
-#             r     = i / per_moves
-#             split = "train" if r < SPLIT_RATIOS["train"] else \
-#                     "val"   if r < SPLIT_RATIOS["train"] + SPLIT_RATIOS["val"] else \
-#                     "test"
-
-#             board    = _generate_board(num_moves, outcome)
-#             sentence = describe(board, colour=colour)
-#             save_test_files(n, board, sentence, colour=colour, split=split)
-
-#             if n % 100 == 0:
-#                 print(f"  [{n:>4}/{TOTAL}] split={split} | moves={num_moves} "
-#                       f"| outcome={outcome:<12} | colour={colour}")
-#             n += 1
-
-#     print(f"\nDone. {n} total samples (~{round(n * SPLIT_RATIOS['train'])} train, "
-#           f"~{round(n * SPLIT_RATIOS['val'])} val, "
-#           f"~{round(n * SPLIT_RATIOS['test'])} test) saved to {BASE_DIR}")
+    print(f"\nDone. {n} total samples (~{round(n * SPLIT_RATIOS['train'])} train, "
+          f"~{round(n * SPLIT_RATIOS['val'])} val, "
+          f"~{round(n * SPLIT_RATIOS['test'])} test) saved to {BASE_DIR}")
