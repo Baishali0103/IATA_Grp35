@@ -961,7 +961,7 @@ def save_sample(n:        int,
 # ── Main generation loop ────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    TOTAL    = 1000   # ← edit to generate more / fewer samples
+    TOTAL    = 5000   # ← edit to generate more / fewer samples
     IMG_SIZE = 256    # ← raise to 512 for more detail
 
     # Balance across:
@@ -1008,7 +1008,7 @@ if __name__ == "__main__":
         save_sample(n, scene, sentence, split=split, size=IMG_SIZE)
         n += 1
 
-    print(f"\nDone.  {n} samples saved to {BASE_DIR}")
+    # print(f"\nDone.  {n} samples saved to {BASE_DIR}")
     counts = {s: len(list((BASE_DIR / s / "images").glob("*.png")))
               for s in SPLITS}
     for s, c in counts.items():

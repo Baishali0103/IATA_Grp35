@@ -39,6 +39,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 from pathlib import Path
 import csv
+from tqdm import tqdm
 
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
@@ -755,7 +756,7 @@ def save_sample(n: int,
 # ── Main generation loop ────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    TOTAL = 1000    # ← edit this to generate more / fewer samples
+    TOTAL = 5000    # ← edit this to generate more / fewer samples
 
     # Balance across all four axes:
     #   num_objects ∈ {2, 3, 4}
@@ -769,7 +770,7 @@ if __name__ == "__main__":
     print(f"    {len(COMBOS)} param combos  ×  ~{per_combo} each\n")
 
     n = 0
-    for num_objects, shape_mode, colour, overlap in COMBOS:
+    for num_objects, shape_mode, colour, overlap in tqdm(COMBOS):
         for i in range(per_combo):
             if n >= TOTAL:
                 break
@@ -782,12 +783,12 @@ if __name__ == "__main__":
             sentence = describe(scene, colour=colour)
             save_sample(n, scene, sentence, colour=colour, split=split)
 
-            if n % 100 == 0:
-                tag = (f"{'RGB' if colour else 'BW'}/{shape_mode}"
-                       f"{'+overlap' if overlap else ''}")
-                print(f"  [{n:>4}/{TOTAL}] split={split} | {tag} "
-                      f"| n_obj={num_objects} "
-                      f"| {','.join(o.shape for o in scene.objects)}")
+            # if n % 100 == 0:
+            #     tag = (f"{'RGB' if colour else 'BW'}/{shape_mode}"
+            #            f"{'+overlap' if overlap else ''}")
+            #     print(f"  [{n:>4}/{TOTAL}] split={split} | {tag} "
+            #           f"| n_obj={num_objects} "
+            #           f"| {','.join(o.shape for o in scene.objects)}")
             n += 1
         if n >= TOTAL:
             break
@@ -800,7 +801,7 @@ if __name__ == "__main__":
         save_sample(n, scene, sentence, colour=True, split=split)
         n += 1
 
-    print(f"\nDone.  {n} samples saved to {BASE_DIR}")
+    # print(f"\nDone.  {n} samples saved to {BASE_DIR}")
     counts = {s: len(list((BASE_DIR / s / "images").glob("*.png")))
               for s in SPLITS}
     for s, c in counts.items():

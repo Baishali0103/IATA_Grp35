@@ -44,6 +44,7 @@ import numpy as np
 from PIL import Image, ImageDraw
 from pathlib import Path
 import csv
+from tqdm import tqdm
 
 
 # --- Paths ---
@@ -644,14 +645,14 @@ def _generate_board(num_moves: int, outcome: str) -> Board:
 # ----------------------- OPTION A -------------------------------------------------
 
 if __name__ == "__main__":
-    TOTAL    = 1000                           # change to generate more/fewer samples
+    TOTAL    = 5000                           # change to generate more/fewer samples
     OUTCOMES = ["x_win", "o_win", "draw", "in_progress"]
     per_moves = TOTAL // 10                   # equal samples per num_moves bucket
 
     print(f"=== Generating {TOTAL} samples ===\n")
     n = 0
 
-    for num_moves in range(10):
+    for num_moves in tqdm(range(10)):
         for i in range(per_moves):
             outcome = OUTCOMES[i % len(OUTCOMES)]          # cycle through outcomes
             colour  = (i % 2 == 0)                         # strict 50/50 colour
@@ -664,9 +665,9 @@ if __name__ == "__main__":
             sentence = describe(board, colour=colour)
             save_test_files(n, board, sentence, colour=colour, split=split)
 
-            if n % 100 == 0:
-                print(f"  [{n:>4}/{TOTAL}] split={split} | moves={num_moves} "
-                      f"| outcome={outcome:<12} | colour={colour}")
+            # if n % 100 == 0:
+            #     print(f"  [{n:>4}/{TOTAL}] split={split} | moves={num_moves} "
+            #           f"| outcome={outcome:<12} | colour={colour}")
             n += 1
 
     print(f"\nDone. {n} samples saved to {BASE_DIR}")
