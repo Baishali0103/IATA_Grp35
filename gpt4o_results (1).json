@@ -1,0 +1,30 @@
+{
+  "overall": {
+    "Exact Match": 0.0,
+    "BLEU-4": 0.0243,
+    "METEOR": 0.1404,
+    "BERTScore": 0.7693,
+    "n": 150
+  },
+  "Shapes_Data": {
+    "Exact Match": 0.0,
+    "BLEU-4": 0.0542,
+    "METEOR": 0.2799,
+    "BERTScore": 0.857,
+    "n": 50
+  },
+  "Numbers_Data": {
+    "Exact Match": 0.0,
+    "BLEU-4": 0.0119,
+    "METEOR": 0.0945,
+    "BERTScore": 0.747,
+    "n": 50
+  },
+  "TicTacToe_Data": {
+    "Exact Match": 0.0,
+    "BLEU-4": 0.007,
+    "METEOR": 0.0469,
+    "BERTScore": 0.704,
+    "n": 50
+  }
+}
