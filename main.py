@@ -6,9 +6,6 @@ from typing import Tuple, List
 
 from PIL import Image, ImageDraw
 
-# =========================
-# Config
-# =========================
 IMAGE_SIZE = 128
 NUM_SAMPLES = 8000
 OUTPUT_DIR = "output"
@@ -34,9 +31,7 @@ SIZE_TO_PIXELS = {
 }
 
 
-# =========================
-# Data structure
-# =========================
+
 @dataclass
 class Sample:
     sample_id: int
@@ -49,10 +44,6 @@ class Sample:
     obj2_shape: str
     sentence: str
 
-
-# =========================
-# Helpers
-# =========================
 def ensure_dirs() -> None:
     os.makedirs(IMAGE_DIR, exist_ok=True)
 
@@ -63,9 +54,7 @@ def random_choice_excluding(options: List[str], exclude: str) -> str:
 
 
 def generate_semantic_sample(sample_id: int) -> dict:
-    """
-    Generate a structured semantic sample.
-    """
+
     obj1_size = random.choice(SIZES)
     obj1_color = random.choice(list(COLORS.keys()))
     obj1_shape = random.choice(SHAPES)
@@ -76,7 +65,6 @@ def generate_semantic_sample(sample_id: int) -> dict:
 
     relation = random.choice(RELATIONS)
 
-    # Optional: avoid two objects being exactly identical
     if (
         obj1_size == obj2_size
         and obj1_color == obj2_color
@@ -97,9 +85,7 @@ def generate_semantic_sample(sample_id: int) -> dict:
 
 
 def render_sentence(sample: dict) -> str:
-    """
-    Convert the structured sample into a sentence.
-    """
+
     return (
         f"a {sample['obj1_size']} {sample['obj1_color']} {sample['obj1_shape']} "
         f"is {sample['relation']} "
@@ -108,10 +94,7 @@ def render_sentence(sample: dict) -> str:
 
 
 def sample_positions(relation: str) -> Tuple[Tuple[int, int], Tuple[int, int]]:
-    """
-    Return two center positions (x1, y1), (x2, y2) that satisfy the relation.
-    Includes small random jitter so the task is not too rigid.
-    """
+
     jitter = lambda low, high: random.randint(low, high)
 
     if relation == "above":
@@ -175,9 +158,7 @@ def draw_shape(
 
 
 def render_image(sample: dict, save_path: str) -> None:
-    """
-    Render an image from the structured sample and save it.
-    """
+
     image = Image.new("RGB", (IMAGE_SIZE, IMAGE_SIZE), (255, 255, 255))
     draw = ImageDraw.Draw(image)
 

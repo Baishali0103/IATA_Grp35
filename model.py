@@ -26,7 +26,7 @@ class MultiHeadOutput(nn.Module):
         }
 
 
-class CNNMultiHeadSmall(nn.Module):
+class CNNMultiHeadSmall(nn.Module):     # Small CNN
     def __init__(self):
         super().__init__()
         self.features = nn.Sequential(
@@ -62,7 +62,7 @@ class CNNMultiHeadSmall(nn.Module):
         return self.heads(x)
 
 
-class CNNMultiHeadDeep(nn.Module):
+class CNNMultiHeadDeep(nn.Module):    #Deep CNN
     def __init__(self):
         super().__init__()
         self.features = nn.Sequential(
@@ -117,7 +117,7 @@ class CNNMultiHeadDeep(nn.Module):
         return self.heads(x)
 
 
-class ResNet18MultiHead(nn.Module):
+class ResNet18MultiHead(nn.Module):    #Resnet CNN
     def __init__(self):
         super().__init__()
         backbone = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)

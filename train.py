@@ -8,14 +8,11 @@ from dataset import ShapesDataset
 from model import CNNMultiHeadSmall, CNNMultiHeadDeep, ResNet18MultiHead
 
 
-# =========================
-# Config
-# =========================
 CSV_PATH = "output/metadata.csv"
 IMAGE_DIR = "output/images"
 CHECKPOINT_DIR = "checkpoints"
 
-MODEL_NAME = "resnet18"   # 可选: "small", "deep", "resnet18"
+MODEL_NAME = "resnet18"   # choose: "small", "deep", "resnet18"
 
 BATCH_SIZE = 32
 EPOCHS = 50
@@ -139,7 +136,7 @@ def main():
 
     criterion = nn.CrossEntropyLoss()
 
-    # ResNet 一般可以用更小一点学习率
+
     if MODEL_NAME == "resnet18":
         optimizer = optim.Adam(model.parameters(), lr=1e-4)
     else:
@@ -186,7 +183,7 @@ def main():
     print("\nTraining finished.")
     print(f"Best validation exact match accuracy: {best_val_exact:.4f}")
 
-    # Load best model and test
+    # load best model and test
     model.load_state_dict(torch.load(model_path, map_location=device))
     test_loss, test_exact, test_slot = evaluate(model, test_loader, device, criterion)
 

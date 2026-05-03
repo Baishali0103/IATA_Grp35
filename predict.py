@@ -9,7 +9,7 @@ from utils import build_sentence_from_labels
 CSV_PATH = "output/metadata.csv"
 IMAGE_DIR = "output/images"
 
-MODEL_NAME = "small"   # 可选: "small", "deep", "resnet18"
+MODEL_NAME = "small"   # choose: "small", "deep", "resnet18"
 MODEL_PATH = f"checkpoints/{MODEL_NAME}_best.pt"
 
 NUM_SAMPLES_TO_SHOW = 5
