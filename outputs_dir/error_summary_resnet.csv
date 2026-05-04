@@ -1,0 +1,4 @@
+dataset,exact_match,colour_error,size_error,shape_error,position_error,length_error,xo_content_error,n
+Numbers_Data,0.13,42.88,94.35,4.17,36.69,15.99,0.0,744
+Shapes_Data,0.0,25.94,98.25,58.87,86.83,3.36,0.0,744
+TicTacToe_Data,0.0,38.4,0.0,0.0,87.6,0.0,79.47,750
