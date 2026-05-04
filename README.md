@@ -49,9 +49,9 @@ The system uses a CNN encoder + Transformer decoder architecture to map input im
 
 ## Key Findings
 
-- ResNetCNN outperforms shallower variants — skip connections improve gradient flow and feature richness
+- ResNetCNN outperforms shallower variants, skip connections improve gradient flow and feature richness
 - BERT tokenisation consistently improves METEOR and BERTScore across all CNN variants
-- GPT-4o scores low on BLEU-4 despite producing semantically accurate descriptions — highlighting a fundamental limitation of n-gram metrics when evaluating lexically diverse outputs
+- GPT-4o scores low on BLEU-4 despite producing semantically accurate descriptions, highlighting a fundamental limitation of n-gram metrics when evaluating lexically diverse outputs
 
 ---
 
