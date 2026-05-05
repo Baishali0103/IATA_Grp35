@@ -28,7 +28,7 @@ IATA_Grp35/
 
 All data, saved models, and config files are stored here:
 
-**[ITAITA_Project on Google Drive](YOUR_GOOGLE_DRIVE_LINK_HERE)**
+**[ITAITA_Project on Google Drive](https://drive.google.com/drive/folders/1FSbT1WYgjCWR6OPD-wIDwDesmZkyOUSw?usp=sharing)**
 
 ```
 ITAITA_Project/
